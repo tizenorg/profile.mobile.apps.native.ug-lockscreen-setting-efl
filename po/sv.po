@@ -1,0 +1,267 @@
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Låsskärmens bakgrund har ändrats."
+
+msgid "IDS_ST_MBODY_SWIPE"
+msgstr "Dra"
+
+msgid "IDS_ST_HEADER_LOCK_SCREEN_SETTINGS"
+msgstr "Inställningar för låsskärm"
+
+msgid "IDS_ST_BODY_SIMPLE_PASSWORD"
+msgstr "Enkelt lösenord"
+
+msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
+msgstr "Skärmlåstyp"
+
+msgid "IDS_ST_BODY_PASSWORD"
+msgstr "Lösenord"
+
+msgid "IDS_ST_BODY_NONE"
+msgstr "Ingen"
+
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Rörelse"
+
+msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
+msgstr "Välj bakgrund"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Redigera"
+
+msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
+msgstr "Dubbel klocka"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Fingeravtryck"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Avbryt"
+
+msgid "IDS_ST_BODY_AUTO_LOCK"
+msgstr "Auto-lås"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Bakgrunder"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galleri"
+
+msgid "IDS_LCKSCN_HEADER_SPECIAL_DAY_WALLPAPERS_ABB"
+msgstr "Speciell dag, bakgrunder"
+
+msgid "IDS_LCKSCN_MBODY_FESTIVAL_WALLPAPERS"
+msgstr "Festivalbakgrunder"
+
+msgid "IDS_HELP_BODY_UNLOCK_DEVICE_WITH_YOUR_WAKE_UP_COMMAND_WHEN_SWIPE_OR_MOTION_SCREEN_LOCK_TYPE_IS_ENABLED"
+msgstr "Lås upp enheten med ditt uppvakningskommandot när skärmlås av typen dra för att låsa eller rörelser är aktiverat."
+
+msgid "IDS_HS_HEADER_THEMES"
+msgstr "Tema"
+
+msgid "IDS_IDLE_BODY_VIEW_EVENT_NOTIFICATIONS_ON_THE_LOCK_SCREEN"
+msgstr "Visa händelseaviseringar på låsskärmen"
+
+msgid "IDS_IDLE_MBODY_EVENT_NOTIFICATIONS"
+msgstr "Händelseaviseringar"
+
+msgid "IDS_IM_BODY_HELP_TEXT"
+msgstr "Hjälptext"
+
+msgid "IDS_LCKSCN_BODY_BOOK_COVER_M_LOCKSCREEN_NAME"
+msgstr "Bokomslag"
+
+msgid "IDS_LCKSCN_BODY_BRIEFING_BOX_ABB"
+msgstr "Orienteringskorg"
+
+msgid "IDS_LCKSCN_BODY_CLEAR_M_LOCKSCREEN_NAME"
+msgstr "Radera"
+
+msgid "IDS_LCKSCN_BODY_CLOSE_UP_M_LOCKSCREEN_NAME"
+msgstr "Närbild"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_THE_STYLE_OF_YOUR_LOCK_SCREEN"
+msgstr "Anpassa låsskärmens stil."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_ITEMS_WILL_BE_SHOWN_IN_YOUR_BRIEFING_BOX_ON_THE_LOCK_SCREEN"
+msgstr "Anpassa vilka objekt som ska visas i orienteringsrutan på låsskärmen."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_SHORTCUTS_WILL_BE_SHOWN_ON_THE_LOCK_SCREEN"
+msgstr "Anpassa vilka genvägar som visas på låsskärmen."
+
+msgid "IDS_LCKSCN_BODY_DIARY"
+msgstr "Dagbok"
+
+msgid "IDS_LCKSCN_BODY_DISPLAY_YOUR_PERSONAL_MESSAGE_ON_THE_LOCK_SCREEN"
+msgstr "Visa ditt personliga meddelande på låsskärmen."
+
+msgid "IDS_LCKSCN_BODY_EDIT_PERSONAL_MESSAGE"
+msgstr "Redigera personligt meddelande"
+
+msgid "IDS_LCKSCN_BODY_FUN_M_LOCKSCREEN_NAME"
+msgstr "Roligt"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_THEMES_ABB"
+msgstr "Teman för låsskärmen"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_WALLPAPER"
+msgstr "Bakgrund för låsskärm"
+
+msgid "IDS_LCKSCN_BODY_MAGAZINE_M_LOCKSCREEN_NAME"
+msgstr "Tidskrift"
+
+msgid "IDS_LCKSCN_BODY_MUSIC_CONTROLLER_ABB"
+msgstr "Musikkontroll"
+
+msgid "IDS_LCKSCN_BODY_NEWS_ABB"
+msgstr "Nyheter"
+
+msgid "IDS_LCKSCN_BODY_PERSONAL_MESSAGE_ABB"
+msgstr "Personligt meddelande"
+
+msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
+msgstr "Polaroid"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Schema"
+
+msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
+msgstr "Ställ in skärmen för visning av tangentbordet när du drar med fingret över låsskärmen."
+
+msgid "IDS_LCKSCN_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_HBASED_ON_THE_WEATHER_APPLICATION_MSG"
+msgstr "Visa information om vädret (i väderprogrammet) och stegen du tar medan Stegräknare i S Health är aktiverad."
+
+msgid "IDS_LCKSCN_BODY_THEMED_WALLPAPER_WILL_BE_APPLIED_ON_THE_LOCK_SCREEN_FOR_RUSSIAN_PUBLIC_HOLIDAYS"
+msgstr "Temabakgrunder används på låsskärmen under ryska helgdagar."
+
+msgid "IDS_LCKSCN_BODY_WAKE_UP_IN_LOCK_SCREEN_ABB"
+msgstr "Uppvakning med låsskärm"
+
+msgid "IDS_LCKSCN_BODY_YOU_CAN_INPUT_TEXT_ON_THE_LOCK_SCREEN_AND_EDIT_IT_BY_SELECTING_EDIT_PERSONAL_MESSAGE"
+msgstr "Du kan ange text i låsskärmen och redigera den genom att välja redigera personligt meddelande."
+
+msgid "IDS_LCKSCN_HEADER_BRIEFING_BOX"
+msgstr "Orienteringskorg"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN"
+msgstr "Låsskärm"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
+msgstr "Teman för låsskärmen"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Personligt meddelande"
+
+msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
+msgstr "Ställ in genvägar"
+
+msgid "IDS_LCKSCN_MBODY_SET_WAKE_UP_COMMAND"
+msgstr "Ange uppvakningskommando"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_THEN_ENTER_PASSWORD"
+msgstr "Svep och ange lösenord"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_TO_ENTER_PASSWORD"
+msgstr "Dra för att ange lösenord"
+
+msgid "IDS_LCKSCN_OPT_CONFETTI_M_EFFECT"
+msgstr "Konfetti"
+
+msgid "IDS_LCKSCN_OPT_GEOMETRIC_M_EFFECT"
+msgstr "Geometrisk"
+
+msgid "IDS_LCKSCN_OPT_GLOW_WORMS_M_EFFECT"
+msgstr "Lysmaskar"
+
+msgid "IDS_LCKSCN_OPT_STARDUST_M_EFFECT"
+msgstr "Stjärnstoft"
+
+msgid "IDS_SKM_BODY_WEATHER_M_IDEA_SKETCH"
+msgstr "Väder"
+
+msgid "IDS_ST_BODY_ADDITIONAL_INFORMATION_ABB"
+msgstr "Ytterligare information"
+
+msgid "IDS_ST_BODY_APPLY"
+msgstr "Använd"
+
+msgid "IDS_ST_BODY_CAMERA_SHORTCUT"
+msgstr "Kameragenväg"
+
+msgid "IDS_ST_BODY_CLOCK"
+msgstr "Klocka"
+
+msgid "IDS_ST_BODY_DISPLAY_A_WEATHER_EFFECT_ON_THE_LOCK_SCREEN"
+msgstr "Visa en vädereffekt på låsskärmen."
+
+msgid "IDS_ST_BODY_DRAG_AND_DROP_TO_CHANGE_ORDER"
+msgstr "Dra och släpp för att ändra ordning."
+
+msgid "IDS_ST_BODY_DUAL_CLOCK"
+msgstr "Dubbel klocka"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Objekt"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Förhandsgranska"
+
+msgid "IDS_ST_BODY_SELECT_APPLICATION"
+msgstr "Välj program"
+
+msgid "IDS_ST_BODY_SET_AS_LOCK_SCREEN"
+msgstr "Ange som skärmlås"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS"
+msgstr "Ställ in genvägar"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS_ON_LOCK_SCREEN"
+msgstr "Ställ in genvägar på låsskärmen."
+
+msgid "IDS_ST_BODY_SHORTCUTS"
+msgstr "Genvägar"
+
+msgid "IDS_ST_BODY_SHOW_DUAL_CLOCK_ON_LOCK_SCREEN_WHEN_ROAMING"
+msgstr "Visa dubbla klockor på låsskärmen vid roaming."
+
+msgid "IDS_ST_BODY_SHOW_HELP_TEXT_ON_LOCK_SCREEN"
+msgstr "Visa hjälptexten på låsskärmen."
+
+msgid "IDS_ST_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_AND_YOUR_STEP_COUNT_ON_THE_LOCK_SCREEN"
+msgstr "Visa information om vädret och din stegräkning på låsskärmen."
+
+msgid "IDS_ST_BODY_STYLE"
+msgstr "Stil"
+
+msgid "IDS_ST_BODY_TAP_AND_HOLD_THE_SCREEN_WHILE_ROTATING_THE_DEVICE_TO_OPEN_CAMERA"
+msgstr "Tryck på och håll kvar på skärmen och rotera samtidigt enheten för att öppna Kameran."
+
+msgid "IDS_ST_BODY_TAP_SHORTCUT_TO_ASSIGN_APPLICATION"
+msgstr "Tryck på genväg för att tilldela program."
+
+msgid "IDS_ST_BUTTON2_PEDOMETER"
+msgstr "Steg-\nräknare"
+
+msgid "IDS_ST_HEADER_UNLOCK_EFFECT"
+msgstr "Upplåsningseffekt"
+
+msgid "IDS_ST_HEADER_WEATHER_EFFECT_ABB"
+msgstr "Vädereffekt"
+
+msgid "IDS_ST_MBODY_CAMERA_QUICK_ACCESS"
+msgstr "Snabbåtkomst till kameran"
+
+msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
+msgstr "Redigera genvägar"
+
+msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
+msgstr "Inaktiverat"
+
+msgid "IDS_ST_SBODY_ENABLED_M_STATUS"
+msgstr "Aktiverat"
+
+msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
+msgstr "Redigera rubrik"
+
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Ställ in hemort"
+

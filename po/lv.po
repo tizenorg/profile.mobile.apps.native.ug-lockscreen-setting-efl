@@ -1,0 +1,267 @@
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Bloķēšanas ekrāna fona attēls ir nomainīts."
+
+msgid "IDS_ST_MBODY_SWIPE"
+msgstr "Vilkt"
+
+msgid "IDS_ST_HEADER_LOCK_SCREEN_SETTINGS"
+msgstr "Bloķētā ekrāna iestatījumi"
+
+msgid "IDS_ST_BODY_SIMPLE_PASSWORD"
+msgstr "Vienkārša parole"
+
+msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
+msgstr "Ekrāna bloķēšanas tips"
+
+msgid "IDS_ST_BODY_PASSWORD"
+msgstr "Parole"
+
+msgid "IDS_ST_BODY_NONE"
+msgstr "Nav"
+
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Kustība"
+
+msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
+msgstr "Izvēlēties fona attēlu"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Rediģēt"
+
+msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
+msgstr "Duālais pulkstenis"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Pirksta nospiedums"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Atcelt"
+
+msgid "IDS_ST_BODY_AUTO_LOCK"
+msgstr "Automātiska bloķēšana"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Fona attēli"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galerija"
+
+msgid "IDS_LCKSCN_HEADER_SPECIAL_DAY_WALLPAPERS_ABB"
+msgstr "Īpašo dienu fona attēli"
+
+msgid "IDS_LCKSCN_MBODY_FESTIVAL_WALLPAPERS"
+msgstr "Svētku fona attēli"
+
+msgid "IDS_HELP_BODY_UNLOCK_DEVICE_WITH_YOUR_WAKE_UP_COMMAND_WHEN_SWIPE_OR_MOTION_SCREEN_LOCK_TYPE_IS_ENABLED"
+msgstr "Atbloķējiet ierīci, izmantojot modināšanas komandu, kad ir aktivizēts vilkšanas vai kustību ekrāna bloķēšanas veids."
+
+msgid "IDS_HS_HEADER_THEMES"
+msgstr "Motīvi"
+
+msgid "IDS_IDLE_BODY_VIEW_EVENT_NOTIFICATIONS_ON_THE_LOCK_SCREEN"
+msgstr "Skatīt notikumu paziņojumus bloķētā ekrānā"
+
+msgid "IDS_IDLE_MBODY_EVENT_NOTIFICATIONS"
+msgstr "Notikumu paziņojumi"
+
+msgid "IDS_IM_BODY_HELP_TEXT"
+msgstr "Palīdzības teksts"
+
+msgid "IDS_LCKSCN_BODY_BOOK_COVER_M_LOCKSCREEN_NAME"
+msgstr "Grāmatas vāks"
+
+msgid "IDS_LCKSCN_BODY_BRIEFING_BOX_ABB"
+msgstr "Apskata lodziņš"
+
+msgid "IDS_LCKSCN_BODY_CLEAR_M_LOCKSCREEN_NAME"
+msgstr "Notīrīts"
+
+msgid "IDS_LCKSCN_BODY_CLOSE_UP_M_LOCKSCREEN_NAME"
+msgstr "Tuvplāns"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_THE_STYLE_OF_YOUR_LOCK_SCREEN"
+msgstr "Pielāgot bloķēšanas ekrāna stilu."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_ITEMS_WILL_BE_SHOWN_IN_YOUR_BRIEFING_BOX_ON_THE_LOCK_SCREEN"
+msgstr "Pielāgojiet, kurus objektus rādīt jūsu bloķēšanas ekrāna apskata lodziņā."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_SHORTCUTS_WILL_BE_SHOWN_ON_THE_LOCK_SCREEN"
+msgstr "Pielāgojiet, kurus īsceļus rādīt bloķēšanas ekrānā."
+
+msgid "IDS_LCKSCN_BODY_DIARY"
+msgstr "Dienasgrāmata"
+
+msgid "IDS_LCKSCN_BODY_DISPLAY_YOUR_PERSONAL_MESSAGE_ON_THE_LOCK_SCREEN"
+msgstr "Parādiet savu personisko ziņu bloķēšanas ekrānā."
+
+msgid "IDS_LCKSCN_BODY_EDIT_PERSONAL_MESSAGE"
+msgstr "Rediģējiet personisku ziņu"
+
+msgid "IDS_LCKSCN_BODY_FUN_M_LOCKSCREEN_NAME"
+msgstr "Jautrība"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_THEMES_ABB"
+msgstr "Bloķēšanas ekrāna motīvi"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_WALLPAPER"
+msgstr "Bloķēšanas ekrāna fona attēls"
+
+msgid "IDS_LCKSCN_BODY_MAGAZINE_M_LOCKSCREEN_NAME"
+msgstr "Žurnāls"
+
+msgid "IDS_LCKSCN_BODY_MUSIC_CONTROLLER_ABB"
+msgstr "Mūzikas vadāmierīce"
+
+msgid "IDS_LCKSCN_BODY_NEWS_ABB"
+msgstr "Ziņas"
+
+msgid "IDS_LCKSCN_BODY_PERSONAL_MESSAGE_ABB"
+msgstr "Personiska ziņa"
+
+msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
+msgstr "Polaroid attēls"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Grafiks"
+
+msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
+msgstr "Iestatīt ierīci tā, lai tastatūra tiktu parādīta, kad pavelkat pa bloķēšanas ekrānu."
+
+msgid "IDS_LCKSCN_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_HBASED_ON_THE_WEATHER_APPLICATION_MSG"
+msgstr "Rādīt informāciju par laikapstākļiem (izmantojot laika ziņu programmu) un veiktos soļus, kad ir aktivizēta S Health funkcija Soļu skaitītājs."
+
+msgid "IDS_LCKSCN_BODY_THEMED_WALLPAPER_WILL_BE_APPLIED_ON_THE_LOCK_SCREEN_FOR_RUSSIAN_PUBLIC_HOLIDAYS"
+msgstr "Tematiskie fona attēli tiks parādīti bloķēšanas ekrānā Krievijas svētku dienās."
+
+msgid "IDS_LCKSCN_BODY_WAKE_UP_IN_LOCK_SCREEN_ABB"
+msgstr "Pamodināt bloķēšanas ekrānā"
+
+msgid "IDS_LCKSCN_BODY_YOU_CAN_INPUT_TEXT_ON_THE_LOCK_SCREEN_AND_EDIT_IT_BY_SELECTING_EDIT_PERSONAL_MESSAGE"
+msgstr "Varat ievadīt tekstu bloķēšanas ekrānā un rediģēt to, izvēloties Rediģēt personisku ziņu."
+
+msgid "IDS_LCKSCN_HEADER_BRIEFING_BOX"
+msgstr "Apskata lodziņš"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN"
+msgstr "Bloķēšanas ekrāns"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
+msgstr "Bloķēšanas ekrāna motīvi"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Personiska ziņa"
+
+msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
+msgstr "Iestatīt īsceļus"
+
+msgid "IDS_LCKSCN_MBODY_SET_WAKE_UP_COMMAND"
+msgstr "Iestatīt modin. komandu"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_THEN_ENTER_PASSWORD"
+msgstr "Pārvelciet un iev. paroli"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_TO_ENTER_PASSWORD"
+msgstr "Pavilkt, lai ievad.paroli"
+
+msgid "IDS_LCKSCN_OPT_CONFETTI_M_EFFECT"
+msgstr "Konfeti"
+
+msgid "IDS_LCKSCN_OPT_GEOMETRIC_M_EFFECT"
+msgstr "Ģeometrisks"
+
+msgid "IDS_LCKSCN_OPT_GLOW_WORMS_M_EFFECT"
+msgstr "Jāņtārpiņi"
+
+msgid "IDS_LCKSCN_OPT_STARDUST_M_EFFECT"
+msgstr "Zvaigžņu putekļi"
+
+msgid "IDS_SKM_BODY_WEATHER_M_IDEA_SKETCH"
+msgstr "Laikapstākļi"
+
+msgid "IDS_ST_BODY_ADDITIONAL_INFORMATION_ABB"
+msgstr "Papildinformācija"
+
+msgid "IDS_ST_BODY_APPLY"
+msgstr "Lietot"
+
+msgid "IDS_ST_BODY_CAMERA_SHORTCUT"
+msgstr "Kameras īsceļš"
+
+msgid "IDS_ST_BODY_CLOCK"
+msgstr "Pulkstenis"
+
+msgid "IDS_ST_BODY_DISPLAY_A_WEATHER_EFFECT_ON_THE_LOCK_SCREEN"
+msgstr "Rādīt laikapstākļu efektu bloķēšanas ekrānā."
+
+msgid "IDS_ST_BODY_DRAG_AND_DROP_TO_CHANGE_ORDER"
+msgstr "Velciet un nometiet, lai mainītu kārtību."
+
+msgid "IDS_ST_BODY_DUAL_CLOCK"
+msgstr "Duālais pulkstenis"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Objekti"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Priekšskatījums"
+
+msgid "IDS_ST_BODY_SELECT_APPLICATION"
+msgstr "Izvēlēties programmu"
+
+msgid "IDS_ST_BODY_SET_AS_LOCK_SCREEN"
+msgstr "Iestatīt kā bloķētu ekrānu"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS"
+msgstr "Iestatīt īsceļus"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS_ON_LOCK_SCREEN"
+msgstr "Iestatīt īsceļus bloķētajā ekrānā."
+
+msgid "IDS_ST_BODY_SHORTCUTS"
+msgstr "Īsceļi"
+
+msgid "IDS_ST_BODY_SHOW_DUAL_CLOCK_ON_LOCK_SCREEN_WHEN_ROAMING"
+msgstr "Viesabonēšanas laikā bloķēšanas ekrānā rādīt duālo pulksteni."
+
+msgid "IDS_ST_BODY_SHOW_HELP_TEXT_ON_LOCK_SCREEN"
+msgstr "Rādīt palīdzības tekstu bloķēšanas ekrānā."
+
+msgid "IDS_ST_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_AND_YOUR_STEP_COUNT_ON_THE_LOCK_SCREEN"
+msgstr "Rādīt informāciju par laikapstākļiem un jūsu soļu skaitu bloķēšanas ekrānā."
+
+msgid "IDS_ST_BODY_STYLE"
+msgstr "Stils"
+
+msgid "IDS_ST_BODY_TAP_AND_HOLD_THE_SCREEN_WHILE_ROTATING_THE_DEVICE_TO_OPEN_CAMERA"
+msgstr "Lai atvērtu kameru, pieskarieties un turiet ekrānu, un vienlaicīgi pagrieziet ierīci."
+
+msgid "IDS_ST_BODY_TAP_SHORTCUT_TO_ASSIGN_APPLICATION"
+msgstr "Pieskarieties īsceļam, lai piešķirtu programmu."
+
+msgid "IDS_ST_BUTTON2_PEDOMETER"
+msgstr "Soļu skaitītājs"
+
+msgid "IDS_ST_HEADER_UNLOCK_EFFECT"
+msgstr "Atbloķēšanas efekts"
+
+msgid "IDS_ST_HEADER_WEATHER_EFFECT_ABB"
+msgstr "Laikapstākļu efekts"
+
+msgid "IDS_ST_MBODY_CAMERA_QUICK_ACCESS"
+msgstr "Ātra piekļuve kamerai"
+
+msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
+msgstr "Rediģēt īsceļus"
+
+msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
+msgstr "Deaktivizēts"
+
+msgid "IDS_ST_SBODY_ENABLED_M_STATUS"
+msgstr "Aktivizēts"
+
+msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
+msgstr "Rediģēt nosaukumu"
+
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Iestatīt mājas pilsētu"
+

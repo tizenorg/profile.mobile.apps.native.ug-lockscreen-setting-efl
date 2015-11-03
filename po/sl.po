@@ -1,0 +1,267 @@
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Ozadje zaklenjenega zaslona je spremenjeno."
+
+msgid "IDS_ST_MBODY_SWIPE"
+msgstr "Podrsaj"
+
+msgid "IDS_ST_HEADER_LOCK_SCREEN_SETTINGS"
+msgstr "Nastavitve zaklenjenega zaslona"
+
+msgid "IDS_ST_BODY_SIMPLE_PASSWORD"
+msgstr "Preprosto geslo"
+
+msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
+msgstr "Vrsta zaklepanja zaslona"
+
+msgid "IDS_ST_BODY_PASSWORD"
+msgstr "Geslo"
+
+msgid "IDS_ST_BODY_NONE"
+msgstr "Brez"
+
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Gibanje"
+
+msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
+msgstr "Izberite sliko za ozadje"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Uredi"
+
+msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
+msgstr "Dvojna ura"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Prstni odtis"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Prekliči"
+
+msgid "IDS_ST_BODY_AUTO_LOCK"
+msgstr "Samodejno zaklepanje"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Ozadja"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galerija"
+
+msgid "IDS_LCKSCN_HEADER_SPECIAL_DAY_WALLPAPERS_ABB"
+msgstr "Ozadja za posebne dni"
+
+msgid "IDS_LCKSCN_MBODY_FESTIVAL_WALLPAPERS"
+msgstr "Praznična ozadja"
+
+msgid "IDS_HELP_BODY_UNLOCK_DEVICE_WITH_YOUR_WAKE_UP_COMMAND_WHEN_SWIPE_OR_MOTION_SCREEN_LOCK_TYPE_IS_ENABLED"
+msgstr "Odklenite napravo z ukazom za bujenje, ko je omogočeno zaklepanje zaslona z drsanjem ali gibanjem."
+
+msgid "IDS_HS_HEADER_THEMES"
+msgstr "Teme"
+
+msgid "IDS_IDLE_BODY_VIEW_EVENT_NOTIFICATIONS_ON_THE_LOCK_SCREEN"
+msgstr "Prikaz obvestil o dogodkih na zaklenjenem zaslonu"
+
+msgid "IDS_IDLE_MBODY_EVENT_NOTIFICATIONS"
+msgstr "Obvestila o dogodkih"
+
+msgid "IDS_IM_BODY_HELP_TEXT"
+msgstr "Besedilo s pomočjo"
+
+msgid "IDS_LCKSCN_BODY_BOOK_COVER_M_LOCKSCREEN_NAME"
+msgstr "Naslovnica knjige"
+
+msgid "IDS_LCKSCN_BODY_BRIEFING_BOX_ABB"
+msgstr "Nabiralnik poročanja"
+
+msgid "IDS_LCKSCN_BODY_CLEAR_M_LOCKSCREEN_NAME"
+msgstr "Čisto"
+
+msgid "IDS_LCKSCN_BODY_CLOSE_UP_M_LOCKSCREEN_NAME"
+msgstr "Približano"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_THE_STYLE_OF_YOUR_LOCK_SCREEN"
+msgstr "Prilagodite slog zaklenjenega zaslona."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_ITEMS_WILL_BE_SHOWN_IN_YOUR_BRIEFING_BOX_ON_THE_LOCK_SCREEN"
+msgstr "Prilagodite, kateri elementi bodo prikazani v nabiralniku poročanja na zaklenjenem zaslonu."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_SHORTCUTS_WILL_BE_SHOWN_ON_THE_LOCK_SCREEN"
+msgstr "Prilagodite, katere bližnjice bodo prikazane na zaklenjenem zaslonu."
+
+msgid "IDS_LCKSCN_BODY_DIARY"
+msgstr "Dnevnik"
+
+msgid "IDS_LCKSCN_BODY_DISPLAY_YOUR_PERSONAL_MESSAGE_ON_THE_LOCK_SCREEN"
+msgstr "Prikaz osebnega sporočila na zaklenjenem zaslonu."
+
+msgid "IDS_LCKSCN_BODY_EDIT_PERSONAL_MESSAGE"
+msgstr "Urejanje osebnega sporočila"
+
+msgid "IDS_LCKSCN_BODY_FUN_M_LOCKSCREEN_NAME"
+msgstr "Zabava"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_THEMES_ABB"
+msgstr "Teme za zaklenjeni zaslon"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_WALLPAPER"
+msgstr "Ozadje za zaklenjen zaslon"
+
+msgid "IDS_LCKSCN_BODY_MAGAZINE_M_LOCKSCREEN_NAME"
+msgstr "Revija"
+
+msgid "IDS_LCKSCN_BODY_MUSIC_CONTROLLER_ABB"
+msgstr "Krmilnik za glasbo"
+
+msgid "IDS_LCKSCN_BODY_NEWS_ABB"
+msgstr "Novice"
+
+msgid "IDS_LCKSCN_BODY_PERSONAL_MESSAGE_ABB"
+msgstr "Osebno sporočilo"
+
+msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
+msgstr "Polaroid"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Urnik"
+
+msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
+msgstr "Nastavite, da naprava prikaže tipkovnico, ko podrsate po zaklenjenem zaslonu."
+
+msgid "IDS_LCKSCN_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_HBASED_ON_THE_WEATHER_APPLICATION_MSG"
+msgstr "Prikaz podatkov o vremenu (na podlagi aplikacije Vreme) in številu opravljenih korakov, ko je omogočena funkcija Pedometer v aplikaciji S Health."
+
+msgid "IDS_LCKSCN_BODY_THEMED_WALLPAPER_WILL_BE_APPLIED_ON_THE_LOCK_SCREEN_FOR_RUSSIAN_PUBLIC_HOLIDAYS"
+msgstr "Tematsko ozadje bo uporabljeno na zaklenjenem zaslonu za ruske javne praznike."
+
+msgid "IDS_LCKSCN_BODY_WAKE_UP_IN_LOCK_SCREEN_ABB"
+msgstr "Bujenje na zaklenjenem zaslonu"
+
+msgid "IDS_LCKSCN_BODY_YOU_CAN_INPUT_TEXT_ON_THE_LOCK_SCREEN_AND_EDIT_IT_BY_SELECTING_EDIT_PERSONAL_MESSAGE"
+msgstr "Besedilo lahko vnesete na zaklenjen zaslon in ga uredite, če izberete urejanje osebnega sporočila."
+
+msgid "IDS_LCKSCN_HEADER_BRIEFING_BOX"
+msgstr "Nabiralnik poročanja"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN"
+msgstr "Zaklenjen zaslon"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
+msgstr "Teme za zaklenjeni zaslon"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Osebno sporočilo"
+
+msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
+msgstr "Nastavi bližnjice"
+
+msgid "IDS_LCKSCN_MBODY_SET_WAKE_UP_COMMAND"
+msgstr "Nastavite ukaz za bujenje"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_THEN_ENTER_PASSWORD"
+msgstr "Podrsajte in vnes. geslo"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_TO_ENTER_PASSWORD"
+msgstr "Podrsajte za vnos gesla"
+
+msgid "IDS_LCKSCN_OPT_CONFETTI_M_EFFECT"
+msgstr "Konfeti"
+
+msgid "IDS_LCKSCN_OPT_GEOMETRIC_M_EFFECT"
+msgstr "Geometrično"
+
+msgid "IDS_LCKSCN_OPT_GLOW_WORMS_M_EFFECT"
+msgstr "Svetleči črvi"
+
+msgid "IDS_LCKSCN_OPT_STARDUST_M_EFFECT"
+msgstr "Zvezdni prah"
+
+msgid "IDS_SKM_BODY_WEATHER_M_IDEA_SKETCH"
+msgstr "Vreme"
+
+msgid "IDS_ST_BODY_ADDITIONAL_INFORMATION_ABB"
+msgstr "Dodatne informacije"
+
+msgid "IDS_ST_BODY_APPLY"
+msgstr "Uporabi"
+
+msgid "IDS_ST_BODY_CAMERA_SHORTCUT"
+msgstr "Bližnjice kamere"
+
+msgid "IDS_ST_BODY_CLOCK"
+msgstr "Ura"
+
+msgid "IDS_ST_BODY_DISPLAY_A_WEATHER_EFFECT_ON_THE_LOCK_SCREEN"
+msgstr "Prikaz učinka vremena na zaklenjenem zaslonu."
+
+msgid "IDS_ST_BODY_DRAG_AND_DROP_TO_CHANGE_ORDER"
+msgstr "Povlecite in spustite, če želite spremeniti vrstni red."
+
+msgid "IDS_ST_BODY_DUAL_CLOCK"
+msgstr "Dvojna ura"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Predmeti"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Predogled"
+
+msgid "IDS_ST_BODY_SELECT_APPLICATION"
+msgstr "Izberite program"
+
+msgid "IDS_ST_BODY_SET_AS_LOCK_SCREEN"
+msgstr "Nastavi kor zaklenjen zaslon"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS"
+msgstr "Nastavi bližnjice"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS_ON_LOCK_SCREEN"
+msgstr "Nastavi bližnjice na zaklenjenem zaslonu."
+
+msgid "IDS_ST_BODY_SHORTCUTS"
+msgstr "Bližnjice"
+
+msgid "IDS_ST_BODY_SHOW_DUAL_CLOCK_ON_LOCK_SCREEN_WHEN_ROAMING"
+msgstr "Med gostovanjem pokaži dvojno uro na zaklenjenem zaslonu."
+
+msgid "IDS_ST_BODY_SHOW_HELP_TEXT_ON_LOCK_SCREEN"
+msgstr "Pokaži besedilo za pomoč na zaklenjenem zaslonu."
+
+msgid "IDS_ST_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_AND_YOUR_STEP_COUNT_ON_THE_LOCK_SCREEN"
+msgstr "Prikaz podatkov o vremenu in številu korakov na zaklenjenem zaslonu."
+
+msgid "IDS_ST_BODY_STYLE"
+msgstr "Stil"
+
+msgid "IDS_ST_BODY_TAP_AND_HOLD_THE_SCREEN_WHILE_ROTATING_THE_DEVICE_TO_OPEN_CAMERA"
+msgstr "Pritisnite in pridržite prst na zaslonu in hkrati zavrtite napravo, da odprete kamero."
+
+msgid "IDS_ST_BODY_TAP_SHORTCUT_TO_ASSIGN_APPLICATION"
+msgstr "Pritisnite na poljubno aplikacijo, da jo zamenjate z drugo."
+
+msgid "IDS_ST_BUTTON2_PEDOMETER"
+msgstr "Pedometer"
+
+msgid "IDS_ST_HEADER_UNLOCK_EFFECT"
+msgstr "Učinek odklepanja"
+
+msgid "IDS_ST_HEADER_WEATHER_EFFECT_ABB"
+msgstr "Učinek vremena"
+
+msgid "IDS_ST_MBODY_CAMERA_QUICK_ACCESS"
+msgstr "Hitri dostop do kamere"
+
+msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
+msgstr "Uredi bližnjice"
+
+msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
+msgstr "Onemogočeno"
+
+msgid "IDS_ST_SBODY_ENABLED_M_STATUS"
+msgstr "Omogočeno"
+
+msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
+msgstr "Uredi naslov"
+
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Nastavi domače mesto"
+

@@ -1,0 +1,267 @@
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Sperrbildschirmhintergrund geändert"
+
+msgid "IDS_ST_MBODY_SWIPE"
+msgstr "Streichen"
+
+msgid "IDS_ST_HEADER_LOCK_SCREEN_SETTINGS"
+msgstr "Sperrbildschirm-Einstellungen"
+
+msgid "IDS_ST_BODY_SIMPLE_PASSWORD"
+msgstr "Einfaches Passwort"
+
+msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
+msgstr "Sperrbildschirmtyp"
+
+msgid "IDS_ST_BODY_PASSWORD"
+msgstr "Passwort"
+
+msgid "IDS_ST_BODY_NONE"
+msgstr "Ohne"
+
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Bewegung"
+
+msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
+msgstr "Hintergrund auswählen"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Bearbeiten"
+
+msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
+msgstr "Dual-Uhr"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Fingerabdruck"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Abbruch"
+
+msgid "IDS_ST_BODY_AUTO_LOCK"
+msgstr "Automatische Sperrung"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Hintergrund"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galerie"
+
+msgid "IDS_LCKSCN_HEADER_SPECIAL_DAY_WALLPAPERS_ABB"
+msgstr "Hintergründe für Festtage"
+
+msgid "IDS_LCKSCN_MBODY_FESTIVAL_WALLPAPERS"
+msgstr "Festtags-Hintergrundbild"
+
+msgid "IDS_HELP_BODY_UNLOCK_DEVICE_WITH_YOUR_WAKE_UP_COMMAND_WHEN_SWIPE_OR_MOTION_SCREEN_LOCK_TYPE_IS_ENABLED"
+msgstr "Gerät mit Aktivierungsbefehl entsperren, wenn Bildschirmsperre durch Streichen oder Bewegung aktiviert ist."
+
+msgid "IDS_HS_HEADER_THEMES"
+msgstr "Themes"
+
+msgid "IDS_IDLE_BODY_VIEW_EVENT_NOTIFICATIONS_ON_THE_LOCK_SCREEN"
+msgstr "Ereignisbenachrichtigungen auf Sperrbildschirm anzeigen"
+
+msgid "IDS_IDLE_MBODY_EVENT_NOTIFICATIONS"
+msgstr "Ereignisbenachrichtig."
+
+msgid "IDS_IM_BODY_HELP_TEXT"
+msgstr "Hilfetext"
+
+msgid "IDS_LCKSCN_BODY_BOOK_COVER_M_LOCKSCREEN_NAME"
+msgstr "Cover"
+
+msgid "IDS_LCKSCN_BODY_BRIEFING_BOX_ABB"
+msgstr "Briefing-Feld"
+
+msgid "IDS_LCKSCN_BODY_CLEAR_M_LOCKSCREEN_NAME"
+msgstr "Löschen"
+
+msgid "IDS_LCKSCN_BODY_CLOSE_UP_M_LOCKSCREEN_NAME"
+msgstr "Nahaufnahme"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_THE_STYLE_OF_YOUR_LOCK_SCREEN"
+msgstr "Stil Ihres Sperrbildschirms anpassen"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_ITEMS_WILL_BE_SHOWN_IN_YOUR_BRIEFING_BOX_ON_THE_LOCK_SCREEN"
+msgstr "Festlegen, welche Elemente im Briefing-Feld auf dem Sperrbildschirm angezeigt werden."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_SHORTCUTS_WILL_BE_SHOWN_ON_THE_LOCK_SCREEN"
+msgstr "Festlegen, welche Shortcuts unten auf dem Sperrbildschirm angezeigt werden."
+
+msgid "IDS_LCKSCN_BODY_DIARY"
+msgstr "Tagebuch"
+
+msgid "IDS_LCKSCN_BODY_DISPLAY_YOUR_PERSONAL_MESSAGE_ON_THE_LOCK_SCREEN"
+msgstr "Persönliche Meldung auf dem Sperrbildschirm anzeigen"
+
+msgid "IDS_LCKSCN_BODY_EDIT_PERSONAL_MESSAGE"
+msgstr "Persönliche Nachricht bearbeiten"
+
+msgid "IDS_LCKSCN_BODY_FUN_M_LOCKSCREEN_NAME"
+msgstr "Spaß"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_THEMES_ABB"
+msgstr "Sperrbildschirm-Themes"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_WALLPAPER"
+msgstr "Hintergrund (Sperrbildschirm)"
+
+msgid "IDS_LCKSCN_BODY_MAGAZINE_M_LOCKSCREEN_NAME"
+msgstr "Magazin"
+
+msgid "IDS_LCKSCN_BODY_MUSIC_CONTROLLER_ABB"
+msgstr "Musiksteuerung"
+
+msgid "IDS_LCKSCN_BODY_NEWS_ABB"
+msgstr "Nachrichten"
+
+msgid "IDS_LCKSCN_BODY_PERSONAL_MESSAGE_ABB"
+msgstr "Persönliche Nachricht"
+
+msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
+msgstr "Polaroid"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Termine"
+
+msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
+msgstr "Gerät so einstellen, dass die Tastatur angezeigt wird, wenn Sie über den Sperrbildschirm streichen."
+
+msgid "IDS_LCKSCN_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_HBASED_ON_THE_WEATHER_APPLICATION_MSG"
+msgstr "Wetterinformationen (aus der Wetter-Anwendung) und Anzahl zurückgelegter Schritte anzeigen, während der Schrittzähler in S Health aktiviert ist."
+
+msgid "IDS_LCKSCN_BODY_THEMED_WALLPAPER_WILL_BE_APPLIED_ON_THE_LOCK_SCREEN_FOR_RUSSIAN_PUBLIC_HOLIDAYS"
+msgstr "An offiziellen russischen Feiertagen wird auf dem Sperrbildschirm ein zum Thema passender Hintergrund angezeigt."
+
+msgid "IDS_LCKSCN_BODY_WAKE_UP_IN_LOCK_SCREEN_ABB"
+msgstr "S Voice - Sperrbildschirm"
+
+msgid "IDS_LCKSCN_BODY_YOU_CAN_INPUT_TEXT_ON_THE_LOCK_SCREEN_AND_EDIT_IT_BY_SELECTING_EDIT_PERSONAL_MESSAGE"
+msgstr "Sie können auf dem gesperrtem Bildschirm Text eingeben und bearbeiten, indem Sie „Persönliche Nachricht bearbeiten“ auswählen."
+
+msgid "IDS_LCKSCN_HEADER_BRIEFING_BOX"
+msgstr "Briefing-Feld"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN"
+msgstr "Sperrbildschirm"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
+msgstr "Sperrbildschirm-Themes"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Persönliche Nachricht"
+
+msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
+msgstr "Schnellzugriffe festlegen"
+
+msgid "IDS_LCKSCN_MBODY_SET_WAKE_UP_COMMAND"
+msgstr "Aktivierungsbefehl festlegen"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_THEN_ENTER_PASSWORD"
+msgstr "Streichen und PW eingeben"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_TO_ENTER_PASSWORD"
+msgstr "Zur Passworteingabe str."
+
+msgid "IDS_LCKSCN_OPT_CONFETTI_M_EFFECT"
+msgstr "Konfetti"
+
+msgid "IDS_LCKSCN_OPT_GEOMETRIC_M_EFFECT"
+msgstr "Geometrisch"
+
+msgid "IDS_LCKSCN_OPT_GLOW_WORMS_M_EFFECT"
+msgstr "Glühwürmchen"
+
+msgid "IDS_LCKSCN_OPT_STARDUST_M_EFFECT"
+msgstr "Sternstaub"
+
+msgid "IDS_SKM_BODY_WEATHER_M_IDEA_SKETCH"
+msgstr "Wetter"
+
+msgid "IDS_ST_BODY_ADDITIONAL_INFORMATION_ABB"
+msgstr "Zusätzliche Informationen"
+
+msgid "IDS_ST_BODY_APPLY"
+msgstr "Anwenden"
+
+msgid "IDS_ST_BODY_CAMERA_SHORTCUT"
+msgstr "Schnellzugriff für Kamera"
+
+msgid "IDS_ST_BODY_CLOCK"
+msgstr "Uhr"
+
+msgid "IDS_ST_BODY_DISPLAY_A_WEATHER_EFFECT_ON_THE_LOCK_SCREEN"
+msgstr "Wettereffekt auf dem Sperrbildschirm anzeigen."
+
+msgid "IDS_ST_BODY_DRAG_AND_DROP_TO_CHANGE_ORDER"
+msgstr "Ziehen und ablegen, um die Reihenfolge zu ändern."
+
+msgid "IDS_ST_BODY_DUAL_CLOCK"
+msgstr "Dual-Uhr"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Elemente"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Vorschau"
+
+msgid "IDS_ST_BODY_SELECT_APPLICATION"
+msgstr "Anwendung auswählen"
+
+msgid "IDS_ST_BODY_SET_AS_LOCK_SCREEN"
+msgstr "Als Sperrbildschirm festlegen"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS"
+msgstr "Schnellzugriffe festlegen"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS_ON_LOCK_SCREEN"
+msgstr "Schnellzugriffe auf gesperrtem Bildschirm festlegen"
+
+msgid "IDS_ST_BODY_SHORTCUTS"
+msgstr "Schnellzugriffe"
+
+msgid "IDS_ST_BODY_SHOW_DUAL_CLOCK_ON_LOCK_SCREEN_WHEN_ROAMING"
+msgstr "Dual-Uhr beim Roaming auf gesperrtem Bildschirm anzeigen"
+
+msgid "IDS_ST_BODY_SHOW_HELP_TEXT_ON_LOCK_SCREEN"
+msgstr "Hilfetext auf gesperrtem Bildschirm anzeigen."
+
+msgid "IDS_ST_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_AND_YOUR_STEP_COUNT_ON_THE_LOCK_SCREEN"
+msgstr "Informationen zum Wetter und zur Schrittzahl auf dem Sperrbildschirm anzeigen."
+
+msgid "IDS_ST_BODY_STYLE"
+msgstr "Stil"
+
+msgid "IDS_ST_BODY_TAP_AND_HOLD_THE_SCREEN_WHILE_ROTATING_THE_DEVICE_TO_OPEN_CAMERA"
+msgstr "Tippen Sie auf den Bildschirm und halten Sie ihn, während Sie das Gerät drehen, um die Kamera zu öffnen."
+
+msgid "IDS_ST_BODY_TAP_SHORTCUT_TO_ASSIGN_APPLICATION"
+msgstr "Auf Shortcut tippen, um Anwendung zuzuweisen."
+
+msgid "IDS_ST_BUTTON2_PEDOMETER"
+msgstr "Schrittzähler"
+
+msgid "IDS_ST_HEADER_UNLOCK_EFFECT"
+msgstr "Effekt für Entsperren"
+
+msgid "IDS_ST_HEADER_WEATHER_EFFECT_ABB"
+msgstr "Wettereffekt"
+
+msgid "IDS_ST_MBODY_CAMERA_QUICK_ACCESS"
+msgstr "Kamera-Schnellzugriff"
+
+msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
+msgstr "Schnellzugriffe bearbeiten"
+
+msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
+msgstr "Deaktiviert"
+
+msgid "IDS_ST_SBODY_ENABLED_M_STATUS"
+msgstr "Aktiviert"
+
+msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
+msgstr "Titel bearbeiten"
+
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Heimatstadt festlegen"
+

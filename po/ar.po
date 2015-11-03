@@ -1,0 +1,267 @@
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "تم تغيير خلفية شاشة القفل."
+
+msgid "IDS_ST_MBODY_SWIPE"
+msgstr "السحب"
+
+msgid "IDS_ST_HEADER_LOCK_SCREEN_SETTINGS"
+msgstr "إعدادات شاشة القفل"
+
+msgid "IDS_ST_BODY_SIMPLE_PASSWORD"
+msgstr "كلمة مرور سهلة"
+
+msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
+msgstr "نوع قفل الشاشة"
+
+msgid "IDS_ST_BODY_PASSWORD"
+msgstr "كلمة المرور"
+
+msgid "IDS_ST_BODY_NONE"
+msgstr "لاشيء"
+
+msgid "IDS_ST_BODY_MOTION"
+msgstr "الحركة"
+
+msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
+msgstr "تحديد الخلفية"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "تعديل"
+
+msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
+msgstr "ساعة مزدوجة"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "بصمة"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "إلغاء"
+
+msgid "IDS_ST_BODY_AUTO_LOCK"
+msgstr "تأمين تلقائي"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "الخلفيات"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "استوديو"
+
+msgid "IDS_LCKSCN_HEADER_SPECIAL_DAY_WALLPAPERS_ABB"
+msgstr "خلفيات الأيام المميزة"
+
+msgid "IDS_LCKSCN_MBODY_FESTIVAL_WALLPAPERS"
+msgstr "خلفيات الاحتفالات"
+
+msgid "IDS_HELP_BODY_UNLOCK_DEVICE_WITH_YOUR_WAKE_UP_COMMAND_WHEN_SWIPE_OR_MOTION_SCREEN_LOCK_TYPE_IS_ENABLED"
+msgstr "إلغاء قفل الجهاز باستخدام أمر التنبيه عند تفعيل السحب أو نوع حركة قفل الشاشة."
+
+msgid "IDS_HS_HEADER_THEMES"
+msgstr "السمات"
+
+msgid "IDS_IDLE_BODY_VIEW_EVENT_NOTIFICATIONS_ON_THE_LOCK_SCREEN"
+msgstr "عرض إخطارات الحدث على شاشة القفل"
+
+msgid "IDS_IDLE_MBODY_EVENT_NOTIFICATIONS"
+msgstr "إشعارات الحدث"
+
+msgid "IDS_IM_BODY_HELP_TEXT"
+msgstr "نص المساعدة"
+
+msgid "IDS_LCKSCN_BODY_BOOK_COVER_M_LOCKSCREEN_NAME"
+msgstr "الغطاء"
+
+msgid "IDS_LCKSCN_BODY_BRIEFING_BOX_ABB"
+msgstr "مربع موجز"
+
+msgid "IDS_LCKSCN_BODY_CLEAR_M_LOCKSCREEN_NAME"
+msgstr "مسح"
+
+msgid "IDS_LCKSCN_BODY_CLOSE_UP_M_LOCKSCREEN_NAME"
+msgstr "تقريب"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_THE_STYLE_OF_YOUR_LOCK_SCREEN"
+msgstr "تخصيص نمط لشاشة القفل"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_ITEMS_WILL_BE_SHOWN_IN_YOUR_BRIEFING_BOX_ON_THE_LOCK_SCREEN"
+msgstr "تخصيص العناصر التي سيتم عرضها في المربع الموجز بشاشة القفل"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_SHORTCUTS_WILL_BE_SHOWN_ON_THE_LOCK_SCREEN"
+msgstr "تخصيص الاختصارات التي سيتم عرضها على شاشة القفل"
+
+msgid "IDS_LCKSCN_BODY_DIARY"
+msgstr "يوميات"
+
+msgid "IDS_LCKSCN_BODY_DISPLAY_YOUR_PERSONAL_MESSAGE_ON_THE_LOCK_SCREEN"
+msgstr "عرض رسالتك الشخصية على شاشة القفل"
+
+msgid "IDS_LCKSCN_BODY_EDIT_PERSONAL_MESSAGE"
+msgstr "تعديل الرسالة الشخصية"
+
+msgid "IDS_LCKSCN_BODY_FUN_M_LOCKSCREEN_NAME"
+msgstr "مرح"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_THEMES_ABB"
+msgstr "سمات شاشة القفل"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_WALLPAPER"
+msgstr "خلفية شاشة القفل"
+
+msgid "IDS_LCKSCN_BODY_MAGAZINE_M_LOCKSCREEN_NAME"
+msgstr "المجلة"
+
+msgid "IDS_LCKSCN_BODY_MUSIC_CONTROLLER_ABB"
+msgstr "وحدة التحكم بالموسيقى"
+
+msgid "IDS_LCKSCN_BODY_NEWS_ABB"
+msgstr "أخبار"
+
+msgid "IDS_LCKSCN_BODY_PERSONAL_MESSAGE_ABB"
+msgstr "رسالة شخصية"
+
+msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
+msgstr "المستقطبة"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "منظم"
+
+msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
+msgstr "اضبط الجهاز بحيث يتم عرض لوحة المفاتيح بعد سحب شاشة القفل."
+
+msgid "IDS_LCKSCN_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_HBASED_ON_THE_WEATHER_APPLICATION_MSG"
+msgstr "عرض معلومات حول الطقس (استنادًا إلى تطبيق الطقس) والخطوات التي تقوم بها عندما يكون مقياس الخطوات في S Health قيد التفعيل."
+
+msgid "IDS_LCKSCN_BODY_THEMED_WALLPAPER_WILL_BE_APPLIED_ON_THE_LOCK_SCREEN_FOR_RUSSIAN_PUBLIC_HOLIDAYS"
+msgstr "سيتم تطبيق خلفيات ذات سمات مخصصة على شاشة القفل للأعياد الروسية الرسمية."
+
+msgid "IDS_LCKSCN_BODY_WAKE_UP_IN_LOCK_SCREEN_ABB"
+msgstr "التنبيه أثناء التواجد في شاشة القفل"
+
+msgid "IDS_LCKSCN_BODY_YOU_CAN_INPUT_TEXT_ON_THE_LOCK_SCREEN_AND_EDIT_IT_BY_SELECTING_EDIT_PERSONAL_MESSAGE"
+msgstr "يمكنك إدخال نص على شاشة القفل وتعديله عن طريق تحديد ‏‫الرسالة الشخصية."
+
+msgid "IDS_LCKSCN_HEADER_BRIEFING_BOX"
+msgstr "مربع موجز"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN"
+msgstr "شاشة القفل"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
+msgstr "سمات شاشة القفل"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "رسالة شخصية"
+
+msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
+msgstr "تعيين اختصارات"
+
+msgid "IDS_LCKSCN_MBODY_SET_WAKE_UP_COMMAND"
+msgstr "تعيين أمر التنبيه"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_THEN_ENTER_PASSWORD"
+msgstr "السحب ثم إدخال كلمة المرور"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_TO_ENTER_PASSWORD"
+msgstr "السحب لإدخال كلمة مرور"
+
+msgid "IDS_LCKSCN_OPT_CONFETTI_M_EFFECT"
+msgstr "مربعات صغيرة"
+
+msgid "IDS_LCKSCN_OPT_GEOMETRIC_M_EFFECT"
+msgstr "أشكال هندسية"
+
+msgid "IDS_LCKSCN_OPT_GLOW_WORMS_M_EFFECT"
+msgstr "دوائر متوهجة"
+
+msgid "IDS_LCKSCN_OPT_STARDUST_M_EFFECT"
+msgstr "نجوم لامعة"
+
+msgid "IDS_SKM_BODY_WEATHER_M_IDEA_SKETCH"
+msgstr "الطقس"
+
+msgid "IDS_ST_BODY_ADDITIONAL_INFORMATION_ABB"
+msgstr "معلومات إضافية"
+
+msgid "IDS_ST_BODY_APPLY"
+msgstr "تطبيق"
+
+msgid "IDS_ST_BODY_CAMERA_SHORTCUT"
+msgstr "اختصار الكاميرا"
+
+msgid "IDS_ST_BODY_CLOCK"
+msgstr "الساعة"
+
+msgid "IDS_ST_BODY_DISPLAY_A_WEATHER_EFFECT_ON_THE_LOCK_SCREEN"
+msgstr "عرض تأثير طقس على شاشة القفل."
+
+msgid "IDS_ST_BODY_DRAG_AND_DROP_TO_CHANGE_ORDER"
+msgstr "قم بالسحب والإسقاط لتغيير الترتيب."
+
+msgid "IDS_ST_BODY_DUAL_CLOCK"
+msgstr "ساعة ثنائية"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "عنصر"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "معاينة"
+
+msgid "IDS_ST_BODY_SELECT_APPLICATION"
+msgstr "اختر تطبيق"
+
+msgid "IDS_ST_BODY_SET_AS_LOCK_SCREEN"
+msgstr "تعيين كشاشة قفل"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS"
+msgstr "تعيين اختصارات"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS_ON_LOCK_SCREEN"
+msgstr "قم بتعيين اختصارات على شاشة القفل."
+
+msgid "IDS_ST_BODY_SHORTCUTS"
+msgstr "الاختصارات"
+
+msgid "IDS_ST_BODY_SHOW_DUAL_CLOCK_ON_LOCK_SCREEN_WHEN_ROAMING"
+msgstr "عرض ‏‫ساعة مزدوجة على شاشة القفل أثناء التجوال."
+
+msgid "IDS_ST_BODY_SHOW_HELP_TEXT_ON_LOCK_SCREEN"
+msgstr "عرض نص التعليمات على شاشة القفل."
+
+msgid "IDS_ST_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_AND_YOUR_STEP_COUNT_ON_THE_LOCK_SCREEN"
+msgstr "إظهار المعلومات حول الطقس وعداد خطواتك على شاشة القفل."
+
+msgid "IDS_ST_BODY_STYLE"
+msgstr "الأسلوب"
+
+msgid "IDS_ST_BODY_TAP_AND_HOLD_THE_SCREEN_WHILE_ROTATING_THE_DEVICE_TO_OPEN_CAMERA"
+msgstr "انقر مع الاستمرار فوق الشاشة مع تدوير الجهاز لفتح الكاميرا."
+
+msgid "IDS_ST_BODY_TAP_SHORTCUT_TO_ASSIGN_APPLICATION"
+msgstr "‏‫انقر فوق الاختصار لتخصيص تطبيق."
+
+msgid "IDS_ST_BUTTON2_PEDOMETER"
+msgstr "مقياس الخطوات"
+
+msgid "IDS_ST_HEADER_UNLOCK_EFFECT"
+msgstr "تأثير إلغاء القفل"
+
+msgid "IDS_ST_HEADER_WEATHER_EFFECT_ABB"
+msgstr "تأثير الطقس"
+
+msgid "IDS_ST_MBODY_CAMERA_QUICK_ACCESS"
+msgstr "وصول سريع إلى الكاميرا"
+
+msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
+msgstr "تعديل الاختصارات"
+
+msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
+msgstr "غير مفعل"
+
+msgid "IDS_ST_SBODY_ENABLED_M_STATUS"
+msgstr "مفعل"
+
+msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
+msgstr "تعديل العنوان"
+
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "تعيين المدينة الرئيسية"
+

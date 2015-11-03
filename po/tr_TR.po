@@ -1,0 +1,267 @@
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Kilit ekranı duvar kağıdı değişti."
+
+msgid "IDS_ST_MBODY_SWIPE"
+msgstr "Kaydır"
+
+msgid "IDS_ST_HEADER_LOCK_SCREEN_SETTINGS"
+msgstr "Kilit ekranı ayarları"
+
+msgid "IDS_ST_BODY_SIMPLE_PASSWORD"
+msgstr "Basit şifre"
+
+msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
+msgstr "Ekran kilidi türü"
+
+msgid "IDS_ST_BODY_PASSWORD"
+msgstr "Şifre"
+
+msgid "IDS_ST_BODY_NONE"
+msgstr "Hiçbiri"
+
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Hareket"
+
+msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
+msgstr "Duvar kağıdı seç"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Düzenle"
+
+msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
+msgstr "Çift saat"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Parmak izi"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "İptal"
+
+msgid "IDS_ST_BODY_AUTO_LOCK"
+msgstr "Otomatik kilit"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "DuvarKağıtları"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galeri"
+
+msgid "IDS_LCKSCN_HEADER_SPECIAL_DAY_WALLPAPERS_ABB"
+msgstr "Özel gün duvar kağıtları"
+
+msgid "IDS_LCKSCN_MBODY_FESTIVAL_WALLPAPERS"
+msgstr "Festival duvar kağıtları"
+
+msgid "IDS_HELP_BODY_UNLOCK_DEVICE_WITH_YOUR_WAKE_UP_COMMAND_WHEN_SWIPE_OR_MOTION_SCREEN_LOCK_TYPE_IS_ENABLED"
+msgstr "Kaydırma veya hareketle ekran kilitleme tipi devredeyken cihazın kilidini uyandırma komutunu ile aç."
+
+msgid "IDS_HS_HEADER_THEMES"
+msgstr "Temalar"
+
+msgid "IDS_IDLE_BODY_VIEW_EVENT_NOTIFICATIONS_ON_THE_LOCK_SCREEN"
+msgstr "Kilit ekranında etkinlik bildirimlerini gör"
+
+msgid "IDS_IDLE_MBODY_EVENT_NOTIFICATIONS"
+msgstr "Etkinlik bildirimleri"
+
+msgid "IDS_IM_BODY_HELP_TEXT"
+msgstr "Yardım metni"
+
+msgid "IDS_LCKSCN_BODY_BOOK_COVER_M_LOCKSCREEN_NAME"
+msgstr "Kitap kapağı"
+
+msgid "IDS_LCKSCN_BODY_BRIEFING_BOX_ABB"
+msgstr "Bilgi verme kutusu"
+
+msgid "IDS_LCKSCN_BODY_CLEAR_M_LOCKSCREEN_NAME"
+msgstr "Sil"
+
+msgid "IDS_LCKSCN_BODY_CLOSE_UP_M_LOCKSCREEN_NAME"
+msgstr "Kapat"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_THE_STYLE_OF_YOUR_LOCK_SCREEN"
+msgstr "Kilit ekranınızın stilini özelleştirin"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_ITEMS_WILL_BE_SHOWN_IN_YOUR_BRIEFING_BOX_ON_THE_LOCK_SCREEN"
+msgstr "Kilit ekranındaki bilgi verme kutunuzda hangi öğelerin gösterileceğini özelleştirin"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_SHORTCUTS_WILL_BE_SHOWN_ON_THE_LOCK_SCREEN"
+msgstr "Kilit ekranında hangi kısayolların gösterileceğini özelleştirin"
+
+msgid "IDS_LCKSCN_BODY_DIARY"
+msgstr "Günlük"
+
+msgid "IDS_LCKSCN_BODY_DISPLAY_YOUR_PERSONAL_MESSAGE_ON_THE_LOCK_SCREEN"
+msgstr "Kilit ekranında kişisel mesajınızı gösterin"
+
+msgid "IDS_LCKSCN_BODY_EDIT_PERSONAL_MESSAGE"
+msgstr "Kişisel mesajı düzenle"
+
+msgid "IDS_LCKSCN_BODY_FUN_M_LOCKSCREEN_NAME"
+msgstr "Eğlence"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_THEMES_ABB"
+msgstr "Kilit ekranı temaları"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_WALLPAPER"
+msgstr "Kilit ekranı duvar kağıdı"
+
+msgid "IDS_LCKSCN_BODY_MAGAZINE_M_LOCKSCREEN_NAME"
+msgstr "Dergi"
+
+msgid "IDS_LCKSCN_BODY_MUSIC_CONTROLLER_ABB"
+msgstr "Müzik kontrolörü"
+
+msgid "IDS_LCKSCN_BODY_NEWS_ABB"
+msgstr "Haberler"
+
+msgid "IDS_LCKSCN_BODY_PERSONAL_MESSAGE_ABB"
+msgstr "Kişisel mesaj"
+
+msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
+msgstr "Polaroid"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Program"
+
+msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
+msgstr "Cihazı, kilit ekranını kaydırdığınızda klavyeyi gösterecek şekilde ayarlayın."
+
+msgid "IDS_LCKSCN_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_HBASED_ON_THE_WEATHER_APPLICATION_MSG"
+msgstr "Hava durumu (Hava Durumu uygulamasına bağlı olarak) ve S Health'de Adımsayar etkinken attığınız adımlarla ilgili bilgi gösterir."
+
+msgid "IDS_LCKSCN_BODY_THEMED_WALLPAPER_WILL_BE_APPLIED_ON_THE_LOCK_SCREEN_FOR_RUSSIAN_PUBLIC_HOLIDAYS"
+msgstr "Rus resmi tatillerinde kilit ekranına temalı duvar kağıdı uygulanacak."
+
+msgid "IDS_LCKSCN_BODY_WAKE_UP_IN_LOCK_SCREEN_ABB"
+msgstr "Kilit ekranında uyan"
+
+msgid "IDS_LCKSCN_BODY_YOU_CAN_INPUT_TEXT_ON_THE_LOCK_SCREEN_AND_EDIT_IT_BY_SELECTING_EDIT_PERSONAL_MESSAGE"
+msgstr "Kilit ekranına metin girebilir ve kişisel mesajı düzenle'yi seçerek düzenleyebilirsiniz."
+
+msgid "IDS_LCKSCN_HEADER_BRIEFING_BOX"
+msgstr "Bilgi verme kutusu"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN"
+msgstr "Kilit ekranı"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
+msgstr "Kilit ekranı temaları"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Kişisel mesaj"
+
+msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
+msgstr "Kısayol ayarla"
+
+msgid "IDS_LCKSCN_MBODY_SET_WAKE_UP_COMMAND"
+msgstr "Uyandırma komutu ayarla"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_THEN_ENTER_PASSWORD"
+msgstr "Kaydırıp şifreyi girin"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_TO_ENTER_PASSWORD"
+msgstr "Şifreyi girmk için kydrn"
+
+msgid "IDS_LCKSCN_OPT_CONFETTI_M_EFFECT"
+msgstr "Konfeti"
+
+msgid "IDS_LCKSCN_OPT_GEOMETRIC_M_EFFECT"
+msgstr "Geometrik"
+
+msgid "IDS_LCKSCN_OPT_GLOW_WORMS_M_EFFECT"
+msgstr "Ateşböceği"
+
+msgid "IDS_LCKSCN_OPT_STARDUST_M_EFFECT"
+msgstr "Yıldız tozu"
+
+msgid "IDS_SKM_BODY_WEATHER_M_IDEA_SKETCH"
+msgstr "Hava Durumu"
+
+msgid "IDS_ST_BODY_ADDITIONAL_INFORMATION_ABB"
+msgstr "İlave bilgi"
+
+msgid "IDS_ST_BODY_APPLY"
+msgstr "Uygula"
+
+msgid "IDS_ST_BODY_CAMERA_SHORTCUT"
+msgstr "Kamera kısayolu"
+
+msgid "IDS_ST_BODY_CLOCK"
+msgstr "Saat"
+
+msgid "IDS_ST_BODY_DISPLAY_A_WEATHER_EFFECT_ON_THE_LOCK_SCREEN"
+msgstr "Kilit ekranında bir hava durumu efekti görüntüle."
+
+msgid "IDS_ST_BODY_DRAG_AND_DROP_TO_CHANGE_ORDER"
+msgstr "Sırayı değiştirmek için sürükle ve bırak."
+
+msgid "IDS_ST_BODY_DUAL_CLOCK"
+msgstr "İkili saat"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Öğe"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Önizleme"
+
+msgid "IDS_ST_BODY_SELECT_APPLICATION"
+msgstr "Uygulama seç"
+
+msgid "IDS_ST_BODY_SET_AS_LOCK_SCREEN"
+msgstr "Kilit ekranı olarak ayarla"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS"
+msgstr "Kısayol ayarla"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS_ON_LOCK_SCREEN"
+msgstr "Kısayolları kilit ekranında ayarla."
+
+msgid "IDS_ST_BODY_SHORTCUTS"
+msgstr "Kısayollar"
+
+msgid "IDS_ST_BODY_SHOW_DUAL_CLOCK_ON_LOCK_SCREEN_WHEN_ROAMING"
+msgstr "Dolaşımdayken kilit ekranında çift saat göster."
+
+msgid "IDS_ST_BODY_SHOW_HELP_TEXT_ON_LOCK_SCREEN"
+msgstr "Yardım metnini kilit ekranında göster."
+
+msgid "IDS_ST_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_AND_YOUR_STEP_COUNT_ON_THE_LOCK_SCREEN"
+msgstr "Kilit ekranında hava durumunu ve adım sayınızı gösterir."
+
+msgid "IDS_ST_BODY_STYLE"
+msgstr "Stil"
+
+msgid "IDS_ST_BODY_TAP_AND_HOLD_THE_SCREEN_WHILE_ROTATING_THE_DEVICE_TO_OPEN_CAMERA"
+msgstr "Kamerayı açmak için cihazı döndürürken ekrana dokunun ve basılı tutun."
+
+msgid "IDS_ST_BODY_TAP_SHORTCUT_TO_ASSIGN_APPLICATION"
+msgstr "Uygulama atamak için kısayola dokun."
+
+msgid "IDS_ST_BUTTON2_PEDOMETER"
+msgstr "Adımsayar"
+
+msgid "IDS_ST_HEADER_UNLOCK_EFFECT"
+msgstr "Kilit açma efekti"
+
+msgid "IDS_ST_HEADER_WEATHER_EFFECT_ABB"
+msgstr "Hava durumu efekti"
+
+msgid "IDS_ST_MBODY_CAMERA_QUICK_ACCESS"
+msgstr "Kameraya hızlı erişim"
+
+msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
+msgstr "Kısayolları düzenle"
+
+msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
+msgstr "Devre dışı bırakıldı"
+
+msgid "IDS_ST_SBODY_ENABLED_M_STATUS"
+msgstr "Etkinleştirildi"
+
+msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
+msgstr "Başlığı düzenle"
+
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Ana şehiri ayarla"
+

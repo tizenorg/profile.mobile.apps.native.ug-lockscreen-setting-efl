@@ -1,0 +1,267 @@
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Fond d'écran de verrouillage modifié"
+
+msgid "IDS_ST_MBODY_SWIPE"
+msgstr "Glissement"
+
+msgid "IDS_ST_HEADER_LOCK_SCREEN_SETTINGS"
+msgstr "Paramètres de l'écran de verrouillage"
+
+msgid "IDS_ST_BODY_SIMPLE_PASSWORD"
+msgstr "Mot de passe simple"
+
+msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
+msgstr "Mode de déverrouillage"
+
+msgid "IDS_ST_BODY_PASSWORD"
+msgstr "Mot de passe"
+
+msgid "IDS_ST_BODY_NONE"
+msgstr "Aucun(e)"
+
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Mouvements"
+
+msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
+msgstr "Sélectionner un fond d'écran"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Modifier"
+
+msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
+msgstr "Double horloge"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Empreinte"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Annuler"
+
+msgid "IDS_ST_BODY_AUTO_LOCK"
+msgstr "Verrouillage automatique"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Fonds d'écran"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galerie"
+
+msgid "IDS_LCKSCN_HEADER_SPECIAL_DAY_WALLPAPERS_ABB"
+msgstr "Fonds d'écran jours spéc."
+
+msgid "IDS_LCKSCN_MBODY_FESTIVAL_WALLPAPERS"
+msgstr "Fonds d'écran Fête"
+
+msgid "IDS_HELP_BODY_UNLOCK_DEVICE_WITH_YOUR_WAKE_UP_COMMAND_WHEN_SWIPE_OR_MOTION_SCREEN_LOCK_TYPE_IS_ENABLED"
+msgstr "Déverrouillez l'appareil avec la commande de réveil lorsque le mode de verrouillage par mouvement ou par glissement est activé."
+
+msgid "IDS_HS_HEADER_THEMES"
+msgstr "Thèmes"
+
+msgid "IDS_IDLE_BODY_VIEW_EVENT_NOTIFICATIONS_ON_THE_LOCK_SCREEN"
+msgstr "Voir les notifications d'événements sur l'écran de verrouillage"
+
+msgid "IDS_IDLE_MBODY_EVENT_NOTIFICATIONS"
+msgstr "Notifications événements"
+
+msgid "IDS_IM_BODY_HELP_TEXT"
+msgstr "Texte d'aide"
+
+msgid "IDS_LCKSCN_BODY_BOOK_COVER_M_LOCKSCREEN_NAME"
+msgstr "Couverture de livre"
+
+msgid "IDS_LCKSCN_BODY_BRIEFING_BOX_ABB"
+msgstr "Zone En bref"
+
+msgid "IDS_LCKSCN_BODY_CLEAR_M_LOCKSCREEN_NAME"
+msgstr "Clair"
+
+msgid "IDS_LCKSCN_BODY_CLOSE_UP_M_LOCKSCREEN_NAME"
+msgstr "Gros plan"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_THE_STYLE_OF_YOUR_LOCK_SCREEN"
+msgstr "Personnaliser le style de l'écran de verrouillage."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_ITEMS_WILL_BE_SHOWN_IN_YOUR_BRIEFING_BOX_ON_THE_LOCK_SCREEN"
+msgstr "Personnaliser les éléments à afficher dans la zone En bref de l'écran de verrouillage."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_SHORTCUTS_WILL_BE_SHOWN_ON_THE_LOCK_SCREEN"
+msgstr "Personnaliser les raccourcis affichés sur l'écran de verrouillage."
+
+msgid "IDS_LCKSCN_BODY_DIARY"
+msgstr "Journal"
+
+msgid "IDS_LCKSCN_BODY_DISPLAY_YOUR_PERSONAL_MESSAGE_ON_THE_LOCK_SCREEN"
+msgstr "Afficher un message personnel sur l'écran de verrouillage."
+
+msgid "IDS_LCKSCN_BODY_EDIT_PERSONAL_MESSAGE"
+msgstr "Modifier un message personnel"
+
+msgid "IDS_LCKSCN_BODY_FUN_M_LOCKSCREEN_NAME"
+msgstr "Fun"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_THEMES_ABB"
+msgstr "Thème de l'écran de verr."
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_WALLPAPER"
+msgstr "Fond d'écran de verrouillage"
+
+msgid "IDS_LCKSCN_BODY_MAGAZINE_M_LOCKSCREEN_NAME"
+msgstr "Magazine"
+
+msgid "IDS_LCKSCN_BODY_MUSIC_CONTROLLER_ABB"
+msgstr "Contrôleur musical"
+
+msgid "IDS_LCKSCN_BODY_NEWS_ABB"
+msgstr "Actualités"
+
+msgid "IDS_LCKSCN_BODY_PERSONAL_MESSAGE_ABB"
+msgstr "Message personnel"
+
+msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
+msgstr "Polaroid"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Elément planifié"
+
+msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
+msgstr "Configurez l'appareil de façon à afficher le clavier après avoir fait glisser l'écran de verrouillage."
+
+msgid "IDS_LCKSCN_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_HBASED_ON_THE_WEATHER_APPLICATION_MSG"
+msgstr "Affichez les informations météo (obtenues avec l'application Météo) et le nombre de pas effectués lorsque le podomètre dans S Health est activé."
+
+msgid "IDS_LCKSCN_BODY_THEMED_WALLPAPER_WILL_BE_APPLIED_ON_THE_LOCK_SCREEN_FOR_RUSSIAN_PUBLIC_HOLIDAYS"
+msgstr "Le fond d'écran à thème sera appliqué sur l'écran de verrouillage pendant les jours fériés (Russie)."
+
+msgid "IDS_LCKSCN_BODY_WAKE_UP_IN_LOCK_SCREEN_ABB"
+msgstr "Réveil sur l'écran de verr."
+
+msgid "IDS_LCKSCN_BODY_YOU_CAN_INPUT_TEXT_ON_THE_LOCK_SCREEN_AND_EDIT_IT_BY_SELECTING_EDIT_PERSONAL_MESSAGE"
+msgstr "Vous pouvez saisir du texte dans l'écran de verrouillage et le modifier en sélectionnant Modifier un message personnel."
+
+msgid "IDS_LCKSCN_HEADER_BRIEFING_BOX"
+msgstr "Zone En bref"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN"
+msgstr "Écran de verrouillage"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
+msgstr "Thème de l'écran de verr."
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Message personnel"
+
+msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
+msgstr "Définir des raccourcis"
+
+msgid "IDS_LCKSCN_MBODY_SET_WAKE_UP_COMMAND"
+msgstr "Définir commande réveil"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_THEN_ENTER_PASSWORD"
+msgstr "Glisser pour saisir MDP"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_TO_ENTER_PASSWORD"
+msgstr "Glisser pour saisir MDP"
+
+msgid "IDS_LCKSCN_OPT_CONFETTI_M_EFFECT"
+msgstr "Confetti"
+
+msgid "IDS_LCKSCN_OPT_GEOMETRIC_M_EFFECT"
+msgstr "Géométrique"
+
+msgid "IDS_LCKSCN_OPT_GLOW_WORMS_M_EFFECT"
+msgstr "Lucioles"
+
+msgid "IDS_LCKSCN_OPT_STARDUST_M_EFFECT"
+msgstr "Poussière d'étoile"
+
+msgid "IDS_SKM_BODY_WEATHER_M_IDEA_SKETCH"
+msgstr "Temps"
+
+msgid "IDS_ST_BODY_ADDITIONAL_INFORMATION_ABB"
+msgstr "En savoir plus"
+
+msgid "IDS_ST_BODY_APPLY"
+msgstr "Appliquer"
+
+msgid "IDS_ST_BODY_CAMERA_SHORTCUT"
+msgstr "Raccourci Appareil photo"
+
+msgid "IDS_ST_BODY_CLOCK"
+msgstr "Horloge"
+
+msgid "IDS_ST_BODY_DISPLAY_A_WEATHER_EFFECT_ON_THE_LOCK_SCREEN"
+msgstr "Affichez un effet météo sur l'écran de verrouillage."
+
+msgid "IDS_ST_BODY_DRAG_AND_DROP_TO_CHANGE_ORDER"
+msgstr "Glissez et déposez les raccourcis pour en modifier l'ordre."
+
+msgid "IDS_ST_BODY_DUAL_CLOCK"
+msgstr "Double horloge"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Éléments"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Aperçu"
+
+msgid "IDS_ST_BODY_SELECT_APPLICATION"
+msgstr "Sélectionnez une application"
+
+msgid "IDS_ST_BODY_SET_AS_LOCK_SCREEN"
+msgstr "Définir comme écran de verrouillage"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS"
+msgstr "Définir des raccourcis"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS_ON_LOCK_SCREEN"
+msgstr "Choisissez les raccourcis à afficher sur l'écran de verrouillage."
+
+msgid "IDS_ST_BODY_SHORTCUTS"
+msgstr "Raccourcis"
+
+msgid "IDS_ST_BODY_SHOW_DUAL_CLOCK_ON_LOCK_SCREEN_WHEN_ROAMING"
+msgstr "En itinérance, afficher la double horloge sur l'écran de verrouillage."
+
+msgid "IDS_ST_BODY_SHOW_HELP_TEXT_ON_LOCK_SCREEN"
+msgstr "Afficher le texte d'aide au déverrouillage sur l'écran."
+
+msgid "IDS_ST_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_AND_YOUR_STEP_COUNT_ON_THE_LOCK_SCREEN"
+msgstr "Affichez les informations météorologiques et votre nombre de pas sur l'écran de verrouillage."
+
+msgid "IDS_ST_BODY_STYLE"
+msgstr "Style"
+
+msgid "IDS_ST_BODY_TAP_AND_HOLD_THE_SCREEN_WHILE_ROTATING_THE_DEVICE_TO_OPEN_CAMERA"
+msgstr "Maintenez votre doigt appuyé sur l'écran et faites pivoter l'appareil pour ouvrir l'appareil photo."
+
+msgid "IDS_ST_BODY_TAP_SHORTCUT_TO_ASSIGN_APPLICATION"
+msgstr "Appuyez sur un raccourci pour lui affecter une application."
+
+msgid "IDS_ST_BUTTON2_PEDOMETER"
+msgstr "Podomètre"
+
+msgid "IDS_ST_HEADER_UNLOCK_EFFECT"
+msgstr "Effet de déverrouillage"
+
+msgid "IDS_ST_HEADER_WEATHER_EFFECT_ABB"
+msgstr "Effet météo"
+
+msgid "IDS_ST_MBODY_CAMERA_QUICK_ACCESS"
+msgstr "Accès rapide app. photo"
+
+msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
+msgstr "Modifier les raccourcis"
+
+msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
+msgstr "Désactivé"
+
+msgid "IDS_ST_SBODY_ENABLED_M_STATUS"
+msgstr "Activé"
+
+msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
+msgstr "Modifier le titre"
+
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Définir ville d'origine"
+

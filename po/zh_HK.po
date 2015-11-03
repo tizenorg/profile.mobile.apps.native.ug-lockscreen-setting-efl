@@ -1,0 +1,267 @@
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "鎖定螢幕牆紙已變更。"
+
+msgid "IDS_ST_MBODY_SWIPE"
+msgstr "滑動"
+
+msgid "IDS_ST_HEADER_LOCK_SCREEN_SETTINGS"
+msgstr "鎖定螢幕設定"
+
+msgid "IDS_ST_BODY_SIMPLE_PASSWORD"
+msgstr "簡易密碼"
+
+msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
+msgstr "螢幕鎖定類型"
+
+msgid "IDS_ST_BODY_PASSWORD"
+msgstr "密碼"
+
+msgid "IDS_ST_BODY_NONE"
+msgstr "無"
+
+msgid "IDS_ST_BODY_MOTION"
+msgstr "動作"
+
+msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
+msgstr "選擇螢幕牆紙"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "編輯"
+
+msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
+msgstr "雙時鐘"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "指紋"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "取消"
+
+msgid "IDS_ST_BODY_AUTO_LOCK"
+msgstr "自動鎖定"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "螢幕牆紙"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "媒體瀏覽器"
+
+msgid "IDS_LCKSCN_HEADER_SPECIAL_DAY_WALLPAPERS_ABB"
+msgstr "特殊日子螢幕牆紙"
+
+msgid "IDS_LCKSCN_MBODY_FESTIVAL_WALLPAPERS"
+msgstr "節日螢幕牆紙"
+
+msgid "IDS_HELP_BODY_UNLOCK_DEVICE_WITH_YOUR_WAKE_UP_COMMAND_WHEN_SWIPE_OR_MOTION_SCREEN_LOCK_TYPE_IS_ENABLED"
+msgstr "當滑動或動作螢幕鎖定類型啟用時，以喚醒指令解除裝置鎖定。"
+
+msgid "IDS_HS_HEADER_THEMES"
+msgstr "主題"
+
+msgid "IDS_IDLE_BODY_VIEW_EVENT_NOTIFICATIONS_ON_THE_LOCK_SCREEN"
+msgstr "於鎖定螢幕上檢視事件通知"
+
+msgid "IDS_IDLE_MBODY_EVENT_NOTIFICATIONS"
+msgstr "事件通知"
+
+msgid "IDS_IM_BODY_HELP_TEXT"
+msgstr "說明文字"
+
+msgid "IDS_LCKSCN_BODY_BOOK_COVER_M_LOCKSCREEN_NAME"
+msgstr "保護套"
+
+msgid "IDS_LCKSCN_BODY_BRIEFING_BOX_ABB"
+msgstr "簡報方塊"
+
+msgid "IDS_LCKSCN_BODY_CLEAR_M_LOCKSCREEN_NAME"
+msgstr "清除"
+
+msgid "IDS_LCKSCN_BODY_CLOSE_UP_M_LOCKSCREEN_NAME"
+msgstr "拉近"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_THE_STYLE_OF_YOUR_LOCK_SCREEN"
+msgstr "自訂鎖定螢幕的風格。"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_ITEMS_WILL_BE_SHOWN_IN_YOUR_BRIEFING_BOX_ON_THE_LOCK_SCREEN"
+msgstr "自訂要顯示在鎖定螢幕上簡報方塊的內容。"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_SHORTCUTS_WILL_BE_SHOWN_ON_THE_LOCK_SCREEN"
+msgstr "自訂要顯示於鎖定螢幕上的捷徑。"
+
+msgid "IDS_LCKSCN_BODY_DIARY"
+msgstr "日記"
+
+msgid "IDS_LCKSCN_BODY_DISPLAY_YOUR_PERSONAL_MESSAGE_ON_THE_LOCK_SCREEN"
+msgstr "在鎖定螢幕上顯示您的個人訊息。"
+
+msgid "IDS_LCKSCN_BODY_EDIT_PERSONAL_MESSAGE"
+msgstr "編輯個人訊息"
+
+msgid "IDS_LCKSCN_BODY_FUN_M_LOCKSCREEN_NAME"
+msgstr "有趣"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_THEMES_ABB"
+msgstr "鎖定螢幕主題"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_WALLPAPER"
+msgstr "鎖定螢幕牆紙"
+
+msgid "IDS_LCKSCN_BODY_MAGAZINE_M_LOCKSCREEN_NAME"
+msgstr "雜誌"
+
+msgid "IDS_LCKSCN_BODY_MUSIC_CONTROLLER_ABB"
+msgstr "音樂控制器"
+
+msgid "IDS_LCKSCN_BODY_NEWS_ABB"
+msgstr "新聞"
+
+msgid "IDS_LCKSCN_BODY_PERSONAL_MESSAGE_ABB"
+msgstr "個人訊息"
+
+msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
+msgstr "寶麗來"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "日程"
+
+msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
+msgstr "設定裝置以在滑動鎖定螢幕後顯示鍵盤。"
+
+msgid "IDS_LCKSCN_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_HBASED_ON_THE_WEATHER_APPLICATION_MSG"
+msgstr "顯示關於天氣的資訊 (基於天氣應用程式) 與您在 S Health 中的計步器啟用時完成的步數。"
+
+msgid "IDS_LCKSCN_BODY_THEMED_WALLPAPER_WILL_BE_APPLIED_ON_THE_LOCK_SCREEN_FOR_RUSSIAN_PUBLIC_HOLIDAYS"
+msgstr "將在鎖定螢幕上應用俄羅斯公共假期主題螢幕牆紙。"
+
+msgid "IDS_LCKSCN_BODY_WAKE_UP_IN_LOCK_SCREEN_ABB"
+msgstr "於鎖定螢幕喚醒"
+
+msgid "IDS_LCKSCN_BODY_YOU_CAN_INPUT_TEXT_ON_THE_LOCK_SCREEN_AND_EDIT_IT_BY_SELECTING_EDIT_PERSONAL_MESSAGE"
+msgstr "可通過選擇編輯個人訊息於鎖定螢幕上輸入文字並進行編輯。"
+
+msgid "IDS_LCKSCN_HEADER_BRIEFING_BOX"
+msgstr "簡報方塊"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN"
+msgstr "鎖定螢幕"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
+msgstr "鎖定螢幕主題"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "個人訊息"
+
+msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
+msgstr "設定捷徑"
+
+msgid "IDS_LCKSCN_MBODY_SET_WAKE_UP_COMMAND"
+msgstr "設定喚醒指令"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_THEN_ENTER_PASSWORD"
+msgstr "先滑動再輸入密碼"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_TO_ENTER_PASSWORD"
+msgstr "滑動以輸入密碼"
+
+msgid "IDS_LCKSCN_OPT_CONFETTI_M_EFFECT"
+msgstr "五彩紙屑"
+
+msgid "IDS_LCKSCN_OPT_GEOMETRIC_M_EFFECT"
+msgstr "幾何圖案"
+
+msgid "IDS_LCKSCN_OPT_GLOW_WORMS_M_EFFECT"
+msgstr "螢火蟲"
+
+msgid "IDS_LCKSCN_OPT_STARDUST_M_EFFECT"
+msgstr "星塵"
+
+msgid "IDS_SKM_BODY_WEATHER_M_IDEA_SKETCH"
+msgstr "天氣"
+
+msgid "IDS_ST_BODY_ADDITIONAL_INFORMATION_ABB"
+msgstr "其他資訊"
+
+msgid "IDS_ST_BODY_APPLY"
+msgstr "套用"
+
+msgid "IDS_ST_BODY_CAMERA_SHORTCUT"
+msgstr "相機捷徑"
+
+msgid "IDS_ST_BODY_CLOCK"
+msgstr "時鐘"
+
+msgid "IDS_ST_BODY_DISPLAY_A_WEATHER_EFFECT_ON_THE_LOCK_SCREEN"
+msgstr "在鎖定螢幕上顯示天氣效果。"
+
+msgid "IDS_ST_BODY_DRAG_AND_DROP_TO_CHANGE_ORDER"
+msgstr "拖放以更改順序。"
+
+msgid "IDS_ST_BODY_DUAL_CLOCK"
+msgstr "雙時鐘"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "項目"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "預覽"
+
+msgid "IDS_ST_BODY_SELECT_APPLICATION"
+msgstr "選擇應用程式"
+
+msgid "IDS_ST_BODY_SET_AS_LOCK_SCREEN"
+msgstr "設定為鎖定螢幕"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS"
+msgstr "設定捷徑"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS_ON_LOCK_SCREEN"
+msgstr "在鎖定螢幕上設定捷徑。"
+
+msgid "IDS_ST_BODY_SHORTCUTS"
+msgstr "捷徑"
+
+msgid "IDS_ST_BODY_SHOW_DUAL_CLOCK_ON_LOCK_SCREEN_WHEN_ROAMING"
+msgstr "當漫遊時在鎖定螢幕上顯示雙時鐘。"
+
+msgid "IDS_ST_BODY_SHOW_HELP_TEXT_ON_LOCK_SCREEN"
+msgstr "於鎖定螢幕顯示說明文字。"
+
+msgid "IDS_ST_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_AND_YOUR_STEP_COUNT_ON_THE_LOCK_SCREEN"
+msgstr "在鎖定螢幕上顯示天氣及您的步數相關資訊。"
+
+msgid "IDS_ST_BODY_STYLE"
+msgstr "風格"
+
+msgid "IDS_ST_BODY_TAP_AND_HOLD_THE_SCREEN_WHILE_ROTATING_THE_DEVICE_TO_OPEN_CAMERA"
+msgstr "輕觸並按住螢幕同時旋轉裝置以開啟相機。"
+
+msgid "IDS_ST_BODY_TAP_SHORTCUT_TO_ASSIGN_APPLICATION"
+msgstr "輕觸捷徑以指定應用程式。"
+
+msgid "IDS_ST_BUTTON2_PEDOMETER"
+msgstr "計步器"
+
+msgid "IDS_ST_HEADER_UNLOCK_EFFECT"
+msgstr "解鎖效果"
+
+msgid "IDS_ST_HEADER_WEATHER_EFFECT_ABB"
+msgstr "天氣效果"
+
+msgid "IDS_ST_MBODY_CAMERA_QUICK_ACCESS"
+msgstr "相機快速捷徑"
+
+msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
+msgstr "編輯捷徑"
+
+msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
+msgstr "已停用"
+
+msgid "IDS_ST_SBODY_ENABLED_M_STATUS"
+msgstr "已啟用"
+
+msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
+msgstr "編輯標題"
+
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "設定本地城市"
+

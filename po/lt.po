@@ -1,0 +1,267 @@
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Užrakinimo ekrano fonas pakeistas."
+
+msgid "IDS_ST_MBODY_SWIPE"
+msgstr "Braukimas"
+
+msgid "IDS_ST_HEADER_LOCK_SCREEN_SETTINGS"
+msgstr "Užrakinti ekrano nustatymus"
+
+msgid "IDS_ST_BODY_SIMPLE_PASSWORD"
+msgstr "Paprastas slaptažodis"
+
+msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
+msgstr "Ekrano užrakto tipas"
+
+msgid "IDS_ST_BODY_PASSWORD"
+msgstr "Slaptažodis"
+
+msgid "IDS_ST_BODY_NONE"
+msgstr "Nėra"
+
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Judėjimas"
+
+msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
+msgstr "Pasirinkti ekrano foną"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Redaguoti"
+
+msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
+msgstr "Dvigubas laikrodis"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Pirštų atspaudas"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Atšaukti"
+
+msgid "IDS_ST_BODY_AUTO_LOCK"
+msgstr "Automatinis užraktas"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Ekrano fonai"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galerija"
+
+msgid "IDS_LCKSCN_HEADER_SPECIAL_DAY_WALLPAPERS_ABB"
+msgstr "Ypatingų dienų ekr. fonai"
+
+msgid "IDS_LCKSCN_MBODY_FESTIVAL_WALLPAPERS"
+msgstr "Šventiniai ekrano fonai"
+
+msgid "IDS_HELP_BODY_UNLOCK_DEVICE_WITH_YOUR_WAKE_UP_COMMAND_WHEN_SWIPE_OR_MOTION_SCREEN_LOCK_TYPE_IS_ENABLED"
+msgstr "Atrakinkite įrenginį naudodami pažadinimo komandą, kai įjungtas ekrano atrakinimas braukiant ar judesiu."
+
+msgid "IDS_HS_HEADER_THEMES"
+msgstr "Temos"
+
+msgid "IDS_IDLE_BODY_VIEW_EVENT_NOTIFICATIONS_ON_THE_LOCK_SCREEN"
+msgstr "Peržiūrėti pranešimus apie įvykius užrakintame ekrane"
+
+msgid "IDS_IDLE_MBODY_EVENT_NOTIFICATIONS"
+msgstr "Pranešimai apie įvykius"
+
+msgid "IDS_IM_BODY_HELP_TEXT"
+msgstr "Pagalbos tekstas"
+
+msgid "IDS_LCKSCN_BODY_BOOK_COVER_M_LOCKSCREEN_NAME"
+msgstr "Knygos viršelis"
+
+msgid "IDS_LCKSCN_BODY_BRIEFING_BOX_ABB"
+msgstr "Trumpos informacijos laukelis"
+
+msgid "IDS_LCKSCN_BODY_CLEAR_M_LOCKSCREEN_NAME"
+msgstr "Išvalyti"
+
+msgid "IDS_LCKSCN_BODY_CLOSE_UP_M_LOCKSCREEN_NAME"
+msgstr "Iš arti"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_THE_STYLE_OF_YOUR_LOCK_SCREEN"
+msgstr "Pritaikykite užrakinimo ekrano stilių."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_ITEMS_WILL_BE_SHOWN_IN_YOUR_BRIEFING_BOX_ON_THE_LOCK_SCREEN"
+msgstr "Pasirinkite elementus, kurie bus rodomi užrakinimo ekrano trumpos informacijos laukelyje."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_SHORTCUTS_WILL_BE_SHOWN_ON_THE_LOCK_SCREEN"
+msgstr "Galite pritaikyti sparčiuosius mygtukus, kurie pasirodys užrakinimo ekrane."
+
+msgid "IDS_LCKSCN_BODY_DIARY"
+msgstr "Dienoraštis"
+
+msgid "IDS_LCKSCN_BODY_DISPLAY_YOUR_PERSONAL_MESSAGE_ON_THE_LOCK_SCREEN"
+msgstr "Rodyti asmeninę žinutę užrakinimo ekrane."
+
+msgid "IDS_LCKSCN_BODY_EDIT_PERSONAL_MESSAGE"
+msgstr "Redaguoti asmeninę žinutę"
+
+msgid "IDS_LCKSCN_BODY_FUN_M_LOCKSCREEN_NAME"
+msgstr "Linksmas"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_THEMES_ABB"
+msgstr "Užrakinimo ekrano temos"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_WALLPAPER"
+msgstr "Ekrano užrakinimo fonas"
+
+msgid "IDS_LCKSCN_BODY_MAGAZINE_M_LOCKSCREEN_NAME"
+msgstr "Žurnalas"
+
+msgid "IDS_LCKSCN_BODY_MUSIC_CONTROLLER_ABB"
+msgstr "Muzikos valdiklis"
+
+msgid "IDS_LCKSCN_BODY_NEWS_ABB"
+msgstr "Naujienos"
+
+msgid "IDS_LCKSCN_BODY_PERSONAL_MESSAGE_ABB"
+msgstr "Asmeninė žinutė"
+
+msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
+msgstr "Polaroid"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Tvarkaraštis"
+
+msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
+msgstr "Nustatyti įrenginį rodyti klaviatūrą perbraukus užrakinimo ekraną."
+
+msgid "IDS_LCKSCN_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_HBASED_ON_THE_WEATHER_APPLICATION_MSG"
+msgstr "Rodyti orų informaciją (pagal orų programą) ir nueitus žingsnius, kai įjungtas „S Health“ žingsniamatis."
+
+msgid "IDS_LCKSCN_BODY_THEMED_WALLPAPER_WILL_BE_APPLIED_ON_THE_LOCK_SCREEN_FOR_RUSSIAN_PUBLIC_HOLIDAYS"
+msgstr "Teminis ekrano fonas bus pritaikytas užrakinimo ekrane Rusijos valstybinių švenčių dienomis."
+
+msgid "IDS_LCKSCN_BODY_WAKE_UP_IN_LOCK_SCREEN_ABB"
+msgstr "Pažadinti užrakinimo ekrane"
+
+msgid "IDS_LCKSCN_BODY_YOU_CAN_INPUT_TEXT_ON_THE_LOCK_SCREEN_AND_EDIT_IT_BY_SELECTING_EDIT_PERSONAL_MESSAGE"
+msgstr "Užrakinimo ekrane galite įvesti tekstą ir jį redaguoti pasirinkę asmeninės žinutės redagavimo funkciją."
+
+msgid "IDS_LCKSCN_HEADER_BRIEFING_BOX"
+msgstr "Trumpos informacijos laukelis"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN"
+msgstr "Užrakinimo ekranas"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
+msgstr "Užrakinimo ekrano temos"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Asmeninė žinutė"
+
+msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
+msgstr "Nustatyti trumpinius"
+
+msgid "IDS_LCKSCN_MBODY_SET_WAKE_UP_COMMAND"
+msgstr "Nustatyti pažad. komandą"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_THEN_ENTER_PASSWORD"
+msgstr "Braukti ir įvesti slap."
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_TO_ENTER_PASSWORD"
+msgstr "Braukti ir įvesti slaptž."
+
+msgid "IDS_LCKSCN_OPT_CONFETTI_M_EFFECT"
+msgstr "Konfeti"
+
+msgid "IDS_LCKSCN_OPT_GEOMETRIC_M_EFFECT"
+msgstr "Geometrinis"
+
+msgid "IDS_LCKSCN_OPT_GLOW_WORMS_M_EFFECT"
+msgstr "Šviečiantys kirminai"
+
+msgid "IDS_LCKSCN_OPT_STARDUST_M_EFFECT"
+msgstr "Žvaigždžių dulkės"
+
+msgid "IDS_SKM_BODY_WEATHER_M_IDEA_SKETCH"
+msgstr "Orai"
+
+msgid "IDS_ST_BODY_ADDITIONAL_INFORMATION_ABB"
+msgstr "Papildoma informacija"
+
+msgid "IDS_ST_BODY_APPLY"
+msgstr "Taikyti"
+
+msgid "IDS_ST_BODY_CAMERA_SHORTCUT"
+msgstr "Fotokameros spartusis klavišas"
+
+msgid "IDS_ST_BODY_CLOCK"
+msgstr "Laikrodis"
+
+msgid "IDS_ST_BODY_DISPLAY_A_WEATHER_EFFECT_ON_THE_LOCK_SCREEN"
+msgstr "Rodyti orų poveikį užrakinimo ekrane."
+
+msgid "IDS_ST_BODY_DRAG_AND_DROP_TO_CHANGE_ORDER"
+msgstr "Vilkdami pakeiskite išdėstymą."
+
+msgid "IDS_ST_BODY_DUAL_CLOCK"
+msgstr "Dvigubas laikrodis"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Elementai"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Peržiūra"
+
+msgid "IDS_ST_BODY_SELECT_APPLICATION"
+msgstr "Pasirinkti programą"
+
+msgid "IDS_ST_BODY_SET_AS_LOCK_SCREEN"
+msgstr "Nustatyti užrakinimo ekraną"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS"
+msgstr "Nustatyti trumpinius"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS_ON_LOCK_SCREEN"
+msgstr "Nustatyti sparčiuosius mygtukus užrakinimo ekrane."
+
+msgid "IDS_ST_BODY_SHORTCUTS"
+msgstr "Sparčiosios prieigos mygtukai"
+
+msgid "IDS_ST_BODY_SHOW_DUAL_CLOCK_ON_LOCK_SCREEN_WHEN_ROAMING"
+msgstr "Rodyti dvigubą laikrodį užrakinimo ekrane, kai naudojamasi tarptinkliniu ryšiu."
+
+msgid "IDS_ST_BODY_SHOW_HELP_TEXT_ON_LOCK_SCREEN"
+msgstr "Rodyti pagalbos tekstą užrakintame ekrane."
+
+msgid "IDS_ST_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_AND_YOUR_STEP_COUNT_ON_THE_LOCK_SCREEN"
+msgstr "Užrakinimo ekrane rodo orų informaciją ir žingsnių skaičių."
+
+msgid "IDS_ST_BODY_STYLE"
+msgstr "Stilius"
+
+msgid "IDS_ST_BODY_TAP_AND_HOLD_THE_SCREEN_WHILE_ROTATING_THE_DEVICE_TO_OPEN_CAMERA"
+msgstr "Jei norite atidaryti fotoaparatą, bakstelėkite ir laikykite ekraną sukdami įrenginį."
+
+msgid "IDS_ST_BODY_TAP_SHORTCUT_TO_ASSIGN_APPLICATION"
+msgstr "Bakstelėkite spartųjį mygtuką, kad priskirtumėte programą."
+
+msgid "IDS_ST_BUTTON2_PEDOMETER"
+msgstr "Žingsniamatis"
+
+msgid "IDS_ST_HEADER_UNLOCK_EFFECT"
+msgstr "Atrakinimo efektas"
+
+msgid "IDS_ST_HEADER_WEATHER_EFFECT_ABB"
+msgstr "Orų poveikis"
+
+msgid "IDS_ST_MBODY_CAMERA_QUICK_ACCESS"
+msgstr "Gr. prieiga prie fotoap."
+
+msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
+msgstr "Redaguoti nuorodas"
+
+msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
+msgstr "Išjungta"
+
+msgid "IDS_ST_SBODY_ENABLED_M_STATUS"
+msgstr "Įjungta"
+
+msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
+msgstr "Redaguoti antraštę"
+
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Nustatyti gimtąjį miestą"
+

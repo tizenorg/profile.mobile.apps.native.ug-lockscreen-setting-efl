@@ -1,0 +1,267 @@
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Bloqueio de fundo do ecrã alterado."
+
+msgid "IDS_ST_MBODY_SWIPE"
+msgstr "Passar o dedo"
+
+msgid "IDS_ST_HEADER_LOCK_SCREEN_SETTINGS"
+msgstr "Definições de bloqueio do ecrã"
+
+msgid "IDS_ST_BODY_SIMPLE_PASSWORD"
+msgstr "Palavra-passe simples"
+
+msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
+msgstr "Tipo de bloqueio do ecrã"
+
+msgid "IDS_ST_BODY_PASSWORD"
+msgstr "Palavra-passe"
+
+msgid "IDS_ST_BODY_NONE"
+msgstr "Desligado"
+
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Movimento"
+
+msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
+msgstr "Seleccionar fundo"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Editar"
+
+msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
+msgstr "Relógio duplo"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Impressão digital"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Cancelar"
+
+msgid "IDS_ST_BODY_AUTO_LOCK"
+msgstr "Bloqueio automático"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Fundos"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galeria"
+
+msgid "IDS_LCKSCN_HEADER_SPECIAL_DAY_WALLPAPERS_ABB"
+msgstr "Fundos de dias especiais"
+
+msgid "IDS_LCKSCN_MBODY_FESTIVAL_WALLPAPERS"
+msgstr "Fundos de festivais"
+
+msgid "IDS_HELP_BODY_UNLOCK_DEVICE_WITH_YOUR_WAKE_UP_COMMAND_WHEN_SWIPE_OR_MOTION_SCREEN_LOCK_TYPE_IS_ENABLED"
+msgstr "Desbloquear dispositivo com o seu comando de despertar quando o tipo de bloqueio do ecrã por movimento ou passar o dedo está activo."
+
+msgid "IDS_HS_HEADER_THEMES"
+msgstr "Temas"
+
+msgid "IDS_IDLE_BODY_VIEW_EVENT_NOTIFICATIONS_ON_THE_LOCK_SCREEN"
+msgstr "Ver notificações de eventos no ecrã bloqueado"
+
+msgid "IDS_IDLE_MBODY_EVENT_NOTIFICATIONS"
+msgstr "Notificações de eventos"
+
+msgid "IDS_IM_BODY_HELP_TEXT"
+msgstr "Texto de ajuda"
+
+msgid "IDS_LCKSCN_BODY_BOOK_COVER_M_LOCKSCREEN_NAME"
+msgstr "Capa do livro"
+
+msgid "IDS_LCKSCN_BODY_BRIEFING_BOX_ABB"
+msgstr "Caixa de referências"
+
+msgid "IDS_LCKSCN_BODY_CLEAR_M_LOCKSCREEN_NAME"
+msgstr "Limpar"
+
+msgid "IDS_LCKSCN_BODY_CLOSE_UP_M_LOCKSCREEN_NAME"
+msgstr "Grande plano"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_THE_STYLE_OF_YOUR_LOCK_SCREEN"
+msgstr "Personalize o estilo do seu ecrã de bloqueio."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_ITEMS_WILL_BE_SHOWN_IN_YOUR_BRIEFING_BOX_ON_THE_LOCK_SCREEN"
+msgstr "Personalizar os itens que vão ser mostrados na caixa de referências do ecrã de bloqueio."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_SHORTCUTS_WILL_BE_SHOWN_ON_THE_LOCK_SCREEN"
+msgstr "Personalize os atalhos que vão ser mostrados no ecrã de bloqueio."
+
+msgid "IDS_LCKSCN_BODY_DIARY"
+msgstr "Diário"
+
+msgid "IDS_LCKSCN_BODY_DISPLAY_YOUR_PERSONAL_MESSAGE_ON_THE_LOCK_SCREEN"
+msgstr "Apresente a sua mensagem pessoal no ecrã de bloqueio."
+
+msgid "IDS_LCKSCN_BODY_EDIT_PERSONAL_MESSAGE"
+msgstr "Editar mensagem pessoal"
+
+msgid "IDS_LCKSCN_BODY_FUN_M_LOCKSCREEN_NAME"
+msgstr "Diversão"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_THEMES_ABB"
+msgstr "Temas de ecrã de bloqueio"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_WALLPAPER"
+msgstr "Bloquear fundo do ecrã"
+
+msgid "IDS_LCKSCN_BODY_MAGAZINE_M_LOCKSCREEN_NAME"
+msgstr "Revista"
+
+msgid "IDS_LCKSCN_BODY_MUSIC_CONTROLLER_ABB"
+msgstr "Controlador de música"
+
+msgid "IDS_LCKSCN_BODY_NEWS_ABB"
+msgstr "Novidade"
+
+msgid "IDS_LCKSCN_BODY_PERSONAL_MESSAGE_ABB"
+msgstr "Mensagem pessoal"
+
+msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
+msgstr "Polaróide"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Agenda"
+
+msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
+msgstr "Defina o dispositivo para mostrar o teclado depois de passar com o dedo no ecrã bloqueado."
+
+msgid "IDS_LCKSCN_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_HBASED_ON_THE_WEATHER_APPLICATION_MSG"
+msgstr "Mostrar informações sobre a meteorologia (com base na aplicação de Meteorologia) e sobre os passos que foram dados com o Podómetro do S Health activo."
+
+msgid "IDS_LCKSCN_BODY_THEMED_WALLPAPER_WILL_BE_APPLIED_ON_THE_LOCK_SCREEN_FOR_RUSSIAN_PUBLIC_HOLIDAYS"
+msgstr "O fundo com tema será aplicado ao ecrã de bloqueio nos feriados russos."
+
+msgid "IDS_LCKSCN_BODY_WAKE_UP_IN_LOCK_SCREEN_ABB"
+msgstr "Activar com o ecrã bloqueado"
+
+msgid "IDS_LCKSCN_BODY_YOU_CAN_INPUT_TEXT_ON_THE_LOCK_SCREEN_AND_EDIT_IT_BY_SELECTING_EDIT_PERSONAL_MESSAGE"
+msgstr "Pode introduzir texto no ecrã de bloqueio e editá-lo seleccionando Editar mensagem pessoal."
+
+msgid "IDS_LCKSCN_HEADER_BRIEFING_BOX"
+msgstr "Caixa de referências"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN"
+msgstr "Ecrã bloqueado"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
+msgstr "Temas de ecrã de bloqueio"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Mensagem pessoal"
+
+msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
+msgstr "Definir atalhos"
+
+msgid "IDS_LCKSCN_MBODY_SET_WAKE_UP_COMMAND"
+msgstr "Comando de despertar"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_THEN_ENTER_PASSWORD"
+msgstr "Deslizar e intr pal-passe"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_TO_ENTER_PASSWORD"
+msgstr "Passe dedo p/ pal-passe"
+
+msgid "IDS_LCKSCN_OPT_CONFETTI_M_EFFECT"
+msgstr "Confetes"
+
+msgid "IDS_LCKSCN_OPT_GEOMETRIC_M_EFFECT"
+msgstr "Geométrico"
+
+msgid "IDS_LCKSCN_OPT_GLOW_WORMS_M_EFFECT"
+msgstr "Pirilampos"
+
+msgid "IDS_LCKSCN_OPT_STARDUST_M_EFFECT"
+msgstr "Poeira estelar"
+
+msgid "IDS_SKM_BODY_WEATHER_M_IDEA_SKETCH"
+msgstr "Meteorologia"
+
+msgid "IDS_ST_BODY_ADDITIONAL_INFORMATION_ABB"
+msgstr "Informações adicionais"
+
+msgid "IDS_ST_BODY_APPLY"
+msgstr "Aplicar"
+
+msgid "IDS_ST_BODY_CAMERA_SHORTCUT"
+msgstr "Atalho da câmara"
+
+msgid "IDS_ST_BODY_CLOCK"
+msgstr "Relógio"
+
+msgid "IDS_ST_BODY_DISPLAY_A_WEATHER_EFFECT_ON_THE_LOCK_SCREEN"
+msgstr "Apresentar um efeito de meteorologia no ecrã bloqueado."
+
+msgid "IDS_ST_BODY_DRAG_AND_DROP_TO_CHANGE_ORDER"
+msgstr "Arrastar e largar para alterar a ordem."
+
+msgid "IDS_ST_BODY_DUAL_CLOCK"
+msgstr "Rel. duplo"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Itens"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Pré-visualizar"
+
+msgid "IDS_ST_BODY_SELECT_APPLICATION"
+msgstr "Seleccionar aplicação"
+
+msgid "IDS_ST_BODY_SET_AS_LOCK_SCREEN"
+msgstr "Definir como bloquear ecrã"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS"
+msgstr "Definir atalhos"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS_ON_LOCK_SCREEN"
+msgstr "Definir atalhos no ecrã bloqueado."
+
+msgid "IDS_ST_BODY_SHORTCUTS"
+msgstr "Atalhos"
+
+msgid "IDS_ST_BODY_SHOW_DUAL_CLOCK_ON_LOCK_SCREEN_WHEN_ROAMING"
+msgstr "Mostrar relógio duplo no ecrã bloqueado em roaming."
+
+msgid "IDS_ST_BODY_SHOW_HELP_TEXT_ON_LOCK_SCREEN"
+msgstr "Mostrar texto de ajuda no ecrã bloqueado."
+
+msgid "IDS_ST_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_AND_YOUR_STEP_COUNT_ON_THE_LOCK_SCREEN"
+msgstr "Mostrar informações sobre o tempo e o número de passos no ecrã bloqueado."
+
+msgid "IDS_ST_BODY_STYLE"
+msgstr "Estilo"
+
+msgid "IDS_ST_BODY_TAP_AND_HOLD_THE_SCREEN_WHILE_ROTATING_THE_DEVICE_TO_OPEN_CAMERA"
+msgstr "Toque sem soltar no ecrã ao rodar o dispositivo para abrir a Câmara."
+
+msgid "IDS_ST_BODY_TAP_SHORTCUT_TO_ASSIGN_APPLICATION"
+msgstr "Tocar no atalho para atribuir aplicação."
+
+msgid "IDS_ST_BUTTON2_PEDOMETER"
+msgstr "Podómetro"
+
+msgid "IDS_ST_HEADER_UNLOCK_EFFECT"
+msgstr "Efeito de desbloqueio"
+
+msgid "IDS_ST_HEADER_WEATHER_EFFECT_ABB"
+msgstr "Efeito de meteorologia"
+
+msgid "IDS_ST_MBODY_CAMERA_QUICK_ACCESS"
+msgstr "Acesso rápido à câmara"
+
+msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
+msgstr "Editar atalhos"
+
+msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
+msgstr "Desactivado"
+
+msgid "IDS_ST_SBODY_ENABLED_M_STATUS"
+msgstr "Activada"
+
+msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
+msgstr "Editar título"
+
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Definir cidade de origem"
+

@@ -1,0 +1,267 @@
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Құлыптау экранының түсқағазы өзгертілді."
+
+msgid "IDS_ST_MBODY_SWIPE"
+msgstr "Сипау"
+
+msgid "IDS_ST_HEADER_LOCK_SCREEN_SETTINGS"
+msgstr "Құлыптау экранының параметрлері"
+
+msgid "IDS_ST_BODY_SIMPLE_PASSWORD"
+msgstr "Қарапайым құпиясөз"
+
+msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
+msgstr "Экран құлыптау түрі"
+
+msgid "IDS_ST_BODY_PASSWORD"
+msgstr "Кілтсөз"
+
+msgid "IDS_ST_BODY_NONE"
+msgstr "Жоқ"
+
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Қозғалыс"
+
+msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
+msgstr "Түсқағаз таңдау"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Өзгерту"
+
+msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
+msgstr "Қос сағат"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Саусақ ізі"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Тоқтату"
+
+msgid "IDS_ST_BODY_AUTO_LOCK"
+msgstr "Автокұлып"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Түсқағаздар"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Галерея"
+
+msgid "IDS_LCKSCN_HEADER_SPECIAL_DAY_WALLPAPERS_ABB"
+msgstr "Арнайы күн түсқағаздары"
+
+msgid "IDS_LCKSCN_MBODY_FESTIVAL_WALLPAPERS"
+msgstr "Фестиваль түсқағаздары"
+
+msgid "IDS_HELP_BODY_UNLOCK_DEVICE_WITH_YOUR_WAKE_UP_COMMAND_WHEN_SWIPE_OR_MOTION_SCREEN_LOCK_TYPE_IS_ENABLED"
+msgstr "Сипау немесе қимыл экранын құлыптау түрі іске қосылғанда ояту пәрмені арқылы құрылғыны құлыптан босатыңыз."
+
+msgid "IDS_HS_HEADER_THEMES"
+msgstr "Тақырыптар"
+
+msgid "IDS_IDLE_BODY_VIEW_EVENT_NOTIFICATIONS_ON_THE_LOCK_SCREEN"
+msgstr "Құлыптау экранында оқиғалар туралы хабарландыруларды қарап шығу"
+
+msgid "IDS_IDLE_MBODY_EVENT_NOTIFICATIONS"
+msgstr "Оқиғалар туралы хабарлау"
+
+msgid "IDS_IM_BODY_HELP_TEXT"
+msgstr "Анықтама мәтіні"
+
+msgid "IDS_LCKSCN_BODY_BOOK_COVER_M_LOCKSCREEN_NAME"
+msgstr "Кітап мұқабасы"
+
+msgid "IDS_LCKSCN_BODY_BRIEFING_BOX_ABB"
+msgstr "Қысқаша мазмұн терезесі"
+
+msgid "IDS_LCKSCN_BODY_CLEAR_M_LOCKSCREEN_NAME"
+msgstr "Тазарту"
+
+msgid "IDS_LCKSCN_BODY_CLOSE_UP_M_LOCKSCREEN_NAME"
+msgstr "Үлкейту"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_THE_STYLE_OF_YOUR_LOCK_SCREEN"
+msgstr "Құлыптау экранының стилін реттеу."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_ITEMS_WILL_BE_SHOWN_IN_YOUR_BRIEFING_BOX_ON_THE_LOCK_SCREEN"
+msgstr "Құлыптау экранындағы қысқаша мазмұн терезесінде көрсетілетін элементтерді реттеңіз."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_SHORTCUTS_WILL_BE_SHOWN_ON_THE_LOCK_SCREEN"
+msgstr "Құлыптау экранында қай таңбашалар көрсетілетінін реттеу."
+
+msgid "IDS_LCKSCN_BODY_DIARY"
+msgstr "Күнделік"
+
+msgid "IDS_LCKSCN_BODY_DISPLAY_YOUR_PERSONAL_MESSAGE_ON_THE_LOCK_SCREEN"
+msgstr "Құлыптау экранында жеке хабарды көрсетіңіз."
+
+msgid "IDS_LCKSCN_BODY_EDIT_PERSONAL_MESSAGE"
+msgstr "Жеке хабарды өзгерту"
+
+msgid "IDS_LCKSCN_BODY_FUN_M_LOCKSCREEN_NAME"
+msgstr "Ойын-сауық"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_THEMES_ABB"
+msgstr "Құлыптау экранының тақырыптары"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_WALLPAPER"
+msgstr "Экран түсқағазын құлыптау"
+
+msgid "IDS_LCKSCN_BODY_MAGAZINE_M_LOCKSCREEN_NAME"
+msgstr "Журнал"
+
+msgid "IDS_LCKSCN_BODY_MUSIC_CONTROLLER_ABB"
+msgstr "Музыка контроллері"
+
+msgid "IDS_LCKSCN_BODY_NEWS_ABB"
+msgstr "Жаңалықтар"
+
+msgid "IDS_LCKSCN_BODY_PERSONAL_MESSAGE_ABB"
+msgstr "Жеке хабар"
+
+msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
+msgstr "Полароид"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Кесте"
+
+msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
+msgstr "Құлыптау экранын сипағаннан кейін құрылғыңызды пернетақта көрсетуге орнатыңыз."
+
+msgid "IDS_LCKSCN_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_HBASED_ON_THE_WEATHER_APPLICATION_MSG"
+msgstr "Ауа райы туралы (Ауа райы бағдарламасы негізінде) және S Health бағдарламасындағы қадам өлшеуіш іске қосылғанда орындалатын қадамдар туралы ақпаратты көрсетіңіз."
+
+msgid "IDS_LCKSCN_BODY_THEMED_WALLPAPER_WILL_BE_APPLIED_ON_THE_LOCK_SCREEN_FOR_RUSSIAN_PUBLIC_HOLIDAYS"
+msgstr "Тақырыпталған түсқағаз Ресейлік қоғамдық мерекелер үшін құлыптау экранына қолданылады."
+
+msgid "IDS_LCKSCN_BODY_WAKE_UP_IN_LOCK_SCREEN_ABB"
+msgstr "Құлыптау экранында қосу"
+
+msgid "IDS_LCKSCN_BODY_YOU_CAN_INPUT_TEXT_ON_THE_LOCK_SCREEN_AND_EDIT_IT_BY_SELECTING_EDIT_PERSONAL_MESSAGE"
+msgstr "Құлып экранына мәтінді енгізіп, оны \"Жеке хабарды өзгерту\" опциясы арқылы өзгертуге болады."
+
+msgid "IDS_LCKSCN_HEADER_BRIEFING_BOX"
+msgstr "Қысқаша мазмұн терезесі"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN"
+msgstr "Экранды құлыптау"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
+msgstr "Құлыптау экранының тақырыптары"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Жеке хабар"
+
+msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
+msgstr "Белгішелер орнату"
+
+msgid "IDS_LCKSCN_MBODY_SET_WAKE_UP_COMMAND"
+msgstr "Ояту командасын белгілеу"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_THEN_ENTER_PASSWORD"
+msgstr "Сипап, құпиясөз енгізіңіз"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_TO_ENTER_PASSWORD"
+msgstr "Құпиясөзді енг.үшін сипау"
+
+msgid "IDS_LCKSCN_OPT_CONFETTI_M_EFFECT"
+msgstr "Конфетти"
+
+msgid "IDS_LCKSCN_OPT_GEOMETRIC_M_EFFECT"
+msgstr "Геометриялық"
+
+msgid "IDS_LCKSCN_OPT_GLOW_WORMS_M_EFFECT"
+msgstr "Жарық қоңыз"
+
+msgid "IDS_LCKSCN_OPT_STARDUST_M_EFFECT"
+msgstr "Жұлдыз шаңы"
+
+msgid "IDS_SKM_BODY_WEATHER_M_IDEA_SKETCH"
+msgstr "Ауа райы"
+
+msgid "IDS_ST_BODY_ADDITIONAL_INFORMATION_ABB"
+msgstr "Қосымша ақпарат"
+
+msgid "IDS_ST_BODY_APPLY"
+msgstr "Қолдану"
+
+msgid "IDS_ST_BODY_CAMERA_SHORTCUT"
+msgstr "Камера белгішесі"
+
+msgid "IDS_ST_BODY_CLOCK"
+msgstr "Сағат"
+
+msgid "IDS_ST_BODY_DISPLAY_A_WEATHER_EFFECT_ON_THE_LOCK_SCREEN"
+msgstr "Құлыптау экранында ауа райы әсерін көрсетіңіз."
+
+msgid "IDS_ST_BODY_DRAG_AND_DROP_TO_CHANGE_ORDER"
+msgstr "Ретін өзгерту үшін сүйреп алып барыңыз."
+
+msgid "IDS_ST_BODY_DUAL_CLOCK"
+msgstr "Қос сағат"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Элементтер"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Алдын-ала көру"
+
+msgid "IDS_ST_BODY_SELECT_APPLICATION"
+msgstr "Бағдарлама таңдау"
+
+msgid "IDS_ST_BODY_SET_AS_LOCK_SCREEN"
+msgstr "Экран құлпы ретінде орнату"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS"
+msgstr "Белгішелер орнату"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS_ON_LOCK_SCREEN"
+msgstr "Құлып экранында белгішелерді белгілеу."
+
+msgid "IDS_ST_BODY_SHORTCUTS"
+msgstr "Тез кіру"
+
+msgid "IDS_ST_BODY_SHOW_DUAL_CLOCK_ON_LOCK_SCREEN_WHEN_ROAMING"
+msgstr "Роумингте қос сағатты құлып экранынан көрсетіңіз."
+
+msgid "IDS_ST_BODY_SHOW_HELP_TEXT_ON_LOCK_SCREEN"
+msgstr "Құлыптаулы экранында көмек мәтінді көрсетіңіз."
+
+msgid "IDS_ST_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_AND_YOUR_STEP_COUNT_ON_THE_LOCK_SCREEN"
+msgstr "Құлыптау экранында ауа райы және қадам саны туралы ақпаратты көрсетіңіз."
+
+msgid "IDS_ST_BODY_STYLE"
+msgstr "Стиль"
+
+msgid "IDS_ST_BODY_TAP_AND_HOLD_THE_SCREEN_WHILE_ROTATING_THE_DEVICE_TO_OPEN_CAMERA"
+msgstr "Камераны ашу үшін құрылғыны бұрғанда экранды басып тұрыңыз."
+
+msgid "IDS_ST_BODY_TAP_SHORTCUT_TO_ASSIGN_APPLICATION"
+msgstr "Бағдарламаны тағайындау үшін белгішені түртіңіз."
+
+msgid "IDS_ST_BUTTON2_PEDOMETER"
+msgstr "Қадам өлшегіш"
+
+msgid "IDS_ST_HEADER_UNLOCK_EFFECT"
+msgstr "Әсер құлпын ашу"
+
+msgid "IDS_ST_HEADER_WEATHER_EFFECT_ABB"
+msgstr "Ауа райы әсері"
+
+msgid "IDS_ST_MBODY_CAMERA_QUICK_ACCESS"
+msgstr "Камераға жылдам өту"
+
+msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
+msgstr "Тез кіру ретін өзгерту"
+
+msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
+msgstr "Өшірілді"
+
+msgid "IDS_ST_SBODY_ENABLED_M_STATUS"
+msgstr "Қосылған"
+
+msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
+msgstr "Тақырыпты өзгерту"
+
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Жергілікті қала белгілеу"
+

@@ -1,0 +1,267 @@
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Pozadí zamknuté obrazovky bylo změněno."
+
+msgid "IDS_ST_MBODY_SWIPE"
+msgstr "Přejetí"
+
+msgid "IDS_ST_HEADER_LOCK_SCREEN_SETTINGS"
+msgstr "Nastavení zamknutí displeje"
+
+msgid "IDS_ST_BODY_SIMPLE_PASSWORD"
+msgstr "Jednoduché heslo"
+
+msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
+msgstr "Typ zámku displeje"
+
+msgid "IDS_ST_BODY_PASSWORD"
+msgstr "Heslo"
+
+msgid "IDS_ST_BODY_NONE"
+msgstr "Žádná"
+
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Pohyb"
+
+msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
+msgstr "Vybrat pozadí"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Upravit"
+
+msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
+msgstr "Duální hodiny"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Otisk prstu"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Storno"
+
+msgid "IDS_ST_BODY_AUTO_LOCK"
+msgstr "Automatické zamknutí"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Pozadí"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galerie"
+
+msgid "IDS_LCKSCN_HEADER_SPECIAL_DAY_WALLPAPERS_ABB"
+msgstr "Pozadí pro zvláštní den"
+
+msgid "IDS_LCKSCN_MBODY_FESTIVAL_WALLPAPERS"
+msgstr "Sváteční pozadí"
+
+msgid "IDS_HELP_BODY_UNLOCK_DEVICE_WITH_YOUR_WAKE_UP_COMMAND_WHEN_SWIPE_OR_MOTION_SCREEN_LOCK_TYPE_IS_ENABLED"
+msgstr "Zařízení odemknete pomocí příkazu probuzení, když je zapnutý typ zamknutí displeje přejetím nebo pohybem."
+
+msgid "IDS_HS_HEADER_THEMES"
+msgstr "Schémata"
+
+msgid "IDS_IDLE_BODY_VIEW_EVENT_NOTIFICATIONS_ON_THE_LOCK_SCREEN"
+msgstr "Zobrazení upozorňování na události na zamknutém displeji"
+
+msgid "IDS_IDLE_MBODY_EVENT_NOTIFICATIONS"
+msgstr "Upozorňování na události"
+
+msgid "IDS_IM_BODY_HELP_TEXT"
+msgstr "Nápověda"
+
+msgid "IDS_LCKSCN_BODY_BOOK_COVER_M_LOCKSCREEN_NAME"
+msgstr "Obal knihy"
+
+msgid "IDS_LCKSCN_BODY_BRIEFING_BOX_ABB"
+msgstr "Rámeček přehledu"
+
+msgid "IDS_LCKSCN_BODY_CLEAR_M_LOCKSCREEN_NAME"
+msgstr "Smazat"
+
+msgid "IDS_LCKSCN_BODY_CLOSE_UP_M_LOCKSCREEN_NAME"
+msgstr "Detail"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_THE_STYLE_OF_YOUR_LOCK_SCREEN"
+msgstr "Přizpůsobte styl zamknutého displeje."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_ITEMS_WILL_BE_SHOWN_IN_YOUR_BRIEFING_BOX_ON_THE_LOCK_SCREEN"
+msgstr "Můžete nastavit, které položky se zobrazí v rámečku přehledu na zamknutém displeji."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_SHORTCUTS_WILL_BE_SHOWN_ON_THE_LOCK_SCREEN"
+msgstr "Můžete nastavit, kteří zástupci se zobrazí na zamknutém displeji."
+
+msgid "IDS_LCKSCN_BODY_DIARY"
+msgstr "Deník"
+
+msgid "IDS_LCKSCN_BODY_DISPLAY_YOUR_PERSONAL_MESSAGE_ON_THE_LOCK_SCREEN"
+msgstr "Zobrazí na zamknutém displeji vaši osobní zprávu."
+
+msgid "IDS_LCKSCN_BODY_EDIT_PERSONAL_MESSAGE"
+msgstr "Upravit osobní zprávu"
+
+msgid "IDS_LCKSCN_BODY_FUN_M_LOCKSCREEN_NAME"
+msgstr "Zábava"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_THEMES_ABB"
+msgstr "Témata zamknutého displeje"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_WALLPAPER"
+msgstr "Pozadí zamknuté obrazovky"
+
+msgid "IDS_LCKSCN_BODY_MAGAZINE_M_LOCKSCREEN_NAME"
+msgstr "Časopis"
+
+msgid "IDS_LCKSCN_BODY_MUSIC_CONTROLLER_ABB"
+msgstr "Ovladač hudby"
+
+msgid "IDS_LCKSCN_BODY_NEWS_ABB"
+msgstr "Zprávy"
+
+msgid "IDS_LCKSCN_BODY_PERSONAL_MESSAGE_ABB"
+msgstr "Osobní zpráva"
+
+msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
+msgstr "Polaroid"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Plán"
+
+msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
+msgstr "Nastavte zařízení tak, aby se po přejetí přes zamknutý displej zobrazila klávesnice."
+
+msgid "IDS_LCKSCN_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_HBASED_ON_THE_WEATHER_APPLICATION_MSG"
+msgstr "Zobrazí informace o počasí (na základě aplikace Počasí) a počet kroků, které jste ušli, když byl zapnutý Krokoměr v aplikaci S Health."
+
+msgid "IDS_LCKSCN_BODY_THEMED_WALLPAPER_WILL_BE_APPLIED_ON_THE_LOCK_SCREEN_FOR_RUSSIAN_PUBLIC_HOLIDAYS"
+msgstr "Na zamknutém displeji bude použito tématické pozadí pro ruské úřední svátky."
+
+msgid "IDS_LCKSCN_BODY_WAKE_UP_IN_LOCK_SCREEN_ABB"
+msgstr "Probuzení při zamkn. displeji"
+
+msgid "IDS_LCKSCN_BODY_YOU_CAN_INPUT_TEXT_ON_THE_LOCK_SCREEN_AND_EDIT_IT_BY_SELECTING_EDIT_PERSONAL_MESSAGE"
+msgstr "Když vyberete možnost upravit osobní zprávu, můžete zadat text na zamknutém displeji a upravit ho."
+
+msgid "IDS_LCKSCN_HEADER_BRIEFING_BOX"
+msgstr "Rámeček přehledu"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN"
+msgstr "Zamknout displej"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
+msgstr "Témata zamknutého displeje"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Osobní zpráva"
+
+msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
+msgstr "Nastavit zástupce"
+
+msgid "IDS_LCKSCN_MBODY_SET_WAKE_UP_COMMAND"
+msgstr "Nastavit příkaz probuzení"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_THEN_ENTER_PASSWORD"
+msgstr "Přejeďte a zadejte heslo"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_TO_ENTER_PASSWORD"
+msgstr "Přejeďte a zadejte heslo"
+
+msgid "IDS_LCKSCN_OPT_CONFETTI_M_EFFECT"
+msgstr "Konfety"
+
+msgid "IDS_LCKSCN_OPT_GEOMETRIC_M_EFFECT"
+msgstr "Geometrický"
+
+msgid "IDS_LCKSCN_OPT_GLOW_WORMS_M_EFFECT"
+msgstr "Světlušky"
+
+msgid "IDS_LCKSCN_OPT_STARDUST_M_EFFECT"
+msgstr "Hvězdný prach"
+
+msgid "IDS_SKM_BODY_WEATHER_M_IDEA_SKETCH"
+msgstr "Počasí"
+
+msgid "IDS_ST_BODY_ADDITIONAL_INFORMATION_ABB"
+msgstr "Další informace"
+
+msgid "IDS_ST_BODY_APPLY"
+msgstr "Použít"
+
+msgid "IDS_ST_BODY_CAMERA_SHORTCUT"
+msgstr "Zástupce fotoaparátu"
+
+msgid "IDS_ST_BODY_CLOCK"
+msgstr "Hodiny"
+
+msgid "IDS_ST_BODY_DISPLAY_A_WEATHER_EFFECT_ON_THE_LOCK_SCREEN"
+msgstr "Zobrazí efekt počasí na zamknutém displeji."
+
+msgid "IDS_ST_BODY_DRAG_AND_DROP_TO_CHANGE_ORDER"
+msgstr "Přetažením změníte pořadí."
+
+msgid "IDS_ST_BODY_DUAL_CLOCK"
+msgstr "Duál. hodiny"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Položky"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Náhled"
+
+msgid "IDS_ST_BODY_SELECT_APPLICATION"
+msgstr "Vyberte aplikaci"
+
+msgid "IDS_ST_BODY_SET_AS_LOCK_SCREEN"
+msgstr "Nastavit jako zámek displeje"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS"
+msgstr "Nastavit zástupce"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS_ON_LOCK_SCREEN"
+msgstr "Nastavit zástupce na zamknutém displeji."
+
+msgid "IDS_ST_BODY_SHORTCUTS"
+msgstr "Zkratky"
+
+msgid "IDS_ST_BODY_SHOW_DUAL_CLOCK_ON_LOCK_SCREEN_WHEN_ROAMING"
+msgstr "Zobrazit duální hodiny na zamknutém displeji během roamingu."
+
+msgid "IDS_ST_BODY_SHOW_HELP_TEXT_ON_LOCK_SCREEN"
+msgstr "Zobrazit text nápovědy na zamknutém displeji."
+
+msgid "IDS_ST_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_AND_YOUR_STEP_COUNT_ON_THE_LOCK_SCREEN"
+msgstr "Zobrazí na zamknutém displeji informace o počasí a počtu kroků."
+
+msgid "IDS_ST_BODY_STYLE"
+msgstr "Styl"
+
+msgid "IDS_ST_BODY_TAP_AND_HOLD_THE_SCREEN_WHILE_ROTATING_THE_DEVICE_TO_OPEN_CAMERA"
+msgstr "Klepnutím na displej a podržením při otáčení zařízení otevřete Fotoaparát."
+
+msgid "IDS_ST_BODY_TAP_SHORTCUT_TO_ASSIGN_APPLICATION"
+msgstr "Chcete-li přiřadit aplikaci, klepněte na zástupce."
+
+msgid "IDS_ST_BUTTON2_PEDOMETER"
+msgstr "Krokoměr"
+
+msgid "IDS_ST_HEADER_UNLOCK_EFFECT"
+msgstr "Efekt odemknutí"
+
+msgid "IDS_ST_HEADER_WEATHER_EFFECT_ABB"
+msgstr "Efekt počasí"
+
+msgid "IDS_ST_MBODY_CAMERA_QUICK_ACCESS"
+msgstr "Rychlý přístup k fotoap."
+
+msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
+msgstr "Upravit zástupce"
+
+msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
+msgstr "Vypnuto"
+
+msgid "IDS_ST_SBODY_ENABLED_M_STATUS"
+msgstr "Zapnuto"
+
+msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
+msgstr "Upravit název"
+
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Nastavit domovské město"
+

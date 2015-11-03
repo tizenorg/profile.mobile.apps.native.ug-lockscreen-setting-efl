@@ -1,0 +1,267 @@
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Achtergrond vergrendelscherm gewijzigd."
+
+msgid "IDS_ST_MBODY_SWIPE"
+msgstr "Vegen"
+
+msgid "IDS_ST_HEADER_LOCK_SCREEN_SETTINGS"
+msgstr "Instellingen schermvergrendeling"
+
+msgid "IDS_ST_BODY_SIMPLE_PASSWORD"
+msgstr "Eenvoudig wachtwoord"
+
+msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
+msgstr "Type schermvergrendeling"
+
+msgid "IDS_ST_BODY_PASSWORD"
+msgstr "Wachtwoord"
+
+msgid "IDS_ST_BODY_NONE"
+msgstr "Geen"
+
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Beweging"
+
+msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
+msgstr "Achtergrond selecteren"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Bewerken"
+
+msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
+msgstr "Dubbele klok"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Vingerafdruk"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Annuleer"
+
+msgid "IDS_ST_BODY_AUTO_LOCK"
+msgstr "Automatisch vergrendelen"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Achtergr."
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galerij"
+
+msgid "IDS_LCKSCN_HEADER_SPECIAL_DAY_WALLPAPERS_ABB"
+msgstr "Achtergronden feestdagen"
+
+msgid "IDS_LCKSCN_MBODY_FESTIVAL_WALLPAPERS"
+msgstr "Feestelijke achtergronden"
+
+msgid "IDS_HELP_BODY_UNLOCK_DEVICE_WITH_YOUR_WAKE_UP_COMMAND_WHEN_SWIPE_OR_MOTION_SCREEN_LOCK_TYPE_IS_ENABLED"
+msgstr "Ontgrendel apparaat met Wake-up opdracht wanneer type schermvergrendeling is ingesteld op vegen of beweging."
+
+msgid "IDS_HS_HEADER_THEMES"
+msgstr "Thema's"
+
+msgid "IDS_IDLE_BODY_VIEW_EVENT_NOTIFICATIONS_ON_THE_LOCK_SCREEN"
+msgstr "Meldingen van agenda-items weergeven op het vergrendelscherm"
+
+msgid "IDS_IDLE_MBODY_EVENT_NOTIFICATIONS"
+msgstr "Meldingen agenda-items"
+
+msgid "IDS_IM_BODY_HELP_TEXT"
+msgstr "Help-tekst"
+
+msgid "IDS_LCKSCN_BODY_BOOK_COVER_M_LOCKSCREEN_NAME"
+msgstr "Boekkaft"
+
+msgid "IDS_LCKSCN_BODY_BRIEFING_BOX_ABB"
+msgstr "Briefingvak"
+
+msgid "IDS_LCKSCN_BODY_CLEAR_M_LOCKSCREEN_NAME"
+msgstr "Helder"
+
+msgid "IDS_LCKSCN_BODY_CLOSE_UP_M_LOCKSCREEN_NAME"
+msgstr "Close-up"
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_THE_STYLE_OF_YOUR_LOCK_SCREEN"
+msgstr "De stijl van uw vergrendelscherm aanpassen."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_ITEMS_WILL_BE_SHOWN_IN_YOUR_BRIEFING_BOX_ON_THE_LOCK_SCREEN"
+msgstr "Aanpassen welke items worden weergegeven in uw briefingvak op het vergrendelscherm."
+
+msgid "IDS_LCKSCN_BODY_CUSTOMISE_WHICH_SHORTCUTS_WILL_BE_SHOWN_ON_THE_LOCK_SCREEN"
+msgstr "Aanpassen welke sneltoetsen worden weergegeven op het vergrendelscherm."
+
+msgid "IDS_LCKSCN_BODY_DIARY"
+msgstr "Dagboek"
+
+msgid "IDS_LCKSCN_BODY_DISPLAY_YOUR_PERSONAL_MESSAGE_ON_THE_LOCK_SCREEN"
+msgstr "Uw persoonlijke bericht weergeven op het vergrendelscherm."
+
+msgid "IDS_LCKSCN_BODY_EDIT_PERSONAL_MESSAGE"
+msgstr "Persoonlijk bericht bewerken"
+
+msgid "IDS_LCKSCN_BODY_FUN_M_LOCKSCREEN_NAME"
+msgstr "Plezier"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_THEMES_ABB"
+msgstr "Thema´s voor vergrendelscherm"
+
+msgid "IDS_LCKSCN_BODY_LOCK_SCREEN_WALLPAPER"
+msgstr "Achtergrond vergrendelscherm"
+
+msgid "IDS_LCKSCN_BODY_MAGAZINE_M_LOCKSCREEN_NAME"
+msgstr "Tijdschrift"
+
+msgid "IDS_LCKSCN_BODY_MUSIC_CONTROLLER_ABB"
+msgstr "Muziekcontroller"
+
+msgid "IDS_LCKSCN_BODY_NEWS_ABB"
+msgstr "Nieuws"
+
+msgid "IDS_LCKSCN_BODY_PERSONAL_MESSAGE_ABB"
+msgstr "Persoonlijk bericht"
+
+msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
+msgstr "Polaroid"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Afspraak"
+
+msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
+msgstr "Stel het apparaat in om het toetsenbord weer te geven nadat u over het vergrendelscherm hebt geveegd."
+
+msgid "IDS_LCKSCN_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_HBASED_ON_THE_WEATHER_APPLICATION_MSG"
+msgstr "Geef het weerbericht weer (op basis van de weerapplicatie) en de stappen die u neemt terwijl Stappenteller in S Health is ingeschakeld."
+
+msgid "IDS_LCKSCN_BODY_THEMED_WALLPAPER_WILL_BE_APPLIED_ON_THE_LOCK_SCREEN_FOR_RUSSIAN_PUBLIC_HOLIDAYS"
+msgstr "Achtergrond met thema wordt toegepast op het vergrendelscherm voor Russische feestdagen."
+
+msgid "IDS_LCKSCN_BODY_WAKE_UP_IN_LOCK_SCREEN_ABB"
+msgstr "Wake-up in vergrendelscherm"
+
+msgid "IDS_LCKSCN_BODY_YOU_CAN_INPUT_TEXT_ON_THE_LOCK_SCREEN_AND_EDIT_IT_BY_SELECTING_EDIT_PERSONAL_MESSAGE"
+msgstr "U kunt tekst invoeren op het vergrendelscherm en deze bewerken met Persoonlijk bericht bewerken."
+
+msgid "IDS_LCKSCN_HEADER_BRIEFING_BOX"
+msgstr "Briefingvak"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN"
+msgstr "Vergrendelscherm"
+
+msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
+msgstr "Thema´s voor vergrendelscherm"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Persoonlijk bericht"
+
+msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
+msgstr "Snelkoppelingen instellen"
+
+msgid "IDS_LCKSCN_MBODY_SET_WAKE_UP_COMMAND"
+msgstr "Wake-up opdracht instellen"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_THEN_ENTER_PASSWORD"
+msgstr "Vegen en wachtw. invoeren"
+
+msgid "IDS_LCKSCN_MBODY_SWIPE_TO_ENTER_PASSWORD"
+msgstr "Vegen voor invoer wachtw."
+
+msgid "IDS_LCKSCN_OPT_CONFETTI_M_EFFECT"
+msgstr "Confetti"
+
+msgid "IDS_LCKSCN_OPT_GEOMETRIC_M_EFFECT"
+msgstr "Geometrisch"
+
+msgid "IDS_LCKSCN_OPT_GLOW_WORMS_M_EFFECT"
+msgstr "Gloeiwormen"
+
+msgid "IDS_LCKSCN_OPT_STARDUST_M_EFFECT"
+msgstr "Sterrenstof"
+
+msgid "IDS_SKM_BODY_WEATHER_M_IDEA_SKETCH"
+msgstr "Weer"
+
+msgid "IDS_ST_BODY_ADDITIONAL_INFORMATION_ABB"
+msgstr "Aanvullende informatie"
+
+msgid "IDS_ST_BODY_APPLY"
+msgstr "Toepassen"
+
+msgid "IDS_ST_BODY_CAMERA_SHORTCUT"
+msgstr "Sneltoets camera"
+
+msgid "IDS_ST_BODY_CLOCK"
+msgstr "Klok"
+
+msgid "IDS_ST_BODY_DISPLAY_A_WEATHER_EFFECT_ON_THE_LOCK_SCREEN"
+msgstr "Geef weerbericht weer op het vergrendelscherm."
+
+msgid "IDS_ST_BODY_DRAG_AND_DROP_TO_CHANGE_ORDER"
+msgstr "Sleep en zet neer om volgorde te wijzigen."
+
+msgid "IDS_ST_BODY_DUAL_CLOCK"
+msgstr "Twee klokken"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Items"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Voorbeeld"
+
+msgid "IDS_ST_BODY_SELECT_APPLICATION"
+msgstr "Applicatie selecteren"
+
+msgid "IDS_ST_BODY_SET_AS_LOCK_SCREEN"
+msgstr "Instellen als vergrendelscherm"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS"
+msgstr "Snelkoppelingen instellen"
+
+msgid "IDS_ST_BODY_SET_SHORTCUTS_ON_LOCK_SCREEN"
+msgstr "Sneltoetsen instellen op vergrendeld scherm"
+
+msgid "IDS_ST_BODY_SHORTCUTS"
+msgstr "Sneltoetsen"
+
+msgid "IDS_ST_BODY_SHOW_DUAL_CLOCK_ON_LOCK_SCREEN_WHEN_ROAMING"
+msgstr "Dubbele klok weergeven op vergrendeld scherm bij roaming."
+
+msgid "IDS_ST_BODY_SHOW_HELP_TEXT_ON_LOCK_SCREEN"
+msgstr "Help-tekst op vergrendeld scherm weergeven."
+
+msgid "IDS_ST_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_AND_YOUR_STEP_COUNT_ON_THE_LOCK_SCREEN"
+msgstr "Geef informatie over het weer en uw stappentelling weer op het vergrendelscherm."
+
+msgid "IDS_ST_BODY_STYLE"
+msgstr "Stijl"
+
+msgid "IDS_ST_BODY_TAP_AND_HOLD_THE_SCREEN_WHILE_ROTATING_THE_DEVICE_TO_OPEN_CAMERA"
+msgstr "Tik en houd uw vinger op het scherm terwijl u het apparaat draait om de camera te openen."
+
+msgid "IDS_ST_BODY_TAP_SHORTCUT_TO_ASSIGN_APPLICATION"
+msgstr "Tik op sneltoets om applicatie toe te wijzen."
+
+msgid "IDS_ST_BUTTON2_PEDOMETER"
+msgstr "Stappenteller"
+
+msgid "IDS_ST_HEADER_UNLOCK_EFFECT"
+msgstr "Ontgrendeleffect"
+
+msgid "IDS_ST_HEADER_WEATHER_EFFECT_ABB"
+msgstr "Weerbericht"
+
+msgid "IDS_ST_MBODY_CAMERA_QUICK_ACCESS"
+msgstr "Camera ontgrendelen"
+
+msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
+msgstr "Sneltoetsen wijzigen"
+
+msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
+msgstr "Uitgeschakeld"
+
+msgid "IDS_ST_SBODY_ENABLED_M_STATUS"
+msgstr "Ingeschakeld"
+
+msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
+msgstr "Titel bewerken"
+
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Thuisland instellen"
+
