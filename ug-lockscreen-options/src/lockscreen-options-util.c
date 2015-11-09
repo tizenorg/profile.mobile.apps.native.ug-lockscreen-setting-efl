@@ -21,6 +21,7 @@
 
 #include <vconf.h>
 #include <vconf-keys.h>
+#include <app_control_internal.h>
 
 #include "lockscreen-options-debug.h"
 #include "lockscreen-options.h"
@@ -459,7 +460,7 @@ void lockscreen_options_set_tts_info(Evas_Object* obj, const char* label,
 	}
 }
 
-static void _launch_result_password_ug_cb(service_h ug, service_h reply, service_result_e result, void *data)
+static void _launch_result_password_ug_cb(app_control_h ug, app_control_h reply, app_control_result_e result, void *data)
 {
 	LOCKOPTIONS_TRACE_BEGIN;
 	if(data == NULL)
@@ -471,7 +472,7 @@ static void _launch_result_password_ug_cb(service_h ug, service_h reply, service
 		LOCKOPTIONS_DBG(" !result ");
 		char *string_result = NULL;
 		char *current = NULL;
-		service_get_extra_data(reply, "result", &string_result);
+		app_control_get_extra_data(reply, "result", &string_result);
 		if(string_result == NULL)
 			return;
 		LOCKOPTIONS_DBG("_launch_result_password_ug_cb string_result is %s.",string_result);
@@ -490,22 +491,22 @@ static void _launch_result_password_ug_cb(service_h ug, service_h reply, service
 		{
 			LOCKOPTIONS_DBG(" SETTING_PW_TYPE_ENTER_LOCK_TYPE ||SETTING_PW_TYPE_VERIFY_FP_ALT_PASSWORD  _launch_result_password_ug_cb");
 			ug_destroy(ad->ug);
-			service_h svc;
-			if (service_create(&svc)) {
+			app_control_h svc;
+			if (app_control_create(&svc)) {
 				return;
 			}
-			service_get_extra_data(reply, "current", &current);
+			app_control_get_extra_data(reply, "current", &current);
 			if(current){
-				service_add_extra_data(svc, "current", current);
+				app_control_add_extra_data(svc, "current", current);
 				free(current);
 			}
 			launch_ug("setting-locktype-efl", svc, ad);
-			service_destroy(svc);
+			app_control_destroy(svc);
 		}
 	}
 }
 
-void launch_ug(char* ug_name, service_h svc_mt_ug, void *data)
+void launch_ug(char* ug_name, app_control_h svc_mt_ug, void *data)
 {
 	LOCKOPTIONS_DBG("_launch_ug. %s \n", ug_name);
 	if(data == NULL){
@@ -516,14 +517,14 @@ void launch_ug(char* ug_name, service_h svc_mt_ug, void *data)
 		return;
 	}
 
-	service_set_app_id(svc_mt_ug, ug_name);
+	app_control_set_app_id(svc_mt_ug, ug_name);
 	Evas_Object *win = (Evas_Object *)ug_get_window();
-	service_set_window(svc_mt_ug, elm_win_xwindow_get(win));
+	app_control_set_window(svc_mt_ug, elm_win_xwindow_get(win));
 
 	if(strcmp(ug_name, "setting-password-efl") == 0) {
-		service_send_launch_request(svc_mt_ug, _launch_result_password_ug_cb, data);
+		app_control_send_launch_request(svc_mt_ug, _launch_result_password_ug_cb, data);
 	} else {
-		service_send_launch_request(svc_mt_ug, NULL, data);
+		app_control_send_launch_request(svc_mt_ug, NULL, data);
 	}
 
 	LOCKOPTIONS_DBG("Launch ug end. %s \n", ug_name);

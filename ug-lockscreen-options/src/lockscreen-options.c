@@ -61,7 +61,7 @@ static Evas_Object *create_bg(Evas_Object * parent)
 	return bg;
 }
 
-static void _launch_result_password_locktype_ug_cb(ui_gadget_h ug, service_h service,
+static void _launch_result_password_locktype_ug_cb(ui_gadget_h ug, app_control_h app_control,
 				       void *priv)
 {
 	LOCKOPTIONS_TRACE_BEGIN;
@@ -70,7 +70,7 @@ static void _launch_result_password_locktype_ug_cb(ui_gadget_h ug, service_h ser
 	lockscreen_options_ug_data *ad = (lockscreen_options_ug_data *) priv;	/* ad is point to priv */
 	char *result = NULL;
 	char *current = NULL;
-	service_get_extra_data(service, "result", &result);
+	app_control_get_extra_data(app_control, "result", &result);
 	if(result == NULL)
 		return;
 	LOCKOPTIONS_ERR("_launch_result_password_ug_cb result is %s.", result);
@@ -90,13 +90,13 @@ static void _launch_result_password_locktype_ug_cb(ui_gadget_h ug, service_h ser
 	{
 		LOCKOPTIONS_DBG("SETTING_PW_TYPE_ENTER_LOCK_TYPE || SETTING_PW_TYPE_VERIFY_FP_ALT_PASSWORD");
 		ug_destroy(ug);
-		service_h svc;
-		if (service_create(&svc)) {
+		app_control_h svc;
+		if (app_control_create(&svc)) {
 			return;
 		}
-		service_get_extra_data(service, "current", &current);
+		app_control_get_extra_data(app_control, "current", &current);
 		if(current){
-			service_add_extra_data(svc, "current", current);
+			app_control_add_extra_data(svc, "current", current);
 			free(current);
 		}
 		////////////////
@@ -105,7 +105,7 @@ static void _launch_result_password_locktype_ug_cb(ui_gadget_h ug, service_h ser
 		lockscreen_options_ug_data *ug_data = (lockscreen_options_ug_data *) ad;
 		struct ug_cbs *cbs = (struct ug_cbs *)calloc(1, sizeof(struct ug_cbs));
 		if(cbs == NULL){
-			service_destroy(svc);
+			app_control_destroy(svc);
 			return;
 		}
 		cbs->layout_cb = _launch_layout_locktype_ug_cb;
@@ -123,7 +123,7 @@ static void _launch_result_password_locktype_ug_cb(ui_gadget_h ug, service_h ser
 			LOCKOPTIONS_ERR("Launch ug failed.");
 		}
 		///////////////
-		service_destroy(svc);
+		app_control_destroy(svc);
 		free(cbs);
 	}
 }
@@ -159,7 +159,7 @@ static void _launch_destroy_locktype_ug_cb(ui_gadget_h ug, void *priv)
 	LOCKOPTIONS_TRACE_END;
 }
 
-static void _launch_result_locktype_ug_cb(ui_gadget_h ug, service_h service, void *priv)
+static void _launch_result_locktype_ug_cb(ui_gadget_h ug, app_control_h app_control, void *priv)
 {
 	LOCKOPTIONS_TRACE_BEGIN;
 	if (!priv)
@@ -177,19 +177,19 @@ static Eina_Bool _lockscreen_options_locktype_idler_cb(void *data)
 	//lockscreen_options_locktype_create_view(ug_data);
 
 	int lock_type = 0;
-	service_h svc_mt_ug = NULL;
+	app_control_h svc_mt_ug = NULL;
 	char* ug_name = NULL;
 	vconf_get_int(VCONFKEY_SETAPPL_SCREEN_LOCK_TYPE_INT, &lock_type);
-	if(!service_create(&svc_mt_ug)) {
+	if(!app_control_create(&svc_mt_ug)) {
 		if(lock_type == SETTING_SCREEN_LOCK_TYPE_PASSWORD
 			|| lock_type == SETTING_SCREEN_LOCK_TYPE_SIMPLE_PASSWORD)
 		{
-			service_add_extra_data(svc_mt_ug, "viewtype", "SETTING_PW_TYPE_ENTER_LOCK_TYPE");
+			app_control_add_extra_data(svc_mt_ug, "viewtype", "SETTING_PW_TYPE_ENTER_LOCK_TYPE");
 			ug_name = "setting-password-efl";
 		}
 		else if (lock_type == SETTING_SCREEN_LOCK_TYPE_FINGERPRINT) {
 			LOCKOPTIONS_DBG("SETTING_SCREEN_LOCK_TYPE_FINGERPRINT");
-			service_add_extra_data(svc_mt_ug, "viewtype", "SETTING_PW_TYPE_VERIFY_FP_ALT_PASSWORD");
+			app_control_add_extra_data(svc_mt_ug, "viewtype", "SETTING_PW_TYPE_VERIFY_FP_ALT_PASSWORD");
 			ug_name = "setting-password-efl";
 		} else {
 			ug_name = "setting-locktype-efl";
@@ -201,7 +201,7 @@ static Eina_Bool _lockscreen_options_locktype_idler_cb(void *data)
 
 	struct ug_cbs *cbs = (struct ug_cbs *)calloc(1, sizeof(struct ug_cbs));
 	if(cbs == NULL){
-		service_destroy(svc_mt_ug);
+		app_control_destroy(svc_mt_ug);
 		return ECORE_CALLBACK_CANCEL;
 	}
 	cbs->layout_cb = _launch_layout_locktype_ug_cb;
@@ -221,7 +221,7 @@ static Eina_Bool _lockscreen_options_locktype_idler_cb(void *data)
 	}
 	free(cbs);
 
-	service_destroy(svc_mt_ug);
+	app_control_destroy(svc_mt_ug);
 
 	LOCKOPTIONS_TRACE_END;
 
@@ -294,7 +294,7 @@ static Evas_Object *create_frameview(Evas_Object * parent,
 	return base;
 }
 
-static void *on_create(ui_gadget_h ug, enum ug_mode mode, service_h service, void *priv)
+static void *on_create(ui_gadget_h ug, enum ug_mode mode, app_control_h app_control, void *priv)
 {
 	LOCKOPTIONS_TRACE_BEGIN;
 	Evas_Object *parent = NULL;
@@ -328,16 +328,16 @@ static void *on_create(ui_gadget_h ug, enum ug_mode mode, service_h service, voi
 	ug_data->uri_bundle = NULL;
 	ug_data->help_done_timer = NULL;
 
-	service_get_extra_data(service, SETTING_SUBMENU, &ug_data->extra_data);
+	app_control_get_extra_data(app_control, SETTING_SUBMENU, &ug_data->extra_data);
 	if(ug_data->extra_data != NULL)
 		LOCKOPTIONS_DBG("ug_data->extra_data=%s", ug_data->extra_data);
 
-	service_get_extra_data(service, "viewtype", &ug_data->viewtype);
+	app_control_get_extra_data(app_control, "viewtype", &ug_data->viewtype);
 	if(ug_data->viewtype != NULL)
 		LOCKOPTIONS_DBG("viewtype=%s", ug_data->viewtype);
 
 	/* Help UI <!-- START --> */
-	ret = service_get_uri(service, &uri_bundle);
+	ret = app_control_get_uri(app_control, &uri_bundle);
 	if(!ret) {
 	//if(ret != APP_CONTROL_ERROR_NONE) {
 		LOCKOPTIONS_DBG("app_control_get_uri failed, [%d]", ret);
@@ -366,23 +366,23 @@ static void *on_create(ui_gadget_h ug, enum ug_mode mode, service_h service, voi
 	return ug_data->base;
 }
 
-static void on_start(ui_gadget_h ug, service_h service, void *priv)
+static void on_start(ui_gadget_h ug, app_control_h app_control, void *priv)
 {
 }
 
-static void on_pause(ui_gadget_h ug, service_h service, void *priv)
+static void on_pause(ui_gadget_h ug, app_control_h app_control, void *priv)
 {
 	if(priv == NULL)
 		return;
 }
 
-static void on_resume(ui_gadget_h ug, service_h service, void *priv)
+static void on_resume(ui_gadget_h ug, app_control_h app_control, void *priv)
 {
 	LOCKOPTIONS_TRACE_BEGIN;
 	LOCKOPTIONS_TRACE_END;
 }
 
-static void on_destroy(ui_gadget_h ug, service_h service, void *priv)
+static void on_destroy(ui_gadget_h ug, app_control_h app_control, void *priv)
 {
 	LOCKOPTIONS_TRACE_BEGIN;
 	lockscreen_options_ug_data *ug_data;
@@ -460,12 +460,12 @@ static void on_destroy(ui_gadget_h ug, service_h service, void *priv)
 	LOCKOPTIONS_TRACE_END;
 }
 
-static void on_message(ui_gadget_h ug, service_h msg, service_h service,
+static void on_message(ui_gadget_h ug, app_control_h msg, app_control_h app_control,
 		       void *priv)
 {
 }
 
-static void on_event(ui_gadget_h ug, enum ug_event event, service_h service,
+static void on_event(ui_gadget_h ug, enum ug_event event, app_control_h app_control,
 		     void *priv)
 {
 	LOCKOPTIONS_TRACE_BEGIN;
@@ -473,7 +473,7 @@ static void on_event(ui_gadget_h ug, enum ug_event event, service_h service,
 }
 
 static void on_key_event(ui_gadget_h ug, enum ug_key_event event,
-		service_h service, void *priv)
+		app_control_h app_control, void *priv)
 {
 	if (!ug)
 		return;
@@ -526,7 +526,7 @@ UG_MODULE_API void UG_MODULE_EXIT(struct ug_module_ops *ops)
 	}
 }
 
-UG_MODULE_API int setting_plugin_reset(app_control_h service, void *priv)
+UG_MODULE_API int setting_plugin_reset(app_control_h app_control, void *priv)
 {
 	LOCKOPTIONS_TRACE_BEGIN;
 	int ret = 0;

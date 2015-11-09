@@ -169,7 +169,7 @@ void lockscreen_options_set_tts_info(Evas_Object* obj, const char* label,
 			  const char* traits, const char *state,
 			  const char* guide);
 
-void launch_ug(char* ug_name, service_h svc_mt_ug, void *data);
+void launch_ug(char* ug_name, app_control_h svc_mt_ug, void *data);
 
 
 #endif				/* __OPENLOCK_SETTING_UTIL_H__ */

@@ -94,23 +94,23 @@ static void _lockscreen_options_locktype_cb(void *data, Evas_Object * obj,
 						void *event_info)
 {
 	int lock_type = 0;
-	service_h svc_mt_ug = NULL;
+	app_control_h svc_mt_ug = NULL;
 	char* ug_name = NULL;
 	vconf_get_int(VCONFKEY_SETAPPL_SCREEN_LOCK_TYPE_INT, &lock_type);
-	if(!service_create(&svc_mt_ug)) {
+	if(!app_control_create(&svc_mt_ug)) {
 		if(lock_type == SETTING_SCREEN_LOCK_TYPE_PASSWORD
 			|| lock_type == SETTING_SCREEN_LOCK_TYPE_SIMPLE_PASSWORD)
 		{
 			LOCKOPTIONS_DBG("SETTING_SCREEN_LOCK_TYPE_PASSWORD || SETTING_SCREEN_LOCK_TYPE_SIMPLE_PASSWORD");
-			service_add_extra_data(svc_mt_ug, "viewtype", "SETTING_PW_TYPE_ENTER_LOCK_TYPE");
+			app_control_add_extra_data(svc_mt_ug, "viewtype", "SETTING_PW_TYPE_ENTER_LOCK_TYPE");
 			ug_name = "setting-password-efl";
 			launch_ug(ug_name, svc_mt_ug, data);
-			service_destroy(svc_mt_ug);
+			app_control_destroy(svc_mt_ug);
 		} else {
 			LOCKOPTIONS_DBG("setting-locktype-efl");
 			ug_name = "setting-locktype-efl";
 			launch_ug(ug_name, svc_mt_ug, data);
-			service_destroy(svc_mt_ug);
+			app_control_destroy(svc_mt_ug);
 		}
 	}
 }
@@ -120,14 +120,14 @@ void lockscreen_options_locktype_create_view(lockscreen_options_ug_data * ug_dat
 	LOCKOPTIONS_TRACE_BEGIN;
 
 	int lock_type = 0;
-	service_h svc_mt_ug = NULL;
+	app_control_h svc_mt_ug = NULL;
 	char* ug_name = NULL;
 	vconf_get_int(VCONFKEY_SETAPPL_SCREEN_LOCK_TYPE_INT, &lock_type);
-	if(!service_create(&svc_mt_ug)) {
+	if(!app_control_create(&svc_mt_ug)) {
 		if(lock_type == SETTING_SCREEN_LOCK_TYPE_PASSWORD
 			|| lock_type == SETTING_SCREEN_LOCK_TYPE_SIMPLE_PASSWORD)
 		{
-			service_add_extra_data(svc_mt_ug, "viewtype", "SETTING_PW_TYPE_ENTER_LOCK_TYPE");
+			app_control_add_extra_data(svc_mt_ug, "viewtype", "SETTING_PW_TYPE_ENTER_LOCK_TYPE");
 			ug_name = "setting-password-efl";
 		} else {
 			ug_name = "setting-locktype-efl";
@@ -135,7 +135,7 @@ void lockscreen_options_locktype_create_view(lockscreen_options_ug_data * ug_dat
 	}
 
 	launch_ug(ug_name, svc_mt_ug, ug_data);
-	service_destroy(svc_mt_ug);
+	app_control_destroy(svc_mt_ug);
 
 }
 
