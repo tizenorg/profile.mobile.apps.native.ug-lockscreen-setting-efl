@@ -48,7 +48,8 @@ export FFLAGS="$FFLAGS -DTIZEN_DEBUG_ENABLE"
 CFLAGS+=%cflags
 CXXFLAGS+=%cxxflags
 
-cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix} \
+cmake . -DCMAKE_INSTALL_PREFIX=%{TZ_SYS_RO_UG} \
+		-DTZ_SYS_RO_PACKAGES=%{TZ_SYS_RO_PACKAGES}
 
 
 make -j1
@@ -60,12 +61,12 @@ rm -rf %{buildroot}
 %post
 GOPTION="-g 6514"
 
-mkdir -p /usr/ug/bin/
-ln -sf /usr/bin/ug-client /usr/ug/bin/setting-lockscreen-options-efl
+mkdir -p %{TZ_SYS_RO_UG}/bin/
+ln -sf /usr/bin/ug-client %{TZ_SYS_RO_UG}/bin/setting-lockscreen-options-efl
 
 %files
 %manifest ug-lockscreen-options.manifest
 
-/usr/ug/lib/*
-/usr/ug/res/*
-/usr/share/packages/*
+%{TZ_SYS_RO_UG}/lib/*
+%{TZ_SYS_RO_UG}/res/*
+%{TZ_SYS_RO_PACKAGES}/*

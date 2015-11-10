@@ -4,4 +4,4 @@ PROJECT(ug-lockscreen-options C)
 ADD_SUBDIRECTORY(ug-lockscreen-options)
 ADD_SUBDIRECTORY(po)
 
-INSTALL(FILES ${CMAKE_CURRENT_SOURCE_DIR}/ug-lockscreen-options.xml DESTINATION /usr/share/packages/)
+INSTALL(FILES ${CMAKE_CURRENT_SOURCE_DIR}/ug-lockscreen-options.xml DESTINATION ${TZ_SYS_RO_PACKAGES})
