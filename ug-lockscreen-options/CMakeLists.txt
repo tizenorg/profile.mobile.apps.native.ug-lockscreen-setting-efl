@@ -17,7 +17,7 @@ INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/include)
 INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/include)
 
 INCLUDE(FindPkgConfig)
-pkg_check_modules(pkgs_lock-screen-options REQUIRED elementary ui-gadget-1 evas capi-system-system-settings efl-extension appcore-efl capi-appfw-app-control)
+pkg_check_modules(pkgs_lock-screen-options REQUIRED elementary ui-gadget-1 evas capi-system-system-settings efl-extension appcore-efl capi-appfw-app-control libtzplatform-config)
 
 FOREACH(flag ${pkgs_lock-screen-options_CFLAGS})
 	SET(EXTRA_C_FLAGS "${EXTRA_C_FLAGS} ${flag}")

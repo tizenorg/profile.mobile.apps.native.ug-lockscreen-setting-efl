@@ -30,6 +30,7 @@ BuildRequires: pkgconfig(capi-appfw-app-control)
 BuildRequires: pkgconfig(capi-system-system-settings)
 BuildRequires: pkgconfig(eina)
 BuildRequires: pkgconfig(efl-extension)
+BuildRequires: pkgconfig(libtzplatform-config)
 
 %description
 ug-lockscreen-options
