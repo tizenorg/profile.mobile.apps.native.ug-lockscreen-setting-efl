@@ -137,10 +137,6 @@ const char *app_str_table[] = {
 	"IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN",
 };
 
-static Elm_Gen_Item_Class itc_underline;
-static Elm_Gen_Item_Class itc_separator;
-static Elm_Gen_Item_Class itc_separator2;
-
 Evas_Object *lockscreen_options_util_create_navigation(Evas_Object * parent)
 {
 	Evas_Object *navi_bar = NULL;
@@ -192,63 +188,6 @@ Evas_Object *lockscreen_options_util_create_layout(Evas_Object * parent,
 	evas_object_show(layout);
 
 	return layout;
-}
-
-void lockscreen_options_util_create_seperator(Evas_Object * genlist)
-{
-	if (NULL == genlist)
-		return;
-
-	Elm_Object_Item *item = NULL;
-
-	itc_separator.item_style = LOCKSCREEN_GENLIST_STYLE_SEPERATOR;
-	itc_separator.func.text_get = NULL;
-	itc_separator.func.content_get = NULL;
-	itc_separator.func.state_get = NULL;
-	itc_separator.func.del = NULL;
-
-	item =
-	    elm_genlist_item_append(genlist, &(itc_separator), NULL, NULL,
-				    ELM_GENLIST_ITEM_NONE, NULL, NULL);
-	elm_genlist_item_select_mode_set(item,
-					 ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
-}
-
-void lockscreen_options_util_create_seperator2(Evas_Object * genlist)
-{
-	if (NULL == genlist)
-		return;
-	Elm_Object_Item *item = NULL;
-	itc_separator2.item_style = LOCKSCREEN_GENLIST_STYLE_SEPERATOR2;
-	itc_separator2.func.text_get = NULL;
-	itc_separator2.func.content_get = NULL;
-	itc_separator2.func.state_get = NULL;
-	itc_separator2.func.del = NULL;
-	item =
-	    elm_genlist_item_append(genlist, &(itc_separator2), NULL, NULL,
-				    ELM_GENLIST_ITEM_NONE, NULL, NULL);
-	elm_genlist_item_select_mode_set(item,
-					 ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
-}
-
-void lockscreen_options_util_create_underline(Evas_Object * genlist)
-{
-	if (NULL == genlist)
-		return;
-
-	Elm_Object_Item *item = NULL;
-
-	itc_underline.item_style = LOCKSCREEN_GENLIST_STYLE_UNDERLINE;
-	itc_underline.func.text_get = NULL;
-	itc_underline.func.content_get = NULL;
-	itc_underline.func.state_get = NULL;
-	itc_underline.func.del = NULL;
-
-	item =
-	    elm_genlist_item_append(genlist, &(itc_underline), NULL, NULL,
-				    ELM_GENLIST_ITEM_NONE, NULL, NULL);
-	elm_genlist_item_select_mode_set(item,
-					 ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
 }
 
 char *lockscreen_optoins_get_string(int id)

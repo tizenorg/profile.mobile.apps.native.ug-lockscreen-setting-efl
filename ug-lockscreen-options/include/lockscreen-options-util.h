@@ -154,9 +154,6 @@ Evas_Object *lockscreen_options_util_create_navigation(Evas_Object * parent);
 Evas_Object *lockscreen_options_util_create_layout(Evas_Object * parent,
 						   const char *file,
 						   const char *group);
-void lockscreen_options_util_create_seperator(Evas_Object * genlist);
-void lockscreen_options_util_create_seperator2(Evas_Object * genlist);
-void lockscreen_options_util_create_underline(Evas_Object * genlist);
 char *lockscreen_optoins_get_string(int id);
 void _lockscreen_options_submenu_gl_item(Elm_Gen_Item_Class * item);
 void remove_unused_string(char *text, char *unused_string);

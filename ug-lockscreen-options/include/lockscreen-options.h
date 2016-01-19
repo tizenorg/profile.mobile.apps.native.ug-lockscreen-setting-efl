@@ -39,7 +39,6 @@
 #define _X(x) (x*elm_config_scale_get())
 
 enum{
-	ENUM_LOCKSCREEN_GENLIST_STYLE_SEPERATOR = 0,
 	ENUM_LOCKSCREEN_GENLIST_STYLE_1TEXT,
 	ENUM_LOCKSCREEN_GENLIST_STYLE_1TEXT1ICON,
 	ENUM_LOCKSCREEN_GENLIST_STYLE_1TEXT1ICON_DIVIDER,
@@ -50,13 +49,10 @@ enum{
 	ENUM_LOCKSCREEN_GENLIST_STYLE_2TEXT,
 	ENUM_LOCKSCREEN_GENLIST_STYLE_2TEXT_EXPANDABLE,
 	ENUM_LOCKSCREEN_GENLIST_STYLE_RADIO,
-	ENUM_LOCKSCREEN_GENLIST_STYLE_UNDERLINE,
 	ENUM_LOCKSCREEN_GENLIST_STYLE_2TEXT1ICON,
 	ENUM_LOCKSCREEN_GENLIST_STYLE_MULTILINE_SUB
 };
 
-#define LOCKSCREEN_GENLIST_STYLE_SEPERATOR "dialogue/separator"
-#define LOCKSCREEN_GENLIST_STYLE_SEPERATOR2 "dialogue/separator.2"
 #define LOCKSCREEN_GENLIST_STYLE_1TEXT "dialogue/1text"
 #define LOCKSCREEN_GENLIST_STYLE_1TEXT1ICON "dialogue/1text.1icon"
 #define LOCKSCREEN_GENLIST_STYLE_1TEXT1ICON_DIVIDER "dialogue/1text.1icon.divider"
@@ -67,7 +63,6 @@ enum{
 #define LOCKSCREEN_GENLIST_STYLE_2TEXT "dialogue/2text"
 #define LOCKSCREEN_GENLIST_STYLE_2TEXT_EXPANDABLE "dialogue/2text/expandable"
 #define LOCKSCREEN_GENLIST_STYLE_RADIO "dialogue/1text.1icon/expandable2"
-#define LOCKSCREEN_GENLIST_STYLE_UNDERLINE "dialogue/separator/1/with_line"
 
 #define HELP_UI "tizen-help://lockscreen-options/themes"
 
@@ -83,7 +78,6 @@ typedef struct _lockscreen_options_ug_data {
 	Evas_Object *ly_block;
 	Elm_Object_Item *main_navi_item;
 
-	Elm_Gen_Item_Class itc_separator;
 	Elm_Gen_Item_Class itc_menu_1text1icon;
 	Elm_Gen_Item_Class itc_help_1text;
 

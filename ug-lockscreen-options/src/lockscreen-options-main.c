@@ -622,9 +622,6 @@ static void lockscreen_options_main_create_genlist(Evas_Object *genlist, lockscr
 					if(item == NULL) {
 						LOCKOPTIONS_WARN("elm_genlist_item_append() failed");
 					}
-					if(i == 0 && genlist_show_mode != 4 &&genlist_show_mode != 0){
-					   lockscreen_options_util_create_seperator(genlist);
-					}
 					if(IDS_LOCKSCREEN_OPTIONS_LOCK_SCREEN_TYPE == menu_item->stringId)
 					{
 						item_type = item ;
@@ -687,8 +684,6 @@ void lockscreen_options_main_create_view(lockscreen_options_ug_data * ug_data)
 	g_genlist = genlist;
 	elm_genlist_mode_set(genlist, ELM_LIST_COMPRESS);
 	elm_object_style_set(genlist, "dialogue");
-
-	lockscreen_options_util_create_seperator(genlist);
 
 	lockscreen_options_main_create_genlist(genlist, ug_data);
 
@@ -765,7 +760,6 @@ static void _lockscreen_options_locktype_change_cb(keynode_t *node, void *data)
 	elm_genlist_mode_set(g_genlist, ELM_LIST_COMPRESS);
 	elm_object_style_set(g_genlist, "dialogue");
 
-	lockscreen_options_util_create_seperator(g_genlist);
 	lockscreen_options_main_create_genlist(g_genlist, ug_data);
 	elm_object_item_part_content_set(ug_data->main_navi_item, "elm.swallow.content", g_genlist);
 	evas_object_show(g_genlist);
