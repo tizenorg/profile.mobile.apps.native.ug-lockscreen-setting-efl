@@ -8,7 +8,6 @@
 		<application-service>
 			<operation name="http://tizen.org/appcontrol/operation/ugtest"/>
 		</application-service>
-		<icon>/usr/apps/org.tizen.setting/res/icons/settings_106_lockscreen.png</icon>
                 <label>Settings lockscreen options</label>
 			<label xml:lang="ar-ae">قفل الشاشة</label>
 			<label xml:lang="az-az">Ekranı kilidləyin</label>
