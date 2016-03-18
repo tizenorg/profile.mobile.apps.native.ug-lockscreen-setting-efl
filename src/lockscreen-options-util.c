@@ -429,7 +429,6 @@ static void _launch_result_password_ug_cb(app_control_h ug, app_control_h reply,
 		if(ret_int == 1)
 		{
 			LOCKOPTIONS_DBG(" SETTING_PW_TYPE_ENTER_LOCK_TYPE ||SETTING_PW_TYPE_VERIFY_FP_ALT_PASSWORD  _launch_result_password_ug_cb");
-			ug_destroy(ad->ug);
 			app_control_h svc;
 			if (app_control_create(&svc)) {
 				return;
@@ -457,8 +456,7 @@ void launch_ug(char* ug_name, app_control_h svc_mt_ug, void *data)
 	}
 
 	app_control_set_app_id(svc_mt_ug, ug_name);
-	Evas_Object *win = (Evas_Object *)ug_get_window();
-	app_control_set_window(svc_mt_ug, elm_win_xwindow_get(win));
+	app_control_set_launch_mode(svc_mt_ug, APP_CONTROL_LAUNCH_MODE_GROUP);
 
 	if(strcmp(ug_name, "setting-password-efl") == 0) {
 		app_control_send_launch_request(svc_mt_ug, _launch_result_password_ug_cb, data);
