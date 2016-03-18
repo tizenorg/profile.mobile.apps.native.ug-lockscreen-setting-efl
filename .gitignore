@@ -5,8 +5,6 @@
 *.pyc
 *~
 po/*.mo
-.cproject
-.project
 .buildpath
 .sdb.devicemap
 .package-stamp

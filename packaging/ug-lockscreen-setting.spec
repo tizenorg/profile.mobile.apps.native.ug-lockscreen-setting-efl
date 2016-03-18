@@ -1,5 +1,5 @@
 Name:		ug-lockscreen-options
-Summary:	UI Gadget: ug-lockscreen-options
+Summary:	App: ug-lockscreen-options
 Version:	0.1.108
 Release:	1
 Group:		Applications/Core Applications
@@ -17,15 +17,17 @@ ExcludeArch: %{arm} %ix86 x86_64
 ExcludeArch: %{arm} %ix86 x86_64
 %endif
 
+%define PREFIX           %{TZ_SYS_RO_APP}/%{name}
+
 BuildRequires: cmake
 BuildRequires: gettext-tools
 BuildRequires: pkgconfig(elementary)
 BuildRequires: pkgconfig(appcore-efl)
-BuildRequires: pkgconfig(ui-gadget-1)
 BuildRequires: pkgconfig(evas)
 BuildRequires: pkgconfig(ecore)
 BuildRequires: pkgconfig(vconf)
 BuildRequires: pkgconfig(dlog)
+BuildRequires: pkgconfig(capi-appfw-application)
 BuildRequires: pkgconfig(capi-appfw-app-control)
 BuildRequires: pkgconfig(capi-system-system-settings)
 BuildRequires: pkgconfig(eina)
@@ -49,7 +51,7 @@ export FFLAGS="$FFLAGS -DTIZEN_DEBUG_ENABLE"
 CFLAGS+=%cflags
 CXXFLAGS+=%cxxflags
 
-cmake . -DCMAKE_INSTALL_PREFIX=%{TZ_SYS_RO_UG} \
+cmake . -DCMAKE_INSTALL_PREFIX=%{PREFIX} \
 		-DTZ_SYS_RO_PACKAGES=%{TZ_SYS_RO_PACKAGES}
 
 
@@ -62,12 +64,11 @@ rm -rf %{buildroot}
 %post
 GOPTION="-g 6514"
 
-mkdir -p %{TZ_SYS_RO_UG}/bin/
-ln -sf /usr/bin/ug-client %{TZ_SYS_RO_UG}/bin/setting-lockscreen-options-efl
+#mkdir -p %{TZ_SYS_RO_UG}/bin/
+#ln -sf /usr/bin/ug-client %{TZ_SYS_RO_UG}/bin/setting-lockscreen-options-efl
 
 %files
 %manifest ug-lockscreen-options.manifest
 
-%{TZ_SYS_RO_UG}/lib/*
-%{TZ_SYS_RO_UG}/res/*
+%{PREFIX}/*
 %{TZ_SYS_RO_PACKAGES}/*

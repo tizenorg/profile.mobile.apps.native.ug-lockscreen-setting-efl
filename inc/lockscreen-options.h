@@ -20,7 +20,6 @@
 #define __LOCKSCREEN_OPTIONS_H__
 
 #include <Elementary.h>
-#include <ui-gadget.h>
 #include "lockscreen-options-debug.h"
 
 #define PKGNAME "ug-lockscreen-options"
@@ -71,7 +70,6 @@ typedef struct _lockscreen_options_ug_data {
 	int locktype;
 	Evas_Object *win_main;
 	Evas_Object *base;
-	ui_gadget_h ug;
 
 	Evas_Object *navi_bar;
 	Evas_Object *act_pop;

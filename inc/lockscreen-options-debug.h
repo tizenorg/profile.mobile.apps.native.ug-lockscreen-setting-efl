@@ -29,9 +29,9 @@
 #endif
 #include <dlog.h>
 
-#define LOCKOPTIONS_DBG(fmt, args...)  LOGD("["LOG_TAG"%s:%d:D] "fmt,  __func__, __LINE__, ##args)
-#define LOCKOPTIONS_WARN(fmt, args...) LOGW("["LOG_TAG"%s:%d:W] "fmt,  __func__, __LINE__, ##args)
-#define LOCKOPTIONS_ERR(fmt, args...)  LOGE("["LOG_TAG"%s:%d:E] "fmt,  __func__, __LINE__, ##args)
+#define LOCKOPTIONS_DBG(fmt, args...)  dlog_print(DLOG_DEBUG, LOG_TAG, "[%s:%d:D] "fmt,  __func__, __LINE__, ##args)
+#define LOCKOPTIONS_WARN(fmt, args...) dlog_print(DLOG_WARN, LOG_TAG, "[%s:%d:W] "fmt,  __func__, __LINE__, ##args)
+#define LOCKOPTIONS_ERR(fmt, args...)  dlog_print(DLOG_ERROR, LOG_TAG, "[%s:%d:E] "fmt,  __func__, __LINE__, ##args)
 
 #else
 #define LOCKOPTIONS_DBG(fmt, args...) do{printf("[LOCKOPTIONS_DBG][%s(%d)] "fmt " \n", __FILE__, __LINE__, ##args);}while(0);
@@ -41,19 +41,19 @@
 
 #define LOCKOPTIONS_TRACE_BEGIN do {\
 		{\
-			LOGW("ENTER FUNCTION: %s.\n", __FUNCTION__);\
+			LOCKOPTIONS_WARN("ENTER FUNCTION: %s.\n", __FUNCTION__);\
 		}\
 	}while(0);
 
 #define LOCKOPTIONS_TRACE_END do {\
 		{\
-			LOGW("EXIT FUNCTION: %s.\n", __FUNCTION__);\
+			LOCKOPTIONS_WARN("EXIT FUNCTION: %s.\n", __FUNCTION__);\
 		}\
 	}while(0);
 
 #define ret_if(expr) do { \
 	if(expr) { \
-		LOCKHELP_ERR("(%s) -> %s() return", #expr, __FUNCTION__); \
+		LOCKOPTIONS_ERR("(%s) -> %s() return", #expr, __FUNCTION__); \
 		return; \
 	} \
 } while (0)
