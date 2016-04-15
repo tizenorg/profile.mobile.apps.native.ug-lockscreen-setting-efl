@@ -231,7 +231,7 @@ static bool on_create(void *priv)
 		return false;
 
 	//TODO: assign correct path to locale
-	bindtextdomain(PKGNAME, "/usr/ug/res/locale");
+	bindtextdomain(PKGNAME, "/usr/apps/org.tizen.ug-lockscreen-options/res/locale");//"/usr/ug/res/locale");
 
 	ug_data = priv;
 
