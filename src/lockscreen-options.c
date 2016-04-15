@@ -41,6 +41,9 @@
 #define LOCKSCREEN_CAMERA_SHORTCUT "Camera_shortcut"
 #define LOCKSCREEN_HELP_TEXT "Help_text"
 
+#define FILE_PATH_SIZE 1024
+#define LOCALE "locale"
+
 static Evas_Object *create_bg(Evas_Object * parent)
 {
 	Evas_Object *bg = elm_bg_add(parent);
@@ -227,11 +230,19 @@ static bool on_create(void *priv)
 	Evas_Object *win_main = NULL;
 	lockscreen_options_ug_data *ug_data = NULL;
 
+
 	if (!priv)
 		return false;
 
 	//TODO: assign correct path to locale
-	bindtextdomain(PKGNAME, "/usr/ug/res/locale");
+	char *resPath = app_get_resource_path();
+	if(resPath)
+	{
+	    char path[FILE_PATH_SIZE] = { 0, };
+	    snprintf(path, sizeof(path), "%s%s", resPath, LOCALE);
+	    bindtextdomain(PKGNAME, path);
+	    free(resPath);
+	}
 
 	ug_data = priv;
 
