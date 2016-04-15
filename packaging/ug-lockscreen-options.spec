@@ -1,5 +1,5 @@
-Name:		ug-lockscreen-options
-Summary:	App: ug-lockscreen-options
+Name:		org.tizen.ug-lockscreen-options
+Summary:	App: org.tizen.ug-lockscreen-options
 Version:	0.1.108
 Release:	1
 Group:		Applications/Core Applications
@@ -35,7 +35,7 @@ BuildRequires: pkgconfig(efl-extension)
 BuildRequires: pkgconfig(libtzplatform-config)
 
 %description
-ug-lockscreen-options
+org.tizen.ug-lockscreen-options
 
 %prep
 %setup -q -n %{name}-%{version}
@@ -63,9 +63,6 @@ rm -rf %{buildroot}
 
 %post
 GOPTION="-g 6514"
-
-#mkdir -p %{TZ_SYS_RO_UG}/bin/
-#ln -sf /usr/bin/ug-client %{TZ_SYS_RO_UG}/bin/setting-lockscreen-options-efl
 
 %files
 %manifest ug-lockscreen-options.manifest
