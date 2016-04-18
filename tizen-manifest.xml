@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<manifest xmlns="http://tizen.org/ns/packages" api-version="3.0" package="org.tizen.ug-lockscreen-options" version="1.0.0">
+<manifest xmlns="http://tizen.org/ns/packages" api-version="3.0" package="org.tizen.ug-lockscreen-options" version="1.0.0" preload="true">
     <profile name="mobile"/>
-    <ui-application appid="org.tizen.ug-lockscreen-options" exec="ug-lockscreen-options" launch_mode="caller" multiple="false" nodisplay="false" taskmanage="true" type="capp">
-        <icon>ug-lockscreen-options.png</icon>
+    <ui-application appid="org.tizen.ug-lockscreen-options" exec="ug-lockscreen-options" hw-acceleration="off" launch_mode="caller" multiple="false" nodisplay="false" taskmanage="true" type="capp">
         <label>Settings lockscreen options</label>
         <label xml:lang="ar-ae">قفل الشاشة</label>
         <label xml:lang="az-az">Ekranı kilidləyin</label>
@@ -55,6 +54,7 @@
         <label xml:lang="zh-hk">鎖定螢幕</label>
         <label xml:lang="zh-sg">锁定屏幕</label>
         <label xml:lang="zh-tw">鎖定螢幕</label>
+        <icon>ug-lockscreen-options.png</icon>
     </ui-application>
     <privileges>
         <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
