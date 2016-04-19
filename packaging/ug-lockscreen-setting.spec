@@ -65,7 +65,7 @@ rm -rf %{buildroot}
 GOPTION="-g 6514"
 
 %files
-%manifest ug-lockscreen-options.manifest
+%manifest org.tizen.ug-lockscreen-options.manifest
 
 %{PREFIX}/*
 %{TZ_SYS_RO_PACKAGES}/*
