@@ -19,6 +19,7 @@
 #include <vconf.h>
 #include <vconf-keys.h>
 #include <app_control.h>
+#include <app.h>
 
 #include "lockscreen-options.h"
 #include "lockscreen-options-debug.h"
@@ -501,6 +502,8 @@ static Eina_Bool _pop_cb(void *data, Elm_Object_Item *it)
 
 	if (ug_data == NULL)
 		return EINA_FALSE;
+
+	ui_app_exit();
 
 	return EINA_FALSE;
 }
