@@ -139,10 +139,6 @@ static Eina_Bool _lockscreen_options_locktype_idler_cb(void *data)
 	    app_control_destroy(svc_mt_ug);
 		return ECORE_CALLBACK_CANCEL;
 	}
-    if(svc_mt_ug == NULL) {
-        free(ug_name);
-        return ECORE_CALLBACK_CANCEL;
-    }
 
     int ret = APP_CONTROL_ERROR_NONE;
     LOCKOPTIONS_DBG("Launch ug begin. %s \n", ug_name);
