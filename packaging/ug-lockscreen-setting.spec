@@ -1,5 +1,5 @@
 Name:		org.tizen.ug-lockscreen-options
-Summary:	App: org.tizen.ug-lockscreen-options
+Summary:	App: lockscreen-options
 Version:	0.1.108
 Release:	1
 Group:		Applications/Core Applications
