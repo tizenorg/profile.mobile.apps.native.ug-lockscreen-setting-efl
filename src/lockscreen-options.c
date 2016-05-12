@@ -242,7 +242,7 @@ static bool on_create(void *priv)
 
 	ug_data = priv;
 
-	win_main = elm_win_util_standard_add(PKGNAME, PKGNAME);
+	win_main = elm_win_add(NULL, PKGNAME, ELM_WIN_BASIC);
 	if (!win_main) {
 		return false;
 	}
