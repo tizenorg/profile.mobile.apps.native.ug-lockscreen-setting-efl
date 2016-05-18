@@ -1,6 +1,6 @@
 Name:       org.tizen.ug-lockscreen-options
 #VCS_FROM:   profile/mobile/apps/native/ug-lockscreen-setting-efl#d41e19b6a15aec87a4c21ce26e2dca73f43418f5
-#RS_Ver:    20160512_2 
+#RS_Ver:    20160518_1 
 Summary:    App
 Version:    1.0.0
 Release:    1
