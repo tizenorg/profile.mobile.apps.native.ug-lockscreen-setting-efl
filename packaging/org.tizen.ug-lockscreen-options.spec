@@ -1,5 +1,5 @@
 Name:		org.tizen.ug-lockscreen-options
-Summary:	App: lockscreen-options
+Summary:	Settings of lockscreen-application
 Version:	0.1.108
 Release:	1
 Group:		Applications/Core Applications
@@ -35,7 +35,7 @@ BuildRequires: pkgconfig(efl-extension)
 BuildRequires: pkgconfig(libtzplatform-config)
 
 %description
-org.tizen.ug-lockscreen-options
+This package includes settings of lockscreen application
 
 %prep
 %setup -q -n %{name}-%{version}
