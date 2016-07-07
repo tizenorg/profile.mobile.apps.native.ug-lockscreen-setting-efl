@@ -1,6 +1,6 @@
 Name:       org.tizen.ug-lockscreen-options
-VCS:         profile/mobile/apps/native/ug-lockscreen-setting-efl#db9e1b3416c4d1a58a44d54f719db86df9e0b7fd
-#RS_Ver:    20160623_1 
+#VCS_FROM:   profile/mobile/apps/native/ug-lockscreen-setting-efl#db9e1b3416c4d1a58a44d54f719db86df9e0b7fd
+#RS_Ver:    20160707_1 
 Summary:    Settings of lockscreen-application
 Version:    1.0.0
 Release:    1
@@ -26,7 +26,7 @@ Requires(post):  /usr/bin/tpk-backend
 %endif
 
 %description
-#
+profile/mobile/apps/native/ug-lockscreen-setting-efl#db9e1b3416c4d1a58a44d54f719db86df9e0b7fd
 This is a container package which have preload TPK files
 
 %prep
