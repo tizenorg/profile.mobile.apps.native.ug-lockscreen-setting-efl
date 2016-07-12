@@ -226,7 +226,6 @@ static bool on_create(void *priv)
 	Evas_Object *win_main = NULL;
 	lockscreen_options_ug_data *ug_data = NULL;
 
-
 	if (!priv)
 		return false;
 
@@ -327,73 +326,90 @@ static void on_resume(void *priv)
 
 static void on_destroy(void *priv)
 {
-	LOCKOPTIONS_TRACE_BEGIN;
-	lockscreen_options_ug_data *ug_data;
+    LOCKOPTIONS_TRACE_BEGIN;
+    lockscreen_options_ug_data *ug_data;
 
-	_lockscreen_options_unregister_vconf_change();
+    _lockscreen_options_unregister_vconf_change();
 
-	if (!priv)
-		return;
-	ug_data = priv;
+    if(!priv)
+        return;
+    ug_data = priv;
 
-	if(ug_data->base != NULL) {
+    if(ug_data->base != NULL)
+    {
 
-		evas_object_del(ug_data->base);
-		ug_data->base = NULL;
-	}
+        evas_object_del(ug_data->base);
+        ug_data->base = NULL;
+    }
 
-	if(ug_data->extra_data != NULL) {
+    if(ug_data->extra_data != NULL)
+    {
 
-		free(ug_data->extra_data);
-		ug_data->extra_data = NULL;
-	}
+        free(ug_data->extra_data);
+        ug_data->extra_data = NULL;
+    }
 
-	if(ug_data->viewtype!= NULL) {
+    if(ug_data->viewtype != NULL)
+    {
 
-		free(ug_data->viewtype);
-		ug_data->viewtype = NULL;
-	}
+        free(ug_data->viewtype);
+        ug_data->viewtype = NULL;
+    }
 
-	if(ug_data->act_pop != NULL) {
+    if(ug_data->act_pop != NULL)
+    {
 
-		evas_object_del(ug_data->act_pop);
-		ug_data->act_pop = NULL;
-	}
+        evas_object_del(ug_data->act_pop);
+        ug_data->act_pop = NULL;
+    }
 
-	/* Help UI */
-	if(ug_data->ly_help != NULL) {
-		evas_object_del(ug_data->ly_help);
-		ug_data->ly_help = NULL;
-	}
-	if(ug_data->popup_help != NULL) {
-		evas_object_del(ug_data->popup_help);
-		ug_data->popup_help = NULL;
-	}
-	if(ug_data->help_done_timer) {
-		ecore_timer_del(ug_data->help_done_timer);
-		ug_data->help_done_timer = NULL;
-	}
+    if(ug_data->app_shortcut_genlist != NULL)
+    {
+        evas_object_del(ug_data->app_shortcut_genlist);
+        ug_data->app_shortcut_genlist = NULL;
+    }
 
-	if(ug_data->noti_timer_id) {
-		LOCKOPTIONS_DBG("------------------delete  noti_timer-------------");
-		ecore_timer_del(ug_data->noti_timer_id);
-		ug_data->noti_timer_id = NULL;
-	}
+    /* Help UI */
+    if(ug_data->ly_help != NULL)
+    {
+        evas_object_del(ug_data->ly_help);
+        ug_data->ly_help = NULL;
+    }
+    if(ug_data->popup_help != NULL)
+    {
+        evas_object_del(ug_data->popup_help);
+        ug_data->popup_help = NULL;
+    }
+    if(ug_data->help_done_timer)
+    {
+        ecore_timer_del(ug_data->help_done_timer);
+        ug_data->help_done_timer = NULL;
+    }
 
-	if(ug_data->timer_locktype) {
-		LOCKOPTIONS_DBG("------------------delete  timer_locktype-------------");
-		ecore_timer_del(ug_data->timer_locktype);
-		ug_data->timer_locktype = NULL;
-	}
+    if(ug_data->noti_timer_id)
+    {
+        LOCKOPTIONS_DBG("------------------delete  noti_timer-------------");
+        ecore_timer_del(ug_data->noti_timer_id);
+        ug_data->noti_timer_id = NULL;
+    }
 
-	if(ug_data->timer_destory) {
-		LOCKOPTIONS_DBG("------------------delete  timer_destory-------------");
-		ecore_timer_del(ug_data->timer_destory);
-		ug_data->timer_destory = NULL;
-	}
+    if(ug_data->timer_locktype)
+    {
+        LOCKOPTIONS_DBG(
+                "------------------delete  timer_locktype-------------");
+        ecore_timer_del(ug_data->timer_locktype);
+        ug_data->timer_locktype = NULL;
+    }
 
-	free(ug_data);
-	LOCKOPTIONS_TRACE_END;
+    if(ug_data->timer_destory)
+    {
+        LOCKOPTIONS_DBG("------------------delete  timer_destory-------------");
+        ecore_timer_del(ug_data->timer_destory);
+        ug_data->timer_destory = NULL;
+    }
+
+    free(ug_data);
+    LOCKOPTIONS_TRACE_END;
 }
 
 int main(int argc, char *argv[])

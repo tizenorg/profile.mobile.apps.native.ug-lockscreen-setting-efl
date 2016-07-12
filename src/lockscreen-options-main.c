@@ -25,6 +25,7 @@
 #include "lockscreen-options-debug.h"
 #include "lockscreen-options-main.h"
 #include "lockscreen-options-util.h"
+#include "app-shortcut.h"
 
 #define LOCKSCREEN_PACKAGE_NAME				"org.tizen.lockscreen"
 
@@ -52,11 +53,13 @@
 		b = 4;	\
 }
 
+extern const char *chosen_app;
+
 static void _lockscreen_options_register_vconf_change(lockscreen_options_ug_data * ug_data);
 void _lockscreen_options_unregister_vconf_change();
 
-static void _lockscreen_options_locktype_cb(void *data, Evas_Object * obj,
-						void *event_info);
+static void _lockscreen_options_app_shortcut_cb(void *data, Evas_Object * obj, void *event_info);
+static void _lockscreen_options_locktype_cb(void *data, Evas_Object * obj, void *event_info);
 
 static lockscreen_menu_item_info lockscreen_options_menu_item_none[] = {
 	{ENUM_LOCKSCREEN_GENLIST_STYLE_2TEXT, IDS_LOCKSCREEN_OPTIONS_LOCK_SCREEN_TYPE, NULL, _lockscreen_options_locktype_cb, NULL},
@@ -64,12 +67,12 @@ static lockscreen_menu_item_info lockscreen_options_menu_item_none[] = {
 
 static lockscreen_menu_item_info lockscreen_options_menu_item_pw[] = {
 	{ENUM_LOCKSCREEN_GENLIST_STYLE_2TEXT, IDS_LOCKSCREEN_OPTIONS_LOCK_SCREEN_TYPE, NULL, _lockscreen_options_locktype_cb, NULL}, //type
-	{ENUM_LOCKSCREEN_GENLIST_STYLE_1TEXT1ICON, IDS_LOCKSCREEN_OPTIONS_CAMERA_SHORTCUT, NULL, NULL}, //camera
+	{ENUM_LOCKSCREEN_GENLIST_STYLE_2TEXT, IDS_LOCKSCREEN_OPTIONS_APP_SHORTCUT, NULL, _lockscreen_options_app_shortcut_cb, NULL}, //TODO: create IDS App shortcut
 };
 
 static lockscreen_menu_item_info lockscreen_options_menu_item_swipe[] = {
 	{ENUM_LOCKSCREEN_GENLIST_STYLE_2TEXT, IDS_LOCKSCREEN_OPTIONS_LOCK_SCREEN_TYPE, NULL, _lockscreen_options_locktype_cb, NULL,NULL}, //type
-	{ENUM_LOCKSCREEN_GENLIST_STYLE_1TEXT1ICON, IDS_LOCKSCREEN_OPTIONS_CAMERA_SHORTCUT, NULL, NULL,NULL}, //camera
+	{ENUM_LOCKSCREEN_GENLIST_STYLE_2TEXT, IDS_LOCKSCREEN_OPTIONS_APP_SHORTCUT, NULL, _lockscreen_options_app_shortcut_cb, NULL}, ////TODO: create IDS App shortcut
 };
 
 static Elm_Gen_Item_Class itc_menu_1text;
@@ -90,8 +93,13 @@ static Evas_Object *radio_group = NULL;
 
 Evas_Object *item_radio = NULL;
 
-static void _lockscreen_options_locktype_cb(void *data, Evas_Object * obj,
-						void *event_info)
+static void _lockscreen_options_app_shortcut_cb(void *data, Evas_Object * obj, void *event_info)
+{
+    LOCKOPTIONS_TRACE_BEGIN;
+    create_app_shortcut_ug(data);
+}
+
+static void _lockscreen_options_locktype_cb(void *data, Evas_Object * obj, void *event_info)
 {
 	int lock_type = 0;
 	app_control_h svc_mt_ug = NULL;
@@ -162,9 +170,7 @@ int _lockscreen_options_txt_list_create(char *filename)
 	return 0;
 }
 
-static char *_lockscreen_options_main_gl_label_get(void *data,
-							Evas_Object * obj,
-							const char *part)
+static char *_lockscreen_options_main_gl_label_get(void *data, Evas_Object * obj, const char *part)
 {
 	if (data == NULL || part == NULL)
 		return NULL;
@@ -178,14 +184,19 @@ static char *_lockscreen_options_main_gl_label_get(void *data,
 		return NULL;
 	}
 
-		if (!strcmp(part, "elm.text") || !strcmp(part, "elm.text.main.left") || !strcmp(part, "elm.text.main.left.top")) {	/* title */
+		if (!strcmp(part, "elm.text") || !strcmp(part, "elm.text.main.left") || !strcmp(part, "elm.text.main.left.top"))
+		{	/* title */
 			return strdup(lockscreen_optoins_get_string(lockoption_data->stringId));
-		} else if (!strcmp(part, "elm.text.sub") || !strcmp(part, "elm.text.sub.left.bottom")) {	/* bottom or right */
-			if(lockoption_data->stringId == IDS_LOCKSCREEN_OPTIONS_LOCK_SCREEN_TYPE) {
+		}
+		else if (!strcmp(part, "elm.text.sub") || !strcmp(part, "elm.text.sub.left.bottom"))
+		{	/* bottom or right */
+			if(lockoption_data->stringId == IDS_LOCKSCREEN_OPTIONS_LOCK_SCREEN_TYPE)
+			{
 				int lock_type = 0;
 				vconf_get_int(VCONFKEY_SETAPPL_SCREEN_LOCK_TYPE_INT, &lock_type);
 				char* type_str = NULL;
-				switch(lock_type) {
+				switch(lock_type)
+				{
 					case SETTING_SCREEN_LOCK_TYPE_NONE:
 						type_str = lockscreen_optoins_get_string(IDS_LOCKSCREEN_OPTIONS_STYLE_NONE);
 						break;
@@ -218,6 +229,10 @@ static char *_lockscreen_options_main_gl_label_get(void *data,
 				}
 				return strdup(type_str);
 			}
+			if(lockoption_data->stringId == IDS_LOCKSCREEN_OPTIONS_APP_SHORTCUT)
+			{
+			    return chosen_app ? strdup(chosen_app) : NULL;
+			}
 
 		} else if (!strcmp(part, "elm.text.multiline")) {	/* title */
 				LOCKOPTIONS_DBG("elm.text.multiline");
@@ -235,7 +250,7 @@ static void _lockscreen_options_set_menu_status(int stringId, int value)
 	LOCKOPTIONS_TRACE_BEGIN;
 	int ret = 0;
 	switch (stringId) {
-	case IDS_LOCKSCREEN_OPTIONS_CAMERA_SHORTCUT:
+	case IDS_LOCKSCREEN_OPTIONS_APP_SHORTCUT:
 		LOCKOPTIONS_DBG("IDS_LOCKSCREEN_OPTIONS_CAMERA_SHORTCUT : value = %d", value);
 		ret = vconf_set_bool(VCONFKEY_LOCKSCREEN_CAMERA_QUICK_ACCESS, value);
 		break;
@@ -257,7 +272,7 @@ static bool _lockscreen_options_get_menu_status(int stringId)
 	int ret = 0;
 
 	switch (stringId) {
-	case IDS_LOCKSCREEN_OPTIONS_CAMERA_SHORTCUT:
+	case IDS_LOCKSCREEN_OPTIONS_APP_SHORTCUT:
 		ret = vconf_get_bool(VCONFKEY_LOCKSCREEN_CAMERA_QUICK_ACCESS, &status);
 		LOCKOPTIONS_DBG("VCONFKEY_LOCKSCREEN_CAMERA_QUICK_ACCESS = %d", status);
 		break;
@@ -381,34 +396,26 @@ static void _lockscreen_options_main_gl_del(void *data, Evas_Object * obj)
 
 }
 
-static void _lockscreen_options_main_gl_sel(void *data, Evas_Object * obj,
-						void *event_info)
+static void _lockscreen_options_main_gl_sel(void *data, Evas_Object * obj, void *event_info)
 {
 	LOCKOPTIONS_DBG(" _lockscreen_options_main_gl_sel");
 	if (data == NULL)
 		return;
 
 	lockscreen_menu_item_info *lockoption_data = NULL;
-	elm_genlist_item_selected_set((Elm_Object_Item *) event_info,
-						EINA_FALSE);
+	elm_genlist_item_selected_set((Elm_Object_Item *) event_info, EINA_FALSE);
 
 	Elm_Object_Item *item = (Elm_Object_Item *) event_info;
 	genlist_selected_item = item;
-	lockoption_data =
-		(lockscreen_menu_item_info *) elm_object_item_data_get(item);
-	if (lockoption_data == NULL) {
+	lockoption_data = (lockscreen_menu_item_info *) elm_object_item_data_get(item);
+	if (lockoption_data == NULL)
+	{
 		return;
 	}
 
-	if (lockoption_data->stringId ==
-		IDS_LOCKSCREEN_OPTIONS_EVENT_NOTIFICATIONS
-		|| lockoption_data->stringId == IDS_LOCKSCREEN_OPTIONS_HELPTEXT
-		|| lockoption_data->stringId == IDS_LOCKSCREEN_OPTIONS_WAKE_UP
-		|| lockoption_data->stringId == IDS_LOCKSCREEN_OPTIONS_HELP_SHORTCUT
-		|| lockoption_data->stringId == IDS_LOCKSCREEN_OPTIONS_CAMERA_SHORTCUT
-		|| lockoption_data->stringId == IDS_LOCKSCREEN_OPTIONS_SWIPE_PW) {
-		Eina_Bool check_state = elm_check_state_get(lockoption_data->check);
-		_lockscreen_options_set_menu_status(lockoption_data->stringId, !check_state);
+	if (lockoption_data->stringId == IDS_LOCKSCREEN_OPTIONS_APP_SHORTCUT
+		|| lockoption_data->stringId == IDS_LOCKSCREEN_OPTIONS_SWIPE_PW)
+	{
 		elm_genlist_item_update(item);
 	}
 
@@ -534,7 +541,7 @@ static void _gl_con(void *data, Evas_Object *obj, void *event_info)
 
 static void lockscreen_options_main_create_genlist(Evas_Object *genlist, lockscreen_options_ug_data * ug_data)
 {
-
+    LOCKOPTIONS_TRACE_BEGIN;
     int genlist_show_mode = 0;
 	int genlist_num = 0;
 	int i = 0;
@@ -614,17 +621,23 @@ static void lockscreen_options_main_create_genlist(Evas_Object *genlist, lockscr
 					LOCKOPTIONS_DBG("ENUM_LOCKSCREEN_GENLIST_STYLE_2TEXT");
 					itc = &(itc_title_2text);
 					item = elm_genlist_item_append(genlist,
-							itc,
-							menu_item, NULL,
-							ELM_GENLIST_ITEM_NONE,
-							_lockscreen_options_main_gl_sel,
-							ug_data);
-					if(item == NULL) {
+							                       itc,
+							                       menu_item,
+							                       NULL,
+							                       ELM_GENLIST_ITEM_NONE,
+							                       _lockscreen_options_main_gl_sel,
+							                       ug_data);
+					if(item == NULL)
+					{
 						LOCKOPTIONS_WARN("elm_genlist_item_append() failed");
 					}
 					if(IDS_LOCKSCREEN_OPTIONS_LOCK_SCREEN_TYPE == menu_item->stringId)
 					{
-						item_type = item ;
+						item_type = item;
+					}
+					if(IDS_LOCKSCREEN_OPTIONS_APP_SHORTCUT == menu_item->stringId)
+					{
+					    item_type = item;
 					}
 					menu_item->item = item;
 					break;
