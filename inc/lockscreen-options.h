@@ -80,6 +80,8 @@ typedef struct _lockscreen_options_ug_data {
 	Elm_Gen_Item_Class itc_help_1text;
 
 	char* extra_data;
+	Evas_Object *app_shortcut_genlist;
+
 	char *viewtype;
 
 	/* Help UI */
