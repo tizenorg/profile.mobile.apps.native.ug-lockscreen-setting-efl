@@ -41,13 +41,13 @@
 
 #define LOCKOPTIONS_TRACE_BEGIN do {\
 		{\
-			LOCKOPTIONS_WARN("ENTER FUNCTION: %s.\n", __FUNCTION__);\
+			LOCKOPTIONS_WARN("ENTER FUNCTION: %s\n", __FUNCTION__);\
 		}\
 	}while(0);
 
 #define LOCKOPTIONS_TRACE_END do {\
 		{\
-			LOCKOPTIONS_WARN("EXIT FUNCTION: %s.\n", __FUNCTION__);\
+			LOCKOPTIONS_WARN("EXIT FUNCTION: %s\n", __FUNCTION__);\
 		}\
 	}while(0);
 
