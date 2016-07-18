@@ -99,6 +99,6 @@ typedef struct _lockscreen_options_ug_data {
 	Evas_Object *help_more_popup;
 } lockscreen_options_ug_data;
 
-int angle ;
+extern int angle;
 
 #endif				/* __lockscreen_options_H__ */

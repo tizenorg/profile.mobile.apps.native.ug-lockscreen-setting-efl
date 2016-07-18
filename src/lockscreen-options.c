@@ -44,6 +44,8 @@
 #define FILE_PATH_SIZE 1024
 #define LOCALE "locale"
 
+int angle;
+
 static Evas_Object *create_bg(Evas_Object * parent)
 {
 	Evas_Object *bg = elm_bg_add(parent);
