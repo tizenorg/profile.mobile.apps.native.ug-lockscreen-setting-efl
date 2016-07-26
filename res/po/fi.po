@@ -13,35 +13,35 @@ msgstr "Yksinkertainen salasana"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "Näytön lukituksen tyyppi"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Liike"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "Salasana"
 
 msgid "IDS_ST_BODY_NONE"
 msgstr "Ei mitään"
 
-msgid "IDS_ST_BODY_MOTION"
-msgstr "Liike"
-
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "Valitse taustakuva"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "Muokkaa"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "Kaksoiskello"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "Sormenjälki"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "Peruuta"
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "Automaattinen lukitus"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "Taustakuvat"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Muokkaa"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Sormenjälki"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Peruuta"
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "Galleria"
@@ -121,9 +121,6 @@ msgstr "Henkilökohtainen viesti"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "Polaroid"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "Ajoitettu tapahtuma"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "Aseta laite näyttämään näppäimistö lukitusnäytön pyyhkäisemisen jälkeen."
 
@@ -147,9 +144,6 @@ msgstr "Lukitusnäyttö"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "Lukitusnäytön teemat"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "Henkilökohtainen viesti"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "Määritä pikavalinnat"
@@ -199,12 +193,6 @@ msgstr "Muuta järjestystä vetämällä ja pudottamalla."
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "Kaksoiskello"
 
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "Valittu"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "Esikatselu"
-
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "Valitse sovellus"
 
@@ -253,6 +241,21 @@ msgstr "Kameran pikakäyttö"
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
 msgstr "Muokkaa pikavalintoja"
 
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Määritä kotikaupunki"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Ajoitettu tapahtuma"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Henkilökohtainen viesti"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Valittu"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Esikatselu"
+
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "Poistettu käytöstä"
 
@@ -262,6 +265,12 @@ msgstr "Käytössä"
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
 msgstr "Muokkaa otsikkoa"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "Määritä kotikaupunki"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "VALMIS"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "Sovelluksen pikavalinta"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "Valitse lukitusnäytössä käytettävä sovelluksen pikavalinta."
 

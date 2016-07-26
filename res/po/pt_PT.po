@@ -13,35 +13,35 @@ msgstr "Palavra-passe simples"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "Tipo de bloqueio do ecrã"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Movimento"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "Palavra-passe"
 
 msgid "IDS_ST_BODY_NONE"
 msgstr "Desligado"
 
-msgid "IDS_ST_BODY_MOTION"
-msgstr "Movimento"
-
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "Seleccionar fundo"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "Editar"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "Relógio duplo"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "Impressão digital"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "Cancelar"
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "Bloqueio automático"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "Fundos"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Editar"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Impressão digital"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Cancelar"
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "Galeria"
@@ -121,9 +121,6 @@ msgstr "Mensagem pessoal"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "Polaróide"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "Agenda"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "Defina o dispositivo para mostrar o teclado depois de passar com o dedo no ecrã bloqueado."
 
@@ -147,9 +144,6 @@ msgstr "Ecrã bloqueado"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "Temas de ecrã de bloqueio"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "Mensagem pessoal"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "Definir atalhos"
@@ -199,12 +193,6 @@ msgstr "Arrastar e largar para alterar a ordem."
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "Rel. duplo"
 
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "Itens"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "Pré-visualizar"
-
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "Seleccionar aplicação"
 
@@ -253,6 +241,21 @@ msgstr "Acesso rápido à câmara"
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
 msgstr "Editar atalhos"
 
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Definir cidade de origem"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Agenda"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Mensagem pessoal"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Itens"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Pré-visualizar"
+
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "Desactivado"
 
@@ -262,6 +265,12 @@ msgstr "Activada"
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
 msgstr "Editar título"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "Definir cidade de origem"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "CONCLUIR"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "Atalho de aplicação"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "Seleccione o atalho de aplicação que pretende utilizar no ecrã bloqueado."
 

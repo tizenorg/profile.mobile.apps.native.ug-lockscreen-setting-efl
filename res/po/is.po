@@ -13,35 +13,35 @@ msgstr "Einfalt lykilorð"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "Gerð skjáláss"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Hreyfing"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "Aðgangsorð"
 
 msgid "IDS_ST_BODY_NONE"
 msgstr "Ekkert"
 
-msgid "IDS_ST_BODY_MOTION"
-msgstr "Hreyfing"
-
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "Veldu veggfóður"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "Breyta"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "Tvöföld klukka"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "Fingrafar"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "Hætta v."
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "Sjálfvirk læsing"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "Veggfóður"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Breyta"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Fingrafar"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Hætta v."
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "Gallerí"
@@ -121,9 +121,6 @@ msgstr "Persónuleg skilaboð"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "Polaroid"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "Dagskrá"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "Stilla tækið á að sýna lyklaborðið þegar þú strýkur yfir lásskjáinn."
 
@@ -147,9 +144,6 @@ msgstr "Lásskjár"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "Þemu lásskjás"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "Sérskilaboð"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "Stilla flýtileiðir"
@@ -199,12 +193,6 @@ msgstr "Dragðu og slepptu til að breyta röð."
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "Tvöföld klukka"
 
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "Hlutum"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "Forskoða"
-
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "Velja forrit"
 
@@ -253,6 +241,21 @@ msgstr "Flýtiaðgangur myndavélar"
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
 msgstr "Breyta flýtileiðum"
 
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Velja heimaborg"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Dagskrá"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Sérskilaboð"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Hlutum"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Forskoða"
+
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "Óvirkt"
 
@@ -262,6 +265,12 @@ msgstr "Virkt"
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
 msgstr "Breyta titli"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "Velja heimaborg"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "LOKIÐ"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "Flýtileið forrits"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "Veldu hvaða flýtileið forrits þú vilt nota á lásskjánum."
 

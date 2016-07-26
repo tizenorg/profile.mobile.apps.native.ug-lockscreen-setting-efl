@@ -13,35 +13,35 @@ msgstr "Простий пароль"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "Тип блокування екрана"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Рух"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "Пароль"
 
 msgid "IDS_ST_BODY_NONE"
 msgstr "Немає"
 
-msgid "IDS_ST_BODY_MOTION"
-msgstr "Рух"
-
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "Вибір заставки"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "Редагувати"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "Подвійний годинник"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "Відбиток пальця"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "Скасувати"
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "Автоматичне блокування"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "Заставки"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Редагувати"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Відбиток пальця"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Скасувати"
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "Галерея"
@@ -121,9 +121,6 @@ msgstr "Особисте повідомлення"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "Полароїд"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "Розклад"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "Відображення клавіатури на пристрої після проведення по екрану блокування."
 
@@ -147,9 +144,6 @@ msgstr "Екран блокування"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "Теми екрану блокування"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "Особисте повідомлення"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "Встановлення клавіш швидкого доступу"
@@ -199,12 +193,6 @@ msgstr "Перетягніть, щоб змінити порядок."
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "Подвійний годинник"
 
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "Об’єкти"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "Перегляд"
-
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "Виберіть програму"
 
@@ -253,6 +241,21 @@ msgstr "Швидкий доступ до камери"
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
 msgstr "Редагувати клавіші шв. доступу"
 
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Укажіть місто проживання"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Розклад"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Особисте повідомлення"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Об’єкти"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Перегляд"
+
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "Вимкнено"
 
@@ -262,6 +265,12 @@ msgstr "Увімкнено"
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
 msgstr "Редагування назви"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "Укажіть місто проживання"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "ГОТОВО"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "Ярлик програми"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "Вибір ярлика програми для розміщення на екрані блокування."
 

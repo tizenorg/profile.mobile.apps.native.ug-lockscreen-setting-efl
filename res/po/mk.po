@@ -5,7 +5,7 @@ msgid "IDS_ST_MBODY_SWIPE"
 msgstr "Поминете"
 
 msgid "IDS_ST_HEADER_LOCK_SCREEN_SETTINGS"
-msgstr "Опции за заклучување на екранот"
+msgstr "Поставувања за заклучување на екранот"
 
 msgid "IDS_ST_BODY_SIMPLE_PASSWORD"
 msgstr "Едноставна лозинка"
@@ -13,35 +13,35 @@ msgstr "Едноставна лозинка"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "Вид заклучување на екранот"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Движење"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "Лозинка"
 
 msgid "IDS_ST_BODY_NONE"
 msgstr "Ништо"
 
-msgid "IDS_ST_BODY_MOTION"
-msgstr "Движење"
-
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "Избери заднина"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "Измени"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "Двоен часовник"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "Отпечаток на прст"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "Откажи"
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "Автоматско заклучување"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "Заднини"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Измени"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Отпечаток на прст"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Откажи"
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "Галерија"
@@ -121,9 +121,6 @@ msgstr "Лична порака"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "Полароид"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "Мој распоред"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "Одредете уредот да ја покажува тастатурата откако ќе поминете преку екранот за заклучување."
 
@@ -147,9 +144,6 @@ msgstr "Заклучување на екранот"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "Теми за екран за заклучување"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "Лична порака"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "Одреди кратенки"
@@ -199,12 +193,6 @@ msgstr "Повлечете и пуштете за да го смените ре�
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "Двоен часовник"
 
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "Записи"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "Прикажи"
-
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "Избери апликација"
 
@@ -253,6 +241,21 @@ msgstr "Брз пристап до камерата"
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
 msgstr "Измени кратенки"
 
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Одреди домашен град"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Мој распоред"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Лична порака"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Записи"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Прикажи"
+
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "Исклучено"
 
@@ -262,6 +265,12 @@ msgstr "Вклучено"
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
 msgstr "Измени наслов"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "Одреди домашен град"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "ГОТОВО"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "Кратенка за апликација"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "Изберете која кратенка за апликации сакате да ја користите на екранот за заклучување."
 

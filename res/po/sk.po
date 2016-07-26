@@ -13,35 +13,35 @@ msgstr "Jednoduché heslo"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "Typ zamknutia obrazovky"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Pohyb"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "Heslo"
 
 msgid "IDS_ST_BODY_NONE"
 msgstr "Žiadny"
 
-msgid "IDS_ST_BODY_MOTION"
-msgstr "Pohyb"
-
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "Vybrať tapetu"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "Upraviť"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "Duálne hodiny"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "Odtlačok prsta"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "Zrušiť"
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "Automatické zamykanie"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "Tapety"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Upraviť"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Odtlačok prsta"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Zrušiť"
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "Galéria"
@@ -121,9 +121,6 @@ msgstr "Osobná správa"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "Polaroid"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "Plán"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "Zariadenie sa nastaví tak, že po potiahnutí po zamknutej obrazovke zobrazí klávesnicu."
 
@@ -147,9 +144,6 @@ msgstr "Zamknutá obrazovka"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "Motívy zamknutej obrazovky"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "Osobná správa"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "Nastaviť skratky"
@@ -199,12 +193,6 @@ msgstr "Presunutím môžete zmeniť poradie."
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "Duálne hod."
 
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "Položky"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "Ukážka"
-
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "Vyberte aplikáciu"
 
@@ -253,6 +241,21 @@ msgstr "Rýchly príst. cez fotoap."
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
 msgstr "Upraviť odkazy"
 
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Nastaviť domovské mesto"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Plán"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Osobná správa"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Položky"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Ukážka"
+
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "Vypnuté"
 
@@ -262,6 +265,12 @@ msgstr "Zapnuté"
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
 msgstr "Upraviť názov"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "Nastaviť domovské mesto"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "HOTOVO"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "Odkaz na aplikáciu"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "Vyberte, ktorý odkaz na aplikáciu chcete použiť na zamknutej obrazovke."
 

@@ -13,35 +13,35 @@ msgstr "Proste hasło"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "Typ blokady ekranu"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Ruch"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "Hasło"
 
 msgid "IDS_ST_BODY_NONE"
 msgstr "Brak"
 
-msgid "IDS_ST_BODY_MOTION"
-msgstr "Ruch"
-
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "Wybierz tapetę"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "Edytuj"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "Zegar podwójny"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "Odcisk palca"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "Anuluj"
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "Automatyczna blokada"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "Tapety"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Edytuj"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Odcisk palca"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Anuluj"
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "Galeria"
@@ -121,9 +121,6 @@ msgstr "Wiadomość prywatna"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "Polaroid"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "Terminarz"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "Ustaw urządzenie, aby wyświetlało klawiaturę po przesunięciu ekranu blokady."
 
@@ -147,9 +144,6 @@ msgstr "Ekran blokady"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "Motywy ekranu blokady"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "Wiadomość prywatna"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "Ustawianie skrótów"
@@ -199,12 +193,6 @@ msgstr "Przeciągnij i upuść, aby zmienić kolejność."
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "Zegar podwójny"
 
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "Pliki"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "Podgląd"
-
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "Wybierz aplikację"
 
@@ -253,6 +241,21 @@ msgstr "Skrót aparatu"
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
 msgstr "Edytuj skróty"
 
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Ustaw. miasta domowego"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Terminarz"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Wiadomość prywatna"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Pliki"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Podgląd"
+
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "Wyłączone"
 
@@ -262,6 +265,12 @@ msgstr "Włączone"
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
 msgstr "Edytuj tytuł"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "Ustaw. miasta domowego"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "GOTOWE"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "Skrót aplikacji"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "Wybierz, który skrót aplikacji ma być używany na ekranie blokady."
 

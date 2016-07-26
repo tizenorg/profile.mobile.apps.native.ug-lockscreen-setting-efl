@@ -13,35 +13,35 @@ msgstr "Проста парола"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "Тип заключен екран"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Движение"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "Парола"
 
 msgid "IDS_ST_BODY_NONE"
 msgstr "Няма"
 
-msgid "IDS_ST_BODY_MOTION"
-msgstr "Движение"
-
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "Избор на тапет"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "Редактиране"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "Двоен часовник"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "Пръстов отпечатък"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "Отказ"
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "Авто-заключване"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "Тапети"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Редакт."
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Пръстов отпечатък"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Отказ"
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "Галерия"
@@ -121,9 +121,6 @@ msgstr "Лично съобщение"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "Polaroid"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "Моят график"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "Задайте устройството да показва клавиатурата, след като плъзнете заключения екран."
 
@@ -147,9 +144,6 @@ msgstr "Заключен екран"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "Теми на заключения екран"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "Лично съобщение"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "Задаване на бързи команди"
@@ -199,12 +193,6 @@ msgstr "Плъзнете и пуснете, за да промените ред�
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "Двоен часовник"
 
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "Елементи"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "Преглед"
-
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "Избор на приложение"
 
@@ -253,6 +241,21 @@ msgstr "Бърз достъп с камера"
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
 msgstr "Редактиране на бързи клавиши"
 
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Задав. град на живеене"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Моят график"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Лично съобщение"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Елементи"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Преглед"
+
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "Деактивирано"
 
@@ -262,6 +265,12 @@ msgstr "Активирано"
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
 msgstr "Редактиране на заглавие"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "Задав. град на живеене"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "ГОТОВО"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "Пряк път за приложение"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "Изберете кой пряк път за приложение искате да използвате на заключения екран."
 

@@ -13,35 +13,35 @@ msgstr "Preprosto geslo"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "Vrsta zaklepanja zaslona"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Gibanje"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "Geslo"
 
 msgid "IDS_ST_BODY_NONE"
 msgstr "Brez"
 
-msgid "IDS_ST_BODY_MOTION"
-msgstr "Gibanje"
-
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "Izberite sliko za ozadje"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "Uredi"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "Dvojna ura"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "Prstni odtis"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "Prekliči"
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "Samodejno zaklepanje"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "Ozadja"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Uredi"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Prstni odtis"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Prekliči"
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "Galerija"
@@ -121,9 +121,6 @@ msgstr "Osebno sporočilo"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "Polaroid"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "Urnik"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "Nastavite, da naprava prikaže tipkovnico, ko podrsate po zaklenjenem zaslonu."
 
@@ -147,9 +144,6 @@ msgstr "Zaklenjen zaslon"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "Teme za zaklenjeni zaslon"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "Osebno sporočilo"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "Nastavi bližnjice"
@@ -199,12 +193,6 @@ msgstr "Povlecite in spustite, če želite spremeniti vrstni red."
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "Dvojna ura"
 
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "Predmeti"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "Predogled"
-
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "Izberite program"
 
@@ -253,6 +241,21 @@ msgstr "Hitri dostop do kamere"
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
 msgstr "Uredi bližnjice"
 
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Nastavi domače mesto"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Urnik"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Osebno sporočilo"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Predmeti"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Predogled"
+
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "Onemogočeno"
 
@@ -262,6 +265,12 @@ msgstr "Omogočeno"
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
 msgstr "Uredi naslov"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "Nastavi domače mesto"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "KONČANO"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "Bližnjica do aplikacije"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "Izberite, katero bližnjico do aplikacije želite uporabljati na zaklenjenem zaslonu."
 

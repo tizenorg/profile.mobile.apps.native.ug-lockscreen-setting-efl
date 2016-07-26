@@ -13,35 +13,35 @@ msgstr "Pasfhocal simplí"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "Cineál glas scáileáin"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Gluaisne"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "Pasfhocal"
 
 msgid "IDS_ST_BODY_NONE"
 msgstr "Dada"
 
-msgid "IDS_ST_BODY_MOTION"
-msgstr "Gluaisne"
-
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "Roghnaigh cúlbhrat"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "Cuir in eagar"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "Déchlog"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "Méarlorg"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "Cealaigh"
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "Uathghlas"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "Cúlbhrait"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Cuir in eagar"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Méarlorg"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Cealaigh"
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "Gailearaí"
@@ -121,9 +121,6 @@ msgstr "Teachtaireacht phearsanta"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "Polaróideach"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "Sceideal"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "Socraigh an gléas chun an méarchlár a thaispeáint tar éis duit an scáileán glasála a svaidhpeáil."
 
@@ -147,9 +144,6 @@ msgstr "Glasáil an scáileán"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "Téamaí scáileáin ghlasála"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "Teachtaireacht phearsanta"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "Socraigh aicearraí"
@@ -199,12 +193,6 @@ msgstr "Tarraing agus scaoil leis an ord a athrú"
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "Déchlog"
 
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "Míreanna"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "Réamhamharc"
-
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "Roghnaigh feidhmchlár"
 
@@ -253,6 +241,21 @@ msgstr "Mear-rochtain ar cheamara"
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
 msgstr "Cuir aicearraí in eagar"
 
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Socraigh cathair bhaile"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Sceideal"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Teachtaireacht phearsanta"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Míreanna"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Réamhamharc"
+
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "Díchumasaithe"
 
@@ -262,6 +265,12 @@ msgstr "Cumasaithe"
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
 msgstr "Cuir teideal in eagar"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "Socraigh cathair bhaile"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "DÉANTA"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "Aicearra feidhmchláir"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "Roghnaigh an t-aicearra feidhmchláir is mian leat a úsáid ar an scáileán glasála."
 

@@ -13,35 +13,35 @@ msgstr "간단 비밀번호"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "화면 잠금 방식"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "모션"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "비밀번호"
 
 msgid "IDS_ST_BODY_NONE"
 msgstr "설정 안 함"
 
-msgid "IDS_ST_BODY_MOTION"
-msgstr "모션"
-
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "배경화면 선택"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "편집"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "듀얼 시계"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "지문"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "취소"
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "자동 잠금"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "배경화면"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "편집"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "지문"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "취소"
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "갤러리"
@@ -121,14 +121,11 @@ msgstr "개인 메시지"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "폴라로이드"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "일정"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "키보드가 잠금화면을 옆으로 밀면 표시되도록 설정합니다."
 
 msgid "IDS_LCKSCN_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_HBASED_ON_THE_WEATHER_APPLICATION_MSG"
-msgstr "날씨 앱에서 제공된 날씨정보 및 S헬스 [만보계]에서 측정된 걸음 수를 표시합니다."
+msgstr "날씨 앱에서 제공된 날씨정보 및 S헬스 만보계에서 측정된 걸음 수를 표시합니다."
 
 msgid "IDS_LCKSCN_BODY_THEMED_WALLPAPER_WILL_BE_APPLIED_ON_THE_LOCK_SCREEN_FOR_RUSSIAN_PUBLIC_HOLIDAYS"
 msgstr "러시아의 공휴일과 잘 어울리는 테마의 배경화면을 잠금화면에 적용합니다."
@@ -147,9 +144,6 @@ msgstr "잠금화면"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "잠금화면 테마"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "개인 메시지"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "바로가기 설정"
@@ -194,16 +188,10 @@ msgid "IDS_ST_BODY_DISPLAY_A_WEATHER_EFFECT_ON_THE_LOCK_SCREEN"
 msgstr "잠금화면에 날씨 효과를 표시합니다."
 
 msgid "IDS_ST_BODY_DRAG_AND_DROP_TO_CHANGE_ORDER"
-msgstr "순서를 바꾸려면 끌어다 놓으세요."
+msgstr "순서를 변경하려면 끌어다 놓으세요."
 
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "듀얼 시계"
-
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "항목"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "미리보기"
 
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "애플리케이션 선택"
@@ -253,6 +241,21 @@ msgstr "카메라 빠른 실행"
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
 msgstr "바로가기 편집"
 
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "홈 도시 설정"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "일정"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "개인 메시지"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "항목"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "미리보기"
+
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "사용 안 함"
 
@@ -262,6 +265,12 @@ msgstr "사용 중"
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
 msgstr "제목 편집"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "홈 도시 설정"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "완료"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "앱 바로가기"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "잠금화면에서 사용할 앱 바로가기를 선택하세요."
 

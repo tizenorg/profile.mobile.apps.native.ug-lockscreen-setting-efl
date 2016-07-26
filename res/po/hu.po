@@ -13,35 +13,35 @@ msgstr "Egyszerű jelszó"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "Képernyőzár típusa"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Mozgás"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "Jelszó"
 
 msgid "IDS_ST_BODY_NONE"
 msgstr "Nincs"
 
-msgid "IDS_ST_BODY_MOTION"
-msgstr "Mozgás"
-
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "Háttér kiválasztása"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "Szerkeszt"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "Második óra"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "Ujjlenyomat"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "Mégse"
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "Automatikus lezárás"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "Háttérképek"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Szerkeszt"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Ujjlenyomat"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Mégse"
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "Galéria"
@@ -121,9 +121,6 @@ msgstr "Személyes üzenet"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "Polaroid"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "Programok"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "Beállíthatja, hogy a zárolt képernyő megsimítására a billentyűzet jelenjen meg az eszközön."
 
@@ -147,9 +144,6 @@ msgstr "Képernyő lezárása"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "Zárolt képernyő témái"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "Személyes üzenet"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "Parancsikonok beállítása"
@@ -199,12 +193,6 @@ msgstr "Az elemek áthúzásával megváltoztathatja a sorrendet."
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "Kettős óra"
 
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "Tétel"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "Előnézet"
-
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "Alkalmazás kiválasztása"
 
@@ -253,6 +241,21 @@ msgstr "Gyorsfényképezés"
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
 msgstr "Ikonok szerkesztése"
 
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Hazai város beállítása"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Programok"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Személyes üzenet"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Tétel"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Előnézet"
+
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "Letiltva"
 
@@ -262,6 +265,12 @@ msgstr "Engedélyezve"
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
 msgstr "Név szerkesztése"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "Hazai város beállítása"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "KÉSZ"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "Alkalmazás-parancsikon"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "Válassza ki azt az alkalmazás-parancsikont, amelyet a zárolt képernyőn szeretne használni."
 

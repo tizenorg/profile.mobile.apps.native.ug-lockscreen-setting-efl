@@ -1,11 +1,11 @@
 msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
-msgstr "Fondo de pantalla de bloqueo cambiado"
+msgstr "Fondo de pantalla Bloqueo cambiado"
 
 msgid "IDS_ST_MBODY_SWIPE"
 msgstr "Deslizar"
 
 msgid "IDS_ST_HEADER_LOCK_SCREEN_SETTINGS"
-msgstr "Ajustes de pantalla de bloqueo"
+msgstr "Ajustes de pantalla Bloqueo"
 
 msgid "IDS_ST_BODY_SIMPLE_PASSWORD"
 msgstr "Contraseña simple"
@@ -13,35 +13,35 @@ msgstr "Contraseña simple"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "Tipo de bloqueo de pantalla"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Movimiento"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "Contraseña"
 
 msgid "IDS_ST_BODY_NONE"
-msgstr "Ninguno"
-
-msgid "IDS_ST_BODY_MOTION"
-msgstr "Movimiento"
+msgstr "No"
 
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "Seleccionar fondo de pantalla"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "Editar"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "Reloj dual"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "Huella digital"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "Cancelar"
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "Bloqueo automático"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "Fondos de pantalla"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Editar"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Huella digital"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Cancelar"
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "Galería"
@@ -121,9 +121,6 @@ msgstr "Mensaje personal"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "Polaroid"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "Planificación"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "Configure su dispositivo para que se muestre el teclado tras deslizar la pantalla de bloqueo."
 
@@ -147,9 +144,6 @@ msgstr "Pantalla Bloqueo"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "Temas de pantalla de bloqueo"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "Mensaje personal"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "Definir accesos directos"
@@ -191,7 +185,7 @@ msgid "IDS_ST_BODY_CLOCK"
 msgstr "Reloj"
 
 msgid "IDS_ST_BODY_DISPLAY_A_WEATHER_EFFECT_ON_THE_LOCK_SCREEN"
-msgstr "Muestra un efecto meteorológico en la pantalla de bloqueo."
+msgstr "Muestra un efecto meteorológico en la pantalla Bloqueo."
 
 msgid "IDS_ST_BODY_DRAG_AND_DROP_TO_CHANGE_ORDER"
 msgstr "Arrastrar y soltar para cambiar el orden"
@@ -199,35 +193,29 @@ msgstr "Arrastrar y soltar para cambiar el orden"
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "Reloj dual"
 
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "Elementos"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "Vista previa"
-
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "Seleccionar aplicación"
 
 msgid "IDS_ST_BODY_SET_AS_LOCK_SCREEN"
-msgstr "Definir como pantalla de bloqueo"
+msgstr "Definir como pantalla Bloqueo"
 
 msgid "IDS_ST_BODY_SET_SHORTCUTS"
 msgstr "Definir accesos directos"
 
 msgid "IDS_ST_BODY_SET_SHORTCUTS_ON_LOCK_SCREEN"
-msgstr "Definir accesos directos en pantalla de bloqueo"
+msgstr "Definir accesos directos en pantalla Bloqueo"
 
 msgid "IDS_ST_BODY_SHORTCUTS"
 msgstr "Accesos directos"
 
 msgid "IDS_ST_BODY_SHOW_DUAL_CLOCK_ON_LOCK_SCREEN_WHEN_ROAMING"
-msgstr "Mostrar reloj dual en pantalla de bloqueo en itinerancia"
+msgstr "Mostrar reloj dual en pantalla Bloqueo en itinerancia"
 
 msgid "IDS_ST_BODY_SHOW_HELP_TEXT_ON_LOCK_SCREEN"
-msgstr "Mostrar texto de ayuda en pantalla de bloqueo."
+msgstr "Mostrar texto de ayuda en pantalla Bloqueo."
 
 msgid "IDS_ST_BODY_SHOW_INFORMATION_ABOUT_THE_WEATHER_AND_YOUR_STEP_COUNT_ON_THE_LOCK_SCREEN"
-msgstr "Mostrar información meteorológica y el recuento de pasos en la pantalla de bloqueo."
+msgstr "Mostrar información meteorológica y el recuento de pasos en la pantalla Bloqueo."
 
 msgid "IDS_ST_BODY_STYLE"
 msgstr "Estilo"
@@ -253,6 +241,21 @@ msgstr "Acceso rápido a Cámara"
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
 msgstr "Editar accesos directos"
 
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Definir ciudad de inicio"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Planificación"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Mensaje personal"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Elementos"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Vista previa"
+
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "Desactivado"
 
@@ -262,6 +265,12 @@ msgstr "Activado"
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
 msgstr "Editar título"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "Definir ciudad de inicio"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "HECHO"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "Acceso directo a app"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "Seleccione el acceso directo de aplicación que quiere usar en la pantalla Bloqueo."
 

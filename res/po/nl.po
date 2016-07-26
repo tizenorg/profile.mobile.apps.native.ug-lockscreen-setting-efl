@@ -13,35 +13,35 @@ msgstr "Eenvoudig wachtwoord"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "Type schermvergrendeling"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Beweging"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "Wachtwoord"
 
 msgid "IDS_ST_BODY_NONE"
 msgstr "Geen"
 
-msgid "IDS_ST_BODY_MOTION"
-msgstr "Beweging"
-
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "Achtergrond selecteren"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "Bewerken"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "Dubbele klok"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "Vingerafdruk"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "Annuleer"
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "Automatisch vergrendelen"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "Achtergr."
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Bewerken"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Vingerafdruk"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Annuleer"
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "Galerij"
@@ -121,9 +121,6 @@ msgstr "Persoonlijk bericht"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "Polaroid"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "Afspraak"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "Stel het apparaat in om het toetsenbord weer te geven nadat u over het vergrendelscherm hebt geveegd."
 
@@ -147,9 +144,6 @@ msgstr "Vergrendelscherm"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "Thema´s voor vergrendelscherm"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "Persoonlijk bericht"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "Snelkoppelingen instellen"
@@ -199,12 +193,6 @@ msgstr "Sleep en zet neer om volgorde te wijzigen."
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "Twee klokken"
 
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "Items"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "Voorbeeld"
-
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "Applicatie selecteren"
 
@@ -253,6 +241,21 @@ msgstr "Camera ontgrendelen"
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
 msgstr "Sneltoetsen wijzigen"
 
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Thuisland instellen"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Afspraak"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Persoonlijk bericht"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Items"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Voorbeeld"
+
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "Uitgeschakeld"
 
@@ -262,6 +265,12 @@ msgstr "Ingeschakeld"
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
 msgstr "Titel bewerken"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "Thuisland instellen"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "GEREED"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "App-sneltoets"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "Selecteer welke app-sneltoets u wilt gebruiken op het vergrendelscherm."
 

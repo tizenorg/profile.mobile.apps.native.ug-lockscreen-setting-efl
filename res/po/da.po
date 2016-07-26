@@ -13,35 +13,35 @@ msgstr "Enkelt adgangskode"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "Skærmlåsningstype"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Bevægelse"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "Adgangskode"
 
 msgid "IDS_ST_BODY_NONE"
 msgstr "Ingen"
 
-msgid "IDS_ST_BODY_MOTION"
-msgstr "Bevægelse"
-
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "Vælg baggrund"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "Redigér"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "Dobbelt ur"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "Fingeraftryk"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "Annullér"
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "Automatisk lås"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "Baggrunde"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Rediger"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Fingeraftryk"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Annuller"
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "Galleri"
@@ -95,7 +95,7 @@ msgid "IDS_LCKSCN_BODY_DISPLAY_YOUR_PERSONAL_MESSAGE_ON_THE_LOCK_SCREEN"
 msgstr "Vis din personlige besked på låseskærmen."
 
 msgid "IDS_LCKSCN_BODY_EDIT_PERSONAL_MESSAGE"
-msgstr "Redigér personlig besked"
+msgstr "Rediger personlig besked"
 
 msgid "IDS_LCKSCN_BODY_FUN_M_LOCKSCREEN_NAME"
 msgstr "Sjov"
@@ -121,9 +121,6 @@ msgstr "Personlig besked"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "Polaroid"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "Tidsplan"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "Indstil enheden til at vise tastaturet, når du stryger på låseskærmen."
 
@@ -137,7 +134,7 @@ msgid "IDS_LCKSCN_BODY_WAKE_UP_IN_LOCK_SCREEN_ABB"
 msgstr "Vågn op med låst skærm"
 
 msgid "IDS_LCKSCN_BODY_YOU_CAN_INPUT_TEXT_ON_THE_LOCK_SCREEN_AND_EDIT_IT_BY_SELECTING_EDIT_PERSONAL_MESSAGE"
-msgstr "Du kan indtaste tekst på den låste skærm og redigere den ved at vælge redigér personlig besked."
+msgstr "Du kan indtaste tekst på den låste skærm og redigere den ved at vælge rediger personlig besked."
 
 msgid "IDS_LCKSCN_HEADER_BRIEFING_BOX"
 msgstr "Orienteringsboks"
@@ -147,9 +144,6 @@ msgstr "Låseskærm"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "Temaer på låseskærm"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "Personlig besked"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "Angiv genveje"
@@ -199,12 +193,6 @@ msgstr "Træk og slip for at skifte rækkefølge."
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "Dobbelt-ur"
 
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "Elementer"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "Forhåndsvisning"
-
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "Vælg program"
 
@@ -251,7 +239,22 @@ msgid "IDS_ST_MBODY_CAMERA_QUICK_ACCESS"
 msgstr "Hurtig adgang til kamera"
 
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
-msgstr "Redigér genveje"
+msgstr "Rediger genveje"
+
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Indstil hjemby"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Tidsplan"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Personlig besked"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Elementer"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Forhåndsvisning"
 
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "Deaktiveret"
@@ -260,8 +263,14 @@ msgid "IDS_ST_SBODY_ENABLED_M_STATUS"
 msgstr "Aktiveret"
 
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
-msgstr "Redigér titel"
+msgstr "Rediger titel"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "Indstil hjemby"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "UDFØRT"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "Appgenvej"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "Vælg, hvilken appgenvej du vil bruge på låseskærmen."
 

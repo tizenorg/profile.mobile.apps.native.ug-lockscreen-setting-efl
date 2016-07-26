@@ -13,35 +13,35 @@ msgstr "Paprastas slaptažodis"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "Ekrano užrakto tipas"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "Judėjimas"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "Slaptažodis"
 
 msgid "IDS_ST_BODY_NONE"
 msgstr "Nėra"
 
-msgid "IDS_ST_BODY_MOTION"
-msgstr "Judėjimas"
-
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "Pasirinkti ekrano foną"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "Redaguoti"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "Dvigubas laikrodis"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "Pirštų atspaudas"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "Atšaukti"
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "Automatinis užraktas"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "Ekrano fonai"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "Redaguoti"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "Pirštų atspaudas"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "Atšaukti"
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "Galerija"
@@ -121,9 +121,6 @@ msgstr "Asmeninė žinutė"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "Polaroid"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "Tvarkaraštis"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "Nustatyti įrenginį rodyti klaviatūrą perbraukus užrakinimo ekraną."
 
@@ -147,9 +144,6 @@ msgstr "Užrakinimo ekranas"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "Užrakinimo ekrano temos"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "Asmeninė žinutė"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "Nustatyti trumpinius"
@@ -199,12 +193,6 @@ msgstr "Vilkdami pakeiskite išdėstymą."
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "Dvigubas laikrodis"
 
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "Elementai"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "Peržiūra"
-
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "Pasirinkti programą"
 
@@ -253,6 +241,21 @@ msgstr "Gr. prieiga prie fotoap."
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
 msgstr "Redaguoti nuorodas"
 
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "Nustatyti gimtąjį miestą"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "Tvarkaraštis"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "Asmeninė žinutė"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "Elementai"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "Peržiūra"
+
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "Išjungta"
 
@@ -262,6 +265,12 @@ msgstr "Įjungta"
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
 msgstr "Redaguoti antraštę"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "Nustatyti gimtąjį miestą"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "ATLIKTA"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "Programos trumpinys"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "Pasirinkite, kurį programos spartųjį mygtuką norite naudoti užrakintame ekrane."
 

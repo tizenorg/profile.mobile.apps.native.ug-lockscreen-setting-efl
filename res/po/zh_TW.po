@@ -13,35 +13,35 @@ msgstr "簡易密碼"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "螢幕鎖定類型"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "動作"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "密碼"
 
 msgid "IDS_ST_BODY_NONE"
 msgstr "無"
 
-msgid "IDS_ST_BODY_MOTION"
-msgstr "動作"
-
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "選擇桌布"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "編輯"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "雙時鐘"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "指紋"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "取消"
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "自動鎖定"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "桌布"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "編輯"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "指紋"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "取消"
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "媒體瀏覽器"
@@ -121,9 +121,6 @@ msgstr "個人訊息"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "拍立得"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "排程"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "設定裝置以在您滑過鎖定螢幕時顯示鍵盤。"
 
@@ -147,9 +144,6 @@ msgstr "鎖定螢幕"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "鎖定螢幕主題"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "個人訊息"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "設定捷徑"
@@ -199,12 +193,6 @@ msgstr "拖放以變更順序。"
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "雙時鐘"
 
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "項目"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "預覽"
-
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "選擇應用程式"
 
@@ -233,7 +221,7 @@ msgid "IDS_ST_BODY_STYLE"
 msgstr "時尚"
 
 msgid "IDS_ST_BODY_TAP_AND_HOLD_THE_SCREEN_WHILE_ROTATING_THE_DEVICE_TO_OPEN_CAMERA"
-msgstr "輕觸並按住螢幕同時旋轉裝置以開啟相機。"
+msgstr "輕觸並按住螢幕同時旋轉裝置以開啟 [相機]。"
 
 msgid "IDS_ST_BODY_TAP_SHORTCUT_TO_ASSIGN_APPLICATION"
 msgstr "輕觸捷徑以指定應用程式。"
@@ -253,6 +241,21 @@ msgstr "相機快速捷徑"
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
 msgstr "編輯快捷鍵"
 
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "設定住家所在城市"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "排程"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "個人訊息"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "項目"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "預覽"
+
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "已停用"
 
@@ -262,6 +265,12 @@ msgstr "已啟用"
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
 msgstr "編輯標題"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "設定住家所在城市"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "完成"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "應用程式捷徑"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "選擇您想要在鎖定螢幕上使用的應用程式。"
 

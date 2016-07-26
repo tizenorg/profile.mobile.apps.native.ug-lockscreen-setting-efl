@@ -13,35 +13,35 @@ msgstr "आसान पासवर्ड"
 msgid "IDS_ST_BODY_SCREEN_LOCK_TYPE"
 msgstr "स्क्रीन लॉक प्रकार"
 
+msgid "IDS_ST_BODY_MOTION"
+msgstr "गति"
+
 msgid "IDS_ST_BODY_PASSWORD"
 msgstr "पासवर्ड"
 
 msgid "IDS_ST_BODY_NONE"
 msgstr "कुछ नहीं"
 
-msgid "IDS_ST_BODY_MOTION"
-msgstr "गति"
-
 msgid "IDS_COM_HEADER_SELECT_WALLPAPER"
 msgstr "वॉलपेपर चुनें"
 
-msgid "IDS_COM_BODY_EDIT"
-msgstr "संपादित करें"
-
 msgid "IDS_LCKSCN_MBODY_DUAL_CLOCK"
 msgstr "दोहरी घड़ी"
-
-msgid "IDS_ST_MBODY_FINGERPRINT"
-msgstr "फिंगरप्रिंट"
-
-msgid "IDS_ST_BUTTON_CANCEL"
-msgstr "रद्द"
 
 msgid "IDS_ST_BODY_AUTO_LOCK"
 msgstr "स्वतः लॉक"
 
 msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
 msgstr "वॉलपेपर्स"
+
+msgid "IDS_COM_BODY_EDIT"
+msgstr "संपादित करें"
+
+msgid "IDS_ST_MBODY_FINGERPRINT"
+msgstr "फिंगरप्रिंट"
+
+msgid "IDS_ST_BUTTON_CANCEL"
+msgstr "रद्द"
 
 msgid "IDS_LCKSCN_BODY_GALLERY"
 msgstr "गैलरी"
@@ -92,7 +92,7 @@ msgid "IDS_LCKSCN_BODY_DIARY"
 msgstr "डायरी"
 
 msgid "IDS_LCKSCN_BODY_DISPLAY_YOUR_PERSONAL_MESSAGE_ON_THE_LOCK_SCREEN"
-msgstr "लॉक स्क्रीन पर अपने व्यक्तिगत संदेश प्रदर्शित करें।"
+msgstr "लॉक स्क्रीन पर अपने व्यक्तिगत सन्देश प्रदर्शित करें।"
 
 msgid "IDS_LCKSCN_BODY_EDIT_PERSONAL_MESSAGE"
 msgstr "व्यक्तिगत सन्देश संपादित करें"
@@ -121,9 +121,6 @@ msgstr "व्यक्तिगत संदेश"
 msgid "IDS_LCKSCN_BODY_POLAROID_M_LOCKSCREEN_NAME"
 msgstr "पोलरॉइड"
 
-msgid "IDS_LCKSCN_BODY_SCHEDULE"
-msgstr "अनुसूची"
-
 msgid "IDS_LCKSCN_BODY_SET_THE_DEVICE_TO_SHOW_THE_KEYBOARD_AFTER_YOU_SWIPE_THE_LOCK_SCREEN"
 msgstr "आपके द्वारा लॉक स्क्रीन स्वाइप करने के बाद डिवाइस को कीबोर्ड दिखाने पर सेट करें।"
 
@@ -137,7 +134,7 @@ msgid "IDS_LCKSCN_BODY_WAKE_UP_IN_LOCK_SCREEN_ABB"
 msgstr "लॉक स्क्रीन में चालू करें"
 
 msgid "IDS_LCKSCN_BODY_YOU_CAN_INPUT_TEXT_ON_THE_LOCK_SCREEN_AND_EDIT_IT_BY_SELECTING_EDIT_PERSONAL_MESSAGE"
-msgstr "आप लॉक स्क्रीन पर टेक्स्ट इनपुट कर सकते हैं और व्यक्तिगत सन्देश संपादित करें चुनकर इसे संपादित कर सकते हैं।"
+msgstr "आप लॉक स्क्रीन पर टेक्स्ट इनपुट कर सकते हैं और “व्यक्तिगत सन्देश संपादित करें” चुनकर इसे संपादित कर सकते हैं।"
 
 msgid "IDS_LCKSCN_HEADER_BRIEFING_BOX"
 msgstr "विवरण बॉक्स"
@@ -147,9 +144,6 @@ msgstr "लॉक स्क्रीन"
 
 msgid "IDS_LCKSCN_HEADER_LOCK_SCREEN_THEMES_ABB"
 msgstr "लॉक स्क्रीन थीम्‍स"
-
-msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
-msgstr "व्यक्तिगत सन्देश"
 
 msgid "IDS_LCKSCN_HEADER_SET_SHORTCUTS"
 msgstr "शॉर्टकट्स सेट करें"
@@ -194,16 +188,10 @@ msgid "IDS_ST_BODY_DISPLAY_A_WEATHER_EFFECT_ON_THE_LOCK_SCREEN"
 msgstr "लॉक स्क्रीन पर मौसम का प्रभाव प्रदर्शित करें।"
 
 msgid "IDS_ST_BODY_DRAG_AND_DROP_TO_CHANGE_ORDER"
-msgstr "क्रम बदलने के लिए ड्रैग और ड्रॉप करें"
+msgstr "क्रम बदलने के लिए ड्रैग और ड्रॉप करें।"
 
 msgid "IDS_ST_BODY_DUAL_CLOCK"
 msgstr "दोहरी घड़ी"
-
-msgid "IDS_ST_BODY_ITEMS"
-msgstr "मदें"
-
-msgid "IDS_ST_BODY_PREVIEW"
-msgstr "पूर्वावलोकन"
 
 msgid "IDS_ST_BODY_SELECT_APPLICATION"
 msgstr "एप्लीकेशन चुनें"
@@ -253,6 +241,21 @@ msgstr "कैमरा शीघ्र एक्सेस"
 msgid "IDS_ST_OPT_EDIT_SHORTCUTS"
 msgstr "शॉर्टकट्स संपादित करें"
 
+msgid "IDS_ST_MBODY_SET_HOME_CITY"
+msgstr "होम शहर सेट करें"
+
+msgid "IDS_LCKSCN_BODY_SCHEDULE"
+msgstr "अनुसूची"
+
+msgid "IDS_LCKSCN_HEADER_PERSONAL_MESSAGE"
+msgstr "व्यक्तिगत सन्देश"
+
+msgid "IDS_ST_BODY_ITEMS"
+msgstr "मदें"
+
+msgid "IDS_ST_BODY_PREVIEW"
+msgstr "पूर्वावलोकन"
+
 msgid "IDS_ST_SBODY_DISABLED_M_STATUS"
 msgstr "अक्षम किया गया"
 
@@ -262,6 +265,12 @@ msgstr "सक्षम"
 msgid "IDS_STORYALBUM_OPT_EDIT_TITLE"
 msgstr "शीर्षक संपादित करें"
 
-msgid "IDS_ST_MBODY_SET_HOME_CITY"
-msgstr "होम शहर सेट करें"
+msgid "IDS_ST_ACBUTTON_DONE_ABB3"
+msgstr "पूर्ण"
+
+msgid "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB"
+msgstr "एप शॉर्टकट"
+
+msgid "IDS_LCKSCN_BODY_SELECT_WHICH_APP_SHORTCUT_YOU_WANT_TO_USE_ON_THE_LOCK_SCREEN"
+msgstr "लॉक स्क्रीन पर उपयोग करने हेतु इच्छित एप शॉर्टकट चुनें।"
 
