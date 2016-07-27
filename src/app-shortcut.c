@@ -17,6 +17,7 @@
 
 #include "app-shortcut.h"
 #include "lockscreen-options-debug.h"
+#include "lockscreen-options-util.h"
 #include <stdbool.h>
 #include <package_manager.h>
 #include <package_info.h>
@@ -68,13 +69,13 @@ static char *gl_option_text_get_cb(void *data, Evas_Object *obj, const char *par
 
     if (!strcmp(data, "app-shortcut") && !strcmp(part, "elm.text"))
         if(get_app_shortcut_state())
-            return strdup("App shortcut"); // TODO: change when IDS will be created
+            return strdup(lockscreen_optoins_get_string(IDS_LOCKSCREEN_OPTIONS_APP_SHORTCUT));
         else
             return strdup("Lock screen shortcut"); // TODO: change when IDS will be created
     else if (!strcmp(data, "help-text-item") && !strcmp("elm.text.multiline", part))
     {
         if (get_app_shortcut_state())
-            snprintf(buf, sizeof(buf), TEXT_STRING, "Select which app shortcut you want to use on the lock screen");//TODO: add IDS
+            snprintf(buf, sizeof(buf), TEXT_STRING, lockscreen_optoins_get_string(IDS_LOCKSCREEN_OPTIONS_SELECT_WHICH_APP_SHORTCUT));
         else
             snprintf(buf, sizeof(buf), TEXT_STRING, "Use app shortcut on the lock screen");//TODO: add IDS
 
@@ -309,7 +310,7 @@ static void app_shortcut_create_view()
     Evas_Object *cancel_btn = NULL;
     Evas_Object *done_btn = NULL;
 
-    Elm_Object_Item *navi_item = elm_naviframe_item_push(ug_data->navi_bar, "App shortcut", NULL, NULL, NULL, NULL); // TODO: when IDS will be add
+    Elm_Object_Item *navi_item = elm_naviframe_item_push(ug_data->navi_bar, "IDS_LCKSCN_MBODY_APP_SHORTCUT_ABB", NULL, NULL, NULL, NULL);
     elm_object_item_domain_text_translatable_set(navi_item, PKGNAME, EINA_TRUE);
 
     /* Create genlist */
@@ -337,7 +338,7 @@ static void app_shortcut_create_view()
     done_btn = elm_button_add(ug_data->navi_bar);
     elm_object_style_set(done_btn, "naviframe/title_right");
     evas_object_smart_callback_add(done_btn, "clicked", done_button_cb, ug_data->navi_bar);
-    elm_object_text_set(done_btn, "DONE"); // TODO: when IDS of Done will be add
+    elm_object_text_set(done_btn, dgettext(PKGNAME, "IDS_ST_ACBUTTON_DONE_ABB3"));
     elm_object_item_part_content_set(navi_item, "title_right_btn", done_btn);
 }
 

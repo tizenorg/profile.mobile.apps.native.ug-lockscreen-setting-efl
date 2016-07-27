@@ -67,12 +67,12 @@ static lockscreen_menu_item_info lockscreen_options_menu_item_none[] = {
 
 static lockscreen_menu_item_info lockscreen_options_menu_item_pw[] = {
 	{ENUM_LOCKSCREEN_GENLIST_STYLE_2TEXT, IDS_LOCKSCREEN_OPTIONS_LOCK_SCREEN_TYPE, NULL, _lockscreen_options_locktype_cb, NULL}, //type
-	{ENUM_LOCKSCREEN_GENLIST_STYLE_2TEXT, IDS_LOCKSCREEN_OPTIONS_APP_SHORTCUT, NULL, _lockscreen_options_app_shortcut_cb, NULL}, //TODO: create IDS App shortcut
+	{ENUM_LOCKSCREEN_GENLIST_STYLE_2TEXT, IDS_LOCKSCREEN_OPTIONS_APP_SHORTCUT, NULL, _lockscreen_options_app_shortcut_cb, NULL},
 };
 
 static lockscreen_menu_item_info lockscreen_options_menu_item_swipe[] = {
 	{ENUM_LOCKSCREEN_GENLIST_STYLE_2TEXT, IDS_LOCKSCREEN_OPTIONS_LOCK_SCREEN_TYPE, NULL, _lockscreen_options_locktype_cb, NULL,NULL}, //type
-	{ENUM_LOCKSCREEN_GENLIST_STYLE_2TEXT, IDS_LOCKSCREEN_OPTIONS_APP_SHORTCUT, NULL, _lockscreen_options_app_shortcut_cb, NULL}, ////TODO: create IDS App shortcut
+	{ENUM_LOCKSCREEN_GENLIST_STYLE_2TEXT, IDS_LOCKSCREEN_OPTIONS_APP_SHORTCUT, NULL, _lockscreen_options_app_shortcut_cb, NULL},
 };
 
 static Elm_Gen_Item_Class itc_menu_1text;
