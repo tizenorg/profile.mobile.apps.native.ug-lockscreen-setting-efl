@@ -134,7 +134,7 @@ msgid "IDS_LCKSCN_BODY_WAKE_UP_IN_LOCK_SCREEN_ABB"
 msgstr "Құлыптау экранында қосу"
 
 msgid "IDS_LCKSCN_BODY_YOU_CAN_INPUT_TEXT_ON_THE_LOCK_SCREEN_AND_EDIT_IT_BY_SELECTING_EDIT_PERSONAL_MESSAGE"
-msgstr "Құлып экранына мәтінді енгізіп, оны \“Жеке хабарды өзгерту\” опциясы арқылы өзгертуге болады."
+msgstr "Құлып экранына мәтінді енгізіп, оны \"Жеке хабарды өзгерту\" опциясы арқылы өзгертуге болады."
 
 msgid "IDS_LCKSCN_HEADER_BRIEFING_BOX"
 msgstr "Қысқаша мазмұн терезесі"

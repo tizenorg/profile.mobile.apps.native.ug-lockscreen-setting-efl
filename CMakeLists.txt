@@ -14,11 +14,24 @@ SET(SRCS
 	./src/lockscreen-options.c
 	./src/lockscreen-options-util.c
 	./src/lockscreen-options-main.c
+	./src/app-shortcut.c
 )
 
 INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/inc)
 INCLUDE(FindPkgConfig)
-pkg_check_modules(pkgs_lock-screen-options REQUIRED elementary evas capi-system-system-settings efl-extension appcore-efl capi-appfw-application capi-appfw-app-control libtzplatform-config dlog vconf)
+pkg_check_modules(pkgs_lock-screen-options REQUIRED 
+    elementary
+    evas
+    capi-system-system-settings
+    efl-extension
+    appcore-efl
+    capi-appfw-application
+    capi-appfw-app-control
+    capi-appfw-package-manager
+    capi-appfw-app-manager
+    libtzplatform-config
+    dlog
+    vconf)
 
 FOREACH(flag ${pkgs_lock-screen-options_CFLAGS})
 	SET(EXTRA_C_FLAGS "${EXTRA_C_FLAGS} ${flag}")
