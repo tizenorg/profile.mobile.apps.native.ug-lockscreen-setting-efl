@@ -37,6 +37,9 @@
 #define N_(s)			dgettext_noop(s)
 #define _X(x) (x*elm_config_scale_get())
 
+/**
+ * @brief An enum with genlist-item style codes.
+ */
 enum{
 	ENUM_LOCKSCREEN_GENLIST_STYLE_1TEXT = 0,
 	ENUM_LOCKSCREEN_GENLIST_STYLE_1TEXT1ICON,
@@ -56,51 +59,31 @@ enum{
 #define LOCKSCREEN_GENLIST_STYLE_1TEXT1ICON "dialogue/1text.1icon"
 #define LOCKSCREEN_GENLIST_STYLE_1TEXT1ICON_DIVIDER "dialogue/1text.1icon.divider"
 #define LOCKSCREEN_GENLIST_STYLE_2TEXT1ICON_DIVIDER "dialogue/2text.1icon.divider"
-#define LOCKSCREEN_GENLIST_STYLE_HELP "multiline/1text"
 #define LOCKSCREEN_GENLIST_STYLE_TITLE "dialogue/grouptitle"
-#define LOCKSCREEN_GENLIST_STYLE_VARIABLE_HEIGHT "lockscreens_options/variable_height/default"
 #define LOCKSCREEN_GENLIST_STYLE_2TEXT "dialogue/2text"
 #define LOCKSCREEN_GENLIST_STYLE_2TEXT_EXPANDABLE "dialogue/2text/expandable"
-#define LOCKSCREEN_GENLIST_STYLE_RADIO "dialogue/1text.1icon/expandable2"
 
-#define HELP_UI "tizen-help://lockscreen-options/themes"
-
+/**
+ * @brief Lockscreen settings main data-structure.
+ */
 typedef struct _lockscreen_options_ug_data {
-	int index;
+    /**
+     * Code of lockscreen-type:
+     * - 0 None
+     * - 1 unlock by swipe
+     * - 5 unlock with simple password(numeric)
+     * - 6 unlock with alphanumeric password.
+     * */
 	int locktype;
-	Evas_Object *win_main;
-	Evas_Object *base;
 
-	Evas_Object *navi_bar;
-	Evas_Object *act_pop;
-	Evas_Object *ly_block;
-	Elm_Object_Item *main_navi_item;
+	Evas_Object *win_main;              /**< Main window*/
+	Evas_Object *base;                  /**< Main layout */
 
-	Elm_Gen_Item_Class itc_menu_1text1icon;
-	Elm_Gen_Item_Class itc_help_1text;
-
-	char* extra_data;
-	Evas_Object *app_shortcut_genlist;
-
-	char *viewtype;
-
-	/* Help UI */
-	int selected_index;
-	char *uri_bundle;
-	Evas_Object *ly_help;
-	Evas_Object *popup_help;
-	Eina_Bool help_end;
-	Ecore_Timer *help_done_timer;
-	Elm_Object_Item *item;
-
-	Ecore_Timer *noti_timer_id;
-
-	Ecore_Timer *timer_locktype;
-	Ecore_Timer *timer_destory;
-
-	Evas_Object *help_more_popup;
+	Evas_Object *navi_frame;            /**< Naviframe */
+	Elm_Object_Item *main_navi_item;    /**< Main naviframe item */
+	Evas_Object *app_shortcut_genlist;  /**< A genlist that contains 2 items: Lockscreen type and app-shortcut*/
+	char *viewtype;                     // Seems to be unused, need to check deeper.
+	Ecore_Timer *timer_locktype;        /**< A handler of timer aimed to do a delayed launch of lick-type selection app built-in into settings-package */
 } lockscreen_options_ug_data;
-
-int angle ;
 
 #endif				/* __lockscreen_options_H__ */

@@ -20,8 +20,20 @@
 
 #include "lockscreen-options.h"
 
+/**
+ * @brief Creates base lockscreen settings layout based on specified data-structure.
+ * @param[in] ug_data main lock-screen data structure.
+ */
 void lockscreen_options_main_create_view(lockscreen_options_ug_data * ug_data);
+
+/**
+ * @brief Updates GUI of lockscreen-settings in after exit from "app-shortcut" view.
+ */
 void lockscreen_options_main_update_view();
+
+/**
+ * @brief Unsubscribes from being notified on VCONFKEY_SETAPPL_SCREEN_LOCK_TYPE_INT vconf-key value change.
+ */
 void _lockscreen_options_unregister_vconf_change();
 
 #endif				/* __LOCKSCREEN_OPTIONS_MAIN_H__ */

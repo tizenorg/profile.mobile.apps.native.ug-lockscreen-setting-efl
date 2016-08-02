@@ -140,26 +140,26 @@ const char *app_str_table[] = {
 
 Evas_Object *lockscreen_options_util_create_navigation(Evas_Object * parent)
 {
-	Evas_Object *navi_bar = NULL;
+	Evas_Object *navi_frame = NULL;
 
 	if (parent == NULL) {
 		LOCKOPTIONS_WARN("Parent is null.");
 		return NULL;
 	}
 
-	navi_bar = elm_naviframe_add(parent);
-	if (navi_bar == NULL) {
+	navi_frame = elm_naviframe_add(parent);
+	if (navi_frame == NULL) {
 		LOCKOPTIONS_ERR("Cannot add naviagtionbar.");
 		return NULL;
 	}
 
-	eext_object_event_callback_add(navi_bar, EEXT_CALLBACK_BACK, eext_naviframe_back_cb, NULL);
+	eext_object_event_callback_add(navi_frame, EEXT_CALLBACK_BACK, eext_naviframe_back_cb, NULL);
 
-	elm_object_part_content_set(parent, "elm.swallow.content", navi_bar);
+	elm_object_part_content_set(parent, "elm.swallow.content", navi_frame);
 
-	evas_object_show(navi_bar);
+	evas_object_show(navi_frame);
 
-	return navi_bar;
+	return navi_frame;
 }
 
 Evas_Object *lockscreen_options_util_create_layout(Evas_Object * parent,
@@ -191,7 +191,7 @@ Evas_Object *lockscreen_options_util_create_layout(Evas_Object * parent,
 	return layout;
 }
 
-char *lockscreen_optoins_get_string(int id)
+char *lockscreen_options_get_string(int id)
 {
 	//LOCKOPTIONS_DBG("get string id : %d\n", id);
 
@@ -226,7 +226,7 @@ static char *_lockscreen_options_submenu_gl_label_get(void *data,
 	if ((strcmp(part, "elm.text") == 0) ||
 	    (strcmp(part, "elm.text.1") == 0)) {
 		return
-		    strdup(lockscreen_optoins_get_string
+		    strdup(lockscreen_options_get_string
 			   (lockoption_data->stringId));
 	}
 	else{
@@ -269,135 +269,6 @@ void _lockscreen_options_submenu_gl_item(Elm_Gen_Item_Class * item)
 	item->func.content_get = _lockscreen_options_submenu_gl_icon_get;
 	item->func.state_get = NULL;
 	item->func.del = NULL;
-}
-
-void remove_unused_string(char *text, char *unused_string)
-{
-	if(text != NULL && unused_string != NULL && unused_string[0] != '\0') {
-		LOCKOPTIONS_DBG("remove unused string %s in string %s", unused_string, text);
-		char *p = NULL;
-		int len = 0;
-		len = strlen(unused_string);
-
-		p = strstr(text, unused_string);
-		while(p != NULL) {
-			while(*(p + len) != '\0') {
-				*p = *(p + len);
-				*(p + len) = '\0';
-				p++;
-			}
-			*p = '\0';
-			p = strstr(text, unused_string);
-		}
-		LOCKOPTIONS_DBG("the string after remove is %s", text);
-	}
-}
-
-void replace_unused_string_with_char(char *text, char *unused_string, char c)
-{
-	if(text != NULL && unused_string != NULL && unused_string[0] != '\0') {
-		LOCKOPTIONS_DBG("remove unused string %s in string %s", unused_string, text);
-		char *p = NULL;
-		int len = 0;
-		len = strlen(unused_string);
-
-		p = strstr(text, unused_string);
-		while(p != NULL) {
-			*p = c;
-			p++;
-			while(*(p + len - 1) != '\0') {
-				*p = *(p + len - 1);
-				*(p + len - 1) = '\0';
-				p++;
-			}
-			*p = '\0';
-			p = strstr(text, unused_string);
-		}
-		LOCKOPTIONS_DBG("the string after remove is %s", text);
-	}
-}
-
-int get_vconf_screenreader(void)
-{
-	int is_screenreader = -1;
-	if(vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &is_screenreader) < 0) {
-		return EINA_FALSE;
-	}
-	return is_screenreader;
-}
-
-void *lockscreen_options_tts_reader_object_get(void *obj, lockscreen_object_type_e type, const char *part, void *parent)
-{
-	Evas_Object *to = NULL;
-	Evas_Object *ao = NULL;
-
-	if(obj == NULL) {
-		LOCKOPTIONS_ERR("invalid parameter");
-		return NULL;
-	}
-
-	if(type == LOCKSCREEN_READER_OBJ_TYPE_EDJ_OBJECT && !part) {
-		LOCKOPTIONS_ERR("invalid parameter");
-		return NULL;
-	}
-
-	switch (type) {
-		case LOCKSCREEN_READER_OBJ_TYPE_ELM_OBJECT:
-			if(part != NULL) {
-				to = (Evas_Object *)elm_object_part_content_get(obj, part);
-				ao = (Evas_Object *)to;
-			} else {
-				ao = (Evas_Object *)obj;
-			}
-			break;
-
-		case LOCKSCREEN_READER_OBJ_TYPE_EDJ_OBJECT:
-			to = (Evas_Object *)edje_object_part_object_get(_EDJ(obj), part);
-			break;
-
-		default:	// evas, icon
-			to = (Evas_Object *)obj;
-	}
-
-	if (!ao && to && parent) {		// edj, evas, icon, elm_object_item
-		ao = elm_access_object_get(to);
-		if (ao == NULL) {
-			ao = elm_access_object_register(to, parent);
-		}
-	}
-
-	return ao;
-}
-void *lockscreen_options_tts_get_focus_object(void *parent)
-{
-	if(parent == NULL)
-		return NULL;
-	Evas_Object *focus = elm_button_add(parent);
-	if(focus == NULL) {
-		LOCKOPTIONS_DBG("elm_button_add() failed");
-		return NULL;
-	}
-	elm_object_style_set(focus, "focus");
-	return focus;
-}
-
-void lockscreen_options_set_tts_info(Evas_Object* obj, const char* label,
-			  const char* traits, const char *state,
-			  const char* guide)
-{
-	if (label)
-		elm_access_info_set(obj, ELM_ACCESS_INFO, label);
-
-	if (traits)
-		elm_access_info_set(obj, ELM_ACCESS_TYPE, traits);
-
-	if (state)
-		elm_access_info_set(obj, ELM_ACCESS_STATE, state);
-	if (guide)
-	{
-		elm_access_info_set(obj, ELM_ACCESS_CONTEXT_INFO, NULL);
-		elm_access_info_set(obj, ELM_ACCESS_CONTEXT_INFO, guide);
-	}
 }
 
 static void _launch_result_password_ug_cb(app_control_h ug, app_control_h reply, app_control_result_e result, void *data)

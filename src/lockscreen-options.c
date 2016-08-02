@@ -31,9 +31,6 @@
 #include "lockscreen-options-main.h"
 #include "lockscreen-options-debug.h"
 
-//bundle key
-#define SETTING_SUBMENU "setting_submenu"
-
 //for settings search
 #define LOCKSCREEN_TYPE "type"
 #define LOCKSCREEN_TITLE "title"
@@ -168,7 +165,7 @@ static Evas_Object *create_fullview(Evas_Object * parent, lockscreen_options_ug_
 {
 	LOCKOPTIONS_TRACE_BEGIN;
 	Evas_Object *base = NULL;
-	Evas_Object *navi_bar = NULL;
+	Evas_Object *navi_frame = NULL;
 
 	base = lockscreen_options_util_create_layout(parent, NULL, NULL);
 
@@ -178,8 +175,8 @@ static Evas_Object *create_fullview(Evas_Object * parent, lockscreen_options_ug_
 
 	create_bg(base);
 
-	navi_bar = lockscreen_options_util_create_navigation(base);
-	ug_data->navi_bar = navi_bar;
+	navi_frame = lockscreen_options_util_create_navigation(base);
+	ug_data->navi_frame = navi_frame;
 
 	//for search settings
 	if(ug_data->viewtype!= NULL) {
@@ -256,19 +253,10 @@ static bool on_create(void *priv)
     evas_object_show(parent);
     evas_object_show(win_main);
 	ug_data->win_main = win_main;
-	/* Help items */
-	ug_data->ly_help = NULL;
-	ug_data->popup_help = NULL;
-	ug_data->help_end = EINA_FALSE;
-	ug_data->uri_bundle = NULL;
-	ug_data->help_done_timer = NULL;
-
-
-	/* Help UI <!-- END --> */
 
 	ug_data->base = create_fullview(parent, ug_data);
 	elm_object_content_set(parent, ug_data->base);
-	/* Add del callback for base layout */
+
 	LOCKOPTIONS_TRACE_END;
 	return true;
 }
@@ -277,38 +265,16 @@ static void on_app_control(app_control_h app_control, void *priv)
 {
     LOCKOPTIONS_TRACE_BEGIN;
     lockscreen_options_ug_data *ug_data = NULL;
-    int ret = 0;
-    char *uri_bundle = NULL;
 
     LOCKOPTIONS_DBG("priv: %p", priv);
     if (!priv)
         return;
     ug_data = (lockscreen_options_ug_data *)priv;
 
-    app_control_get_extra_data(app_control, SETTING_SUBMENU, &ug_data->extra_data);
-    if(ug_data->extra_data != NULL)
-        LOCKOPTIONS_DBG("ug_data->extra_data=%s", ug_data->extra_data);
-
     app_control_get_extra_data(app_control, "viewtype", &ug_data->viewtype);
     if(ug_data->viewtype != NULL)
         LOCKOPTIONS_DBG("viewtype=%s", ug_data->viewtype);
 
-    /* Help UI <!-- START --> */
-    ret = app_control_get_uri(app_control, &uri_bundle);
-    if(!ret) {
-    //if(ret != APP_CONTROL_ERROR_NONE) {
-        LOCKOPTIONS_DBG("app_control_get_uri failed, [%d]", ret);
-    }
-
-    if(uri_bundle != NULL) {
-        if(strncmp(uri_bundle, HELP_UI, strlen(HELP_UI)) == 0) {
-            LOCKOPTIONS_DBG("uri_bundle : %s", uri_bundle);
-            ug_data->uri_bundle = strdup(uri_bundle);
-        } else {
-            ug_data->uri_bundle = NULL;
-        }
-        free(uri_bundle);
-    }
     LOCKOPTIONS_TRACE_END;
 }
 
@@ -337,30 +303,14 @@ static void on_destroy(void *priv)
 
     if(ug_data->base != NULL)
     {
-
         evas_object_del(ug_data->base);
         ug_data->base = NULL;
     }
 
-    if(ug_data->extra_data != NULL)
-    {
-
-        free(ug_data->extra_data);
-        ug_data->extra_data = NULL;
-    }
-
     if(ug_data->viewtype != NULL)
     {
-
         free(ug_data->viewtype);
         ug_data->viewtype = NULL;
-    }
-
-    if(ug_data->act_pop != NULL)
-    {
-
-        evas_object_del(ug_data->act_pop);
-        ug_data->act_pop = NULL;
     }
 
     if(ug_data->app_shortcut_genlist != NULL)
@@ -369,43 +319,12 @@ static void on_destroy(void *priv)
         ug_data->app_shortcut_genlist = NULL;
     }
 
-    /* Help UI */
-    if(ug_data->ly_help != NULL)
-    {
-        evas_object_del(ug_data->ly_help);
-        ug_data->ly_help = NULL;
-    }
-    if(ug_data->popup_help != NULL)
-    {
-        evas_object_del(ug_data->popup_help);
-        ug_data->popup_help = NULL;
-    }
-    if(ug_data->help_done_timer)
-    {
-        ecore_timer_del(ug_data->help_done_timer);
-        ug_data->help_done_timer = NULL;
-    }
-
-    if(ug_data->noti_timer_id)
-    {
-        LOCKOPTIONS_DBG("------------------delete  noti_timer-------------");
-        ecore_timer_del(ug_data->noti_timer_id);
-        ug_data->noti_timer_id = NULL;
-    }
-
     if(ug_data->timer_locktype)
     {
         LOCKOPTIONS_DBG(
                 "------------------delete  timer_locktype-------------");
         ecore_timer_del(ug_data->timer_locktype);
         ug_data->timer_locktype = NULL;
-    }
-
-    if(ug_data->timer_destory)
-    {
-        LOCKOPTIONS_DBG("------------------delete  timer_destory-------------");
-        ecore_timer_del(ug_data->timer_destory);
-        ug_data->timer_destory = NULL;
     }
 
     free(ug_data);
@@ -430,19 +349,4 @@ int main(int argc, char *argv[])
 
     return ui_app_main(argc, argv, &cbs, ug_data);
 }
-
-UG_MODULE_API int setting_plugin_reset(app_control_h app_control, void *priv)
-{
-	LOCKOPTIONS_TRACE_BEGIN;
-	int ret = 0;
-
-//for shortcut
-
-	ret += vconf_set_bool(VCONFKEY_LOCKSCREEN_CAMERA_QUICK_ACCESS, 0);
-
-	//for wallpaper
-	ret += system_settings_set_value_string(SYSTEM_SETTINGS_KEY_WALLPAPER_LOCK_SCREEN, "/opt/usr/share/settings/Wallpapers/Lock_default.png");
-	return ret;
-}
-
 
