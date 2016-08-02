@@ -186,7 +186,7 @@ static char *_lockscreen_options_main_gl_label_get(void *data, Evas_Object * obj
 
 		if (!strcmp(part, "elm.text") || !strcmp(part, "elm.text.main.left") || !strcmp(part, "elm.text.main.left.top"))
 		{	/* title */
-			return strdup(lockscreen_optoins_get_string(lockoption_data->stringId));
+			return strdup(lockscreen_options_get_string(lockoption_data->stringId));
 		}
 		else if (!strcmp(part, "elm.text.sub") || !strcmp(part, "elm.text.sub.left.bottom"))
 		{	/* bottom or right */
@@ -198,29 +198,29 @@ static char *_lockscreen_options_main_gl_label_get(void *data, Evas_Object * obj
 				switch(lock_type)
 				{
 					case SETTING_SCREEN_LOCK_TYPE_NONE:
-						type_str = lockscreen_optoins_get_string(IDS_LOCKSCREEN_OPTIONS_STYLE_NONE);
+						type_str = lockscreen_options_get_string(IDS_LOCKSCREEN_OPTIONS_STYLE_NONE);
 						break;
 					case SETTING_SCREEN_LOCK_TYPE_SWIPE:
-						type_str = lockscreen_optoins_get_string(IDS_LOCKSCREEN_OPTIONS_STYLE_SWIPE);
+						type_str = lockscreen_options_get_string(IDS_LOCKSCREEN_OPTIONS_STYLE_SWIPE);
 						break;
 					case SETTING_SCREEN_LOCK_TYPE_MOTION:
-						type_str = lockscreen_optoins_get_string(IDS_LOCKSCREEN_OPTIONS_STYLE_MOTION);
+						type_str = lockscreen_options_get_string(IDS_LOCKSCREEN_OPTIONS_STYLE_MOTION);
 						break;
 					case SETTING_SCREEN_LOCK_TYPE_FACE_AND_VOICE:
-						type_str = lockscreen_optoins_get_string(IDS_LOCKSCREEN_OPTIONS_STYLE_VOICE);
+						type_str = lockscreen_options_get_string(IDS_LOCKSCREEN_OPTIONS_STYLE_VOICE);
 						break;
 					case SETTING_SCREEN_LOCK_TYPE_SIMPLE_PASSWORD:
 						//type_str = lockscreen_optoins_get_string(IDS_LOCKSCREEN_OPTIONS_STYLE_SIMPLE_PASSWORD);
 						type_str = "PIN";
 						break;
 					case SETTING_SCREEN_LOCK_TYPE_PASSWORD:
-						type_str = lockscreen_optoins_get_string(IDS_LOCKSCREEN_OPTIONS_STYLE_PASSWORD);
+						type_str = lockscreen_options_get_string(IDS_LOCKSCREEN_OPTIONS_STYLE_PASSWORD);
 						break;
 					case SETTING_SCREEN_LOCK_TYPE_FINGERPRINT:
-						type_str = lockscreen_optoins_get_string(IDS_LOCKSCREEN_OPTIONS_STYLE_FINGERPRINT);
+						type_str = lockscreen_options_get_string(IDS_LOCKSCREEN_OPTIONS_STYLE_FINGERPRINT);
 						break;
 					case SETTING_SCREEN_LOCK_TYPE_AUTO_LOCK:
-						type_str = lockscreen_optoins_get_string(IDS_LOCKSCREEN_OPTIONS_STYLE_AUTOLOCK);
+						type_str = lockscreen_options_get_string(IDS_LOCKSCREEN_OPTIONS_STYLE_AUTOLOCK);
 						break;
 					case SETTING_SCREEN_LOCK_TYPE_OTHER:
 						return vconf_get_str(VCONFKEY_SETAPPL_3RD_LOCK_PKG_NAME_STR);
@@ -236,7 +236,7 @@ static char *_lockscreen_options_main_gl_label_get(void *data, Evas_Object * obj
 
 		} else if (!strcmp(part, "elm.text.multiline")) {	/* title */
 				LOCKOPTIONS_DBG("elm.text.multiline");
-				return strdup(lockscreen_optoins_get_string(lockoption_data->stringId));
+				return strdup(lockscreen_options_get_string(lockoption_data->stringId));
 		} else {
 			return NULL;
 		}
@@ -355,7 +355,7 @@ static char *_lockscreen_options_main_gl_text_get(void *data,
 	lockscreen_menu_item_info *lockoption_data =
 		(lockscreen_menu_item_info *) data;
 	if (!strcmp(part, "elm.text.multiline")) {
-		return strdup(lockscreen_optoins_get_string
+		return strdup(lockscreen_options_get_string
 				(lockoption_data->stringId));
 	}
 	else
@@ -366,30 +366,6 @@ static char *_lockscreen_options_main_gl_text_get(void *data,
 	return NULL;
 }
 
-Evas_Object *_create_check_on_object(Evas_Object *parent,char * vconf,Evas_Smart_Cb func, void *data)
-{
-	lockscreen_menu_item_info *lockoption_data =
-	    (lockscreen_menu_item_info *) data;
-
-	Evas_Object *check;
-	int value = 0;
-
-	check = elm_check_add(parent);
-	elm_object_style_set(check, "on&off");
-	evas_object_show(check);
-
-	vconf_get_bool(vconf, &value);
-	elm_check_state_set(check, value);
-
-	evas_object_pass_events_set(check, 1);
-	evas_object_propagate_events_set(check, 0);
-
-	evas_object_smart_callback_add(check, "changed",
-						func,
-						lockoption_data);
-
-	return check;
-}
 
 static void _lockscreen_options_main_gl_del(void *data, Evas_Object * obj)
 {
@@ -673,12 +649,12 @@ void lockscreen_options_main_create_view(lockscreen_options_ug_data * ug_data)
 {
 	LOCKOPTIONS_DBG("lockscreen_options_main_create_view begin\n");
 
-	Evas_Object *navi_bar = ug_data->navi_bar;
+	Evas_Object *navi_frame = ug_data->navi_frame;
 	Evas_Object *back_button = NULL;
 	Evas_Object *genlist = NULL;
 	int lock_type = 0;
 
-	if (navi_bar == NULL) {
+	if (navi_frame == NULL) {
 		LOCKOPTIONS_WARN("navi_bar is null.");
 		return;
 	}
@@ -693,7 +669,7 @@ void lockscreen_options_main_create_view(lockscreen_options_ug_data * ug_data)
 	_lockscreen_options_create_gl_item(&(itc_multiline_text), ENUM_LOCKSCREEN_GENLIST_STYLE_MULTILINE_SUB);
 
 	/* Create genlist */
-	genlist = elm_genlist_add(navi_bar);
+	genlist = elm_genlist_add(navi_frame);
 	g_genlist = genlist;
 	elm_genlist_mode_set(genlist, ELM_LIST_COMPRESS);
 	elm_object_style_set(genlist, "dialogue");
@@ -701,11 +677,11 @@ void lockscreen_options_main_create_view(lockscreen_options_ug_data * ug_data)
 	lockscreen_options_main_create_genlist(genlist, ug_data);
 
 	/* Set navigation objects and push */
-	back_button = elm_button_add(navi_bar);
+	back_button = elm_button_add(navi_frame);
 	elm_object_style_set(back_button, "naviframe/back_btn/default");
-	evas_object_smart_callback_add(back_button, "clicked", _back_btn_clicked_cb, navi_bar);
+	evas_object_smart_callback_add(back_button, "clicked", _back_btn_clicked_cb, navi_frame);
 
-	Elm_Object_Item *navi_item = elm_naviframe_item_push(navi_bar, "IDS_LCKSCN_HEADER_LOCK_SCREEN", back_button, NULL, genlist, NULL);	/* the same tile */
+	Elm_Object_Item *navi_item = elm_naviframe_item_push(navi_frame, "IDS_LCKSCN_HEADER_LOCK_SCREEN", back_button, NULL, genlist, NULL);	/* the same tile */
 	elm_object_item_domain_text_translatable_set(navi_item, PKGNAME, EINA_TRUE);
 	elm_naviframe_item_pop_cb_set(navi_item, _pop_cb, ug_data);
 	ug_data->main_navi_item = navi_item;
@@ -768,7 +744,7 @@ static void _lockscreen_options_locktype_change_cb(keynode_t *node, void *data)
 		g_genlist = NULL;
 	}
 
-	g_genlist = elm_genlist_add(ug_data->navi_bar);
+	g_genlist = elm_genlist_add(ug_data->navi_frame);
 	//g_genlist = genlist;
 	elm_genlist_mode_set(g_genlist, ELM_LIST_COMPRESS);
 	elm_object_style_set(g_genlist, "dialogue");

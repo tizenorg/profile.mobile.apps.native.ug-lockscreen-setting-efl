@@ -24,17 +24,21 @@
 #include <app_control.h>
 #include "lockscreen-options.h"
 
-#define BUF_SIZE                    256
-
+/**
+ * @brief A data structure related to each item of lockscreen
+ */
 typedef struct {
-	int glStyle;
-	int stringId;
-	Evas_Object *check;
-	void (*func) (void *data, Evas_Object * obj, void *event_info);
-	void *data;
-	Elm_Object_Item *item;
+	int glStyle;            /**< A code of style to be applied to genlist-item.*/
+	int stringId;           /**< A code of string-id to be applied to genlist item text.*/
+	Evas_Object *check;     //not in use anymore, TODO: remove legacy usage of it.
+	void (*func) (void *data, Evas_Object * obj, void *event_info); /**< A callback raised after genlist-item was tapped.*/
+	void *data;             /**< User-data passed into func.*/
+	Elm_Object_Item *item;  /**< Genlist-item itself.*/
 } lockscreen_menu_item_info;
 
+/**
+ * @brief An enum with IDS codes for button texts
+ */
 enum {
 	IDS_COM_SK_OK = 0,
 	IDS_COM_SK_CANCEL,
@@ -42,9 +46,12 @@ enum {
 	IDS_LOCKSCREEN_OPTIONS_SYSTEM_STRING_MAX,
 };
 
+/**
+ * @brief An enum with codes of IDS for translatable text.
+ */
 enum {
 	IDS_LOCKSCREEN_OPTIONS_LOCK_SCREEN_SETTINGS =
-	    IDS_LOCKSCREEN_OPTIONS_SYSTEM_STRING_MAX,
+	IDS_LOCKSCREEN_OPTIONS_SYSTEM_STRING_MAX,
 	IDS_LOCKSCREEN_ACHEADER2_PERSONAL_MESSAGE,
 	IDS_LOCKSCREEN_ACHEADER2_LOCK_SCREEN_THEMES,
 	IDS_LOCKSCREEN_ACHEADER1_LOCK_SCREEN_SETTINGS,
@@ -147,27 +154,41 @@ enum {
 	IDS_LOCKSCREEN_OPTIONS_APP_STRING_MAX,	/* 55 */
 };
 
-typedef enum {
-	LOCKSCREEN_READER_OBJ_TYPE_ELM_OBJECT,
-	LOCKSCREEN_READER_OBJ_TYPE_EDJ_OBJECT,
-} lockscreen_object_type_e;
-
+/**
+ * @brief Creates a naviframe on specified parent.
+ * @param[in] parent a parent object.
+ * @return created naviframe.
+ */
 Evas_Object *lockscreen_options_util_create_navigation(Evas_Object * parent);
-Evas_Object *lockscreen_options_util_create_layout(Evas_Object * parent,
-						   const char *file,
-						   const char *group);
-char *lockscreen_optoins_get_string(int id);
+
+/**
+ * @brief Creates base layout view of a lockscreen settings.
+ * @param[in] parent parent object for a layout.
+ * @param[in] file a path to edj-file where the style for layout is defined.
+ * @param[in] group name of a style to applied to layout.
+ * @return created layout.
+ */
+Evas_Object *lockscreen_options_util_create_layout(Evas_Object * parent, const char *file, const char *group);
+
+/**
+ * @brief Loads translation for a specified string-id.
+ * @param[in] id string-id.
+ * @return translated string. DO NOT free this string.
+ */
+char *lockscreen_options_get_string(int id);
+
+/**
+ * @brief Sets up a genlist item in lockscreen-settings view.
+ * @param[in] item a class of item to setup.
+ */
 void _lockscreen_options_submenu_gl_item(Elm_Gen_Item_Class * item);
-void remove_unused_string(char *text, char *unused_string);
-void replace_unused_string_with_char(char *text, char *unused_string, char c);
 
-int get_vconf_screenreader(void);
-void *lockscreen_options_tts_reader_object_get(void *obj, lockscreen_object_type_e type, const char *part, void *parent);
-void *lockscreen_options_tts_get_focus_object(void *parent);
-void lockscreen_options_set_tts_info(Evas_Object* obj, const char* label,
-			  const char* traits, const char *state,
-			  const char* guide);
-
+/**
+ * @brief launches application with specified name.
+ * @param[in] ug_name name of application to be launched.
+ * @param[in] svc_mt_ug app-control handle required to launch an application. No app_control_destroy() is called inside.
+ * @param[in] data user-data passed into on_reply appcontrol's callback.
+ */
 void launch_ug(char* ug_name, app_control_h svc_mt_ug, void *data);
 
 
